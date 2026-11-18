@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true" class="produit-page">
+  <div class="page-shell">
+    <div class="hero-card">
+      <div class="icon-wrap">
+        <ion-icon name="cube-outline"></ion-icon>
+      </div>
+
+      <div class="hero-text">
+        <p class="eyebrow">Produit</p>
+        <h1>{{ produit.nom }}</h1>
+        <span class="status-badge">{{ produit.etat }}</span>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card" *ngFor="let item of infosProduit" [ngClass]="item.tone">
+        <span class="label">{{ item.label }}</span>
+        <strong class="value">{{ item.value }}</strong>
+      </div>
+    </div>
+
+    <div class="footer-box">
+      <div>
+        <span class="small-label">Lot</span>
+        <strong>{{ produit.lot }}</strong>
+      </div>
+      <div>
+        <span class="small-label">Disponibilité</span>
+        <strong>{{ produit.etat }}</strong>
+      </div>
+    </div>
+  </div>
+</ion-content>

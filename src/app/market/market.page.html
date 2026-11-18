@@ -1,0 +1,1322 @@
+<ion-header [translucent]="true" >
+  <ion-toolbar id="teteTOP">
+    <ion-title>
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div   class="divLogin" id="divLogin">
+
+    <br>
+
+    <div class="cadreTextValClosePhoto">
+
+      <img class="imagelogoNew" src="assets/images/logoo.png">
+
+
+    </div>
+
+    <div class="cadreTextValClose"  (click)="closeOpenAuth()" >
+
+      <ion-icon name="close-outline" class="btnInfoIcon"></ion-icon>
+
+    </div>
+
+    <p class="tConnNew" (click)="openAccueil('FASHIONniveau3')">   Vetement Homme    </p>
+    <bR>
+    <p class="tConnNew" (click)="openAccueil('FASHIONniveau2')">   Vetement Femme   </p>
+    <br>
+    <p class="tConnNew" (click)="openAccueil('FASHIONniveau1')"> Catalogue   </p>
+
+
+
+    <bR><bR>
+
+
+        <a class="linCTI2" href="https://chambretechniqueinfo.com">&copy; CTI-CONGO </a>  <bR>
+
+          <a class="linCTI3" href="https://chambretechniqueinfo.com"> Consulter Ir Developpeur ? </a>
+
+  </div>
+
+
+  <div  class="cadreContenuGlob" id="cadreContenuGlob">
+
+    <div class="cadreAuth" id="cadreAuth" >
+
+
+      <div class="cadreHautXX">
+
+        <div class="cadreTextValXXXA"  (click)="openAuth()" >
+
+          <ion-icon name="menu" class="btnInfoIconUltra"></ion-icon>
+
+
+
+        </div>
+
+        <div class="cadreTextValXXXB"  (click)="openAuth()" >
+
+
+          <img class="imagelogo" src="assets/images/logoo.png">
+
+
+
+        </div>
+
+        <div class="cadreTextValXXXC"  >
+
+          <div class="cadreTextValXXXCMin">
+
+            <p class="tConnNew"  (click)="openAccueil('niveau1')">  Vetement Homme   </p>
+
+          </div>
+          <div class="cadreTextValXXXCMin">
+
+            <p class="tConnNew" (click)="openAccueil('niveau2')">   Vetement Femme   </p>
+
+          </div>
+          <div class="cadreTextValXXXCMin">
+
+            <p class="tConn" >  Catalogue   </p>
+
+          </div>
+          <div class="cadreTextValXXXCMin">
+
+            <p class="tConnNew" (click)="openAccueil('niveau2')">  Mes Fovoris   </p>
+
+          </div>
+
+        </div>
+
+        <br>
+
+
+
+      </div>
+
+      <bR><bR><bR><bR><bR><bR>
+
+        <div class="cadreScrollSynthGach">
+
+          <p class="titreBinv">
+            Bienvenu (e)   <br>
+
+           Chez
+
+           <br>
+
+           ROZA FASHION
+
+          </p>
+
+
+          <div class="cadreBtnCenter" (click)="openAccueil('niveauForm')">
+
+            s'inscrire
+
+          </div>
+
+        </div>
+
+
+
+        <div class="cadreSoirreRR">
+
+          <div class="cadreSoirreRRa1">
+
+            <img class="imageAcueill" src="assets/images/ROZA FASHION.png">
+
+          </div>
+
+           <div class="cadreSoirreRRa2">
+
+            <bR><bR>
+
+              <p class="titreRight">
+
+                Bienvenu <br> Chez <bR> Roza FASHION
+
+              </p>
+
+
+          </div>
+
+
+
+        </div>
+
+
+        <br><br>
+
+        <bR>
+
+           <p class="titreAfficheBlueSimple"> Arrivage </p>
+
+           <br>
+
+
+      <div class="cadreScrollSynthB">
+
+          <div class="cadreInfoArriv" id="cadreScrollSynth">
+
+            <p id="niveau1"></p>
+
+            <br><br>
+
+
+              <bR><br><bR><br>
+
+
+              <div class="cadreBtnCenter" id="cadreBtnCenterMobile" (click)="openAccueil('niveauForm')">
+
+                Commander
+
+            </div>
+
+          </div>
+
+          <div class="cadreInfoArrivDwtail">
+
+            <br><br>
+
+             <p class="titreAfficheBluexx"> {{titre1}} </p>
+
+              <p class="titreAfficheBluexxCont"> {{titre2}} </p>
+
+
+              <p class="titreAfficheBluexx"> {{titre3}} </p>
+
+
+          </div>
+
+
+        </div>
+
+
+      <br><br>
+
+      <div class="cadrePointeur">
+
+        <div class="cadrePointeurCircle" id="cadrePointeurCircle1">
+
+        </div>
+
+        <div class="cadrePointeurCircle" id="cadrePointeurCircle2">
+
+        </div>
+
+        <div class="cadrePointeurCircle" id="cadrePointeurCircle3">
+
+        </div>
+
+        <div class="cadrePointeurCircle" id="cadrePointeurCircle4">
+
+        </div>
+
+      </div>
+
+      <br><br>
+
+
+      <br><bR>
+
+
+
+
+
+
+
+      <br><br>
+
+
+   <div class="cadreSCPOGen">
+
+
+        <div class="cadreAuthMin" id="cadreAuthMin" >
+
+          <br>
+
+          <p class="titreXXL"> ROZA-FASHION <br> RDC </p>
+
+
+          <div class="cadreSoirre">
+
+            <img class="imageAcueill" src="assets/images/batiment.jpeg">
+
+          </div>
+
+
+          <div class="cadreZoneCadr" id="cadreZoneCadr">
+
+            <ion-input class="zoneText" type="text" placeholder="ID RESTO" [(ngModel)]="id_resto" clearInput="true"></ion-input>
+
+          </div>
+
+          <br>
+
+          <div class="cadrebtnAuthLogique"  (click)="openMENU()">
+
+              Acceder vide
+
+          </div>
+
+
+          <div class="cadrebtnAuthLogique" (click)="openMenuShow()">
+
+            <!-- <ion-button class="btnAcces" (click)="openAppClient()">  cadrebtnAuth
+
+            <ion-button class="btnAcces" (click)="openMenuShow()">  --!-->
+
+            Au menu
+
+            <!--</ion-button>  --!-->
+
+          </div>
+
+
+          <br>
+
+        </div>
+
+
+      </div>
+
+
+       <p id="FASHIONniveau1"></p>
+
+
+      <br><br><bR>
+
+      <div class="cadreCouvreSCPO">
+
+
+      <p class="titreAfficheBlueSimple"  >Pourquoi Acheter chez  <br>  ROZA-FASHION </p>
+
+      <bR>
+
+        <div class="divText">
+
+
+
+          <br>
+
+          <div class="btnProm"  (click)="openAuth()" >
+
+            <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+          </div>
+
+          <p class="textGras"> Elegance  </p>
+
+          <p class="titreAfficheBluexxRefptp">
+
+           Votre style, votre élégance Bienvenue chez ROZA-FASHION, votre boutique en ligne dédiée à la mode et à l’élégance. Découvrez une sélection tendance de vêtements et accessoires soigneusement choisis pour vous permettre d’affirmer votre style au quotidien. Avec ROZA-FASHION, soyez toujours élégant(e), moderne et unique ! 2. 👗
+          </p>
+
+
+      </div>
+
+        <div class="divText">
+
+
+
+            <br>
+
+            <div class="btnProm"   >
+
+              <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+            </div>
+
+            <p class="textGras"> Mood-Drc  </p>
+
+            <p class="titreAfficheBluexxRefptp">
+
+               La mode à portée de main Envie de renouveler votre garde-robe ? ROZA-FASHION vous propose des articles tendance, élégants et adaptés à tous les styles. Faites vos choix depuis chez vous et laissez la mode venir à vous. ROZA-FASHION, votre style commence ici ! 3.
+
+            </p>
+
+
+        </div>
+
+
+
+
+
+      <div class="divText">
+
+
+
+          <br>
+
+          <div class="btnProm"   >
+
+            <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+          </div>
+
+          <p class="textGras"> Qualite  </p>
+
+          <p class="titreAfficheBluexxRefptp">
+
+            💎 Élégance & qualité Chez ROZA-FASHION, nous croyons que bien s’habiller, c’est aussi se sentir bien. Profitez de nos collections modernes et élégantes pour toutes vos occasions : sorties, événements, travail ou moments du quotidien. Choisissez votre look, affirmez votre personnalité !
+          </p>
+
+
+      </div>
+
+
+      <div class="divText">
+
+
+
+          <br>
+
+          <div class="btnProm"   >
+
+            <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+          </div>
+
+          <p class="textGras"> Tendance  </p>
+
+          <p class="titreAfficheBluexxRefptp">
+
+            Les tendances sont chez ROZA-FASHION La mode évolue, votre style aussi ! Découvrez les nouveautés de ROZA-FASHION et trouvez les pièces qui feront la différence dans votre dressing. Des looks tendance, une touche d’élégance et surtout, un style qui vous ressemble. ROZA-FASHION : soyez tendance, soyez vous-même
+          </p>
+
+
+      </div>
+
+
+      <div class="divText">
+
+
+
+          <br>
+
+          <div class="btnProm"   >
+
+            <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+          </div>
+
+          <p class="textGras"> SMart Shopping  </p>
+
+          <p class="titreAfficheBluexxRefptp">
+
+           Faites votre shopping autrement Plus besoin de parcourir plusieurs boutiques pour trouver votre prochain look. Avec ROZA-FASHION, votre shopping mode est simple, rapide et accessible en ligne. Découvrez nos articles, choisissez vos favoris et préparez-vous à faire sensation. ROZA-FASHION — la mode qui vous ressemble.
+
+          </p>
+
+
+      </div>
+
+
+      </div>
+
+
+      <br><bR>
+
+        <p id="FASHIONniveau2"></p>
+
+
+        <br><bR>
+
+          <p id="FASHIONniveau3"></p>
+
+
+  <div *ngIf="masque==true">
+
+    <br><br> <br>
+
+      <p id="niveauCalendre"></p>
+
+      <p class="titreAfficheBlueSimple"  > Calendrier SCPO  </p>
+      <bR>
+
+
+      <br><br> <br>
+
+      <p id="niveauPub"></p>
+
+      <p class="titreAfficheBlueSimple"  > Publication SCPO  </p>
+      <bR>
+
+  </div>
+
+  <br><br> <br>
+
+  <p id="niveauForm"></p>
+
+  <p class="titreAfficheBlueSimple"  > Inscription   </p>
+  <bR>
+
+
+  <div class="cadreContenu" >
+
+    <br><br>
+
+    <span class="textIdentite"  *ngIf="masque==true">
+
+      Identité
+
+    </span>
+
+    <br>
+
+    <div class="cadreSousCont" *ngIf="masque==true">
+
+
+       <bR><br>
+
+
+        <div class="divcadre">
+
+          <div class="div1">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+              <input type="text" placeholder="Adresse complete " [(ngModel)]="scpoAdress">
+
+            </div>
+
+          </div>
+          <div class="div2">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="divcadre">
+
+          <div class="div1">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+              <input type="text" placeholder="WhtaApp " [(ngModel)]="scpoWatsapp">
+
+            </div>
+
+          </div>
+          <div class="div2">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+              <input type="text" placeholder="Gmail " [(ngModel)]="scpoGmail">
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+        <div class="divcadre">
+
+          <div class="div1">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+              <input type="text" placeholder="Nom " [(ngModel)]="scponom" >
+
+            </div>
+
+          </div>
+          <div class="div2">
+
+            <div class="divSous1New">
+
+              <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+            </div>
+
+            <div class="divSous2New">
+
+              <input type="text" placeholder="Postnom " [(ngModel)]="scpopostnom">
+
+            </div>
+
+          </div>
+        </div>
+
+
+            <div class="divcadre">
+
+              <div class="div1">
+
+                <div class="divSous1New">
+
+                  <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+                </div>
+
+                <div class="divSous2New">
+
+                  <input type="text" placeholder="Prenom"  [(ngModel)]="scpoprenom">
+
+                </div>
+
+              </div>
+
+              <div class="div2">
+
+                <div class="divSous1NewxXX">
+
+                  <span class="textConteSexe" > Sexe </span>
+
+                </div>
+
+                <div class="divSous2NewXX">
+
+                  <div class="divRech1">
+
+                    <ion-select  [(ngModel)]="scposexe">
+
+                      <ion-select-option *ngFor ="let titre of tabSexe" class="textselect" [value]="titre">
+
+                        {{titre}}
+
+                      </ion-select-option>
+
+                    </ion-select>
+
+                  </div>
+
+
+
+                </div>
+
+              </div>
+            </div>
+
+          <div class="divcadre">
+
+            <div class="div1">
+
+              <div class="divSous1New">
+
+                <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+              </div>
+
+              <div class="divSous2New">
+
+                <input type="text" placeholder="Lieu de Naissance" [(ngModel)]="scpoLieu">
+
+              </div>
+
+            </div>
+            <div class="div2">
+
+              <div class="divSous1New">
+
+                <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+              </div>
+
+              <div class="divSous2New">
+
+                <input type="text" placeholder="Date de Naissance" [(ngModel)]="scpoNaiss">
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="divcadre">
+
+            <div class="div1">
+
+              <div class="divSous1New">
+
+                <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+              </div>
+
+              <div class="divSous2New">
+
+                <input type="text" placeholder="Natonallité" [(ngModel)]="scpoNatio">
+
+              </div>
+
+            </div>
+
+
+            <div class="div2">
+
+              <div class="divSous1NewxXX">
+
+                <span class="textConteSexe" >Etat Civil </span>
+
+              </div>
+
+              <div class="divSous2NewXX">
+
+                <div class="divRech1">
+
+                  <ion-select [(ngModel)]="scpoCivil" >
+
+                    <ion-select-option *ngFor ="let titre of tabCivil" class="textselect" [value]="titre">
+
+                      {{titre}}
+
+                    </ion-select-option>
+
+                  </ion-select>
+
+                </div>
+
+
+
+              </div>
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+              <div class="divcadre">
+
+                <div class="div1">
+
+                  <div class="divSous1New">
+
+                    <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+                  </div>
+
+                  <div class="divSous2New">
+
+                    <input type="text" placeholder="Profession" [(ngModel)]="scpoProfession">
+
+                  </div>
+
+                </div>
+                <div class="div2">
+
+                  <div class="divSous1New">
+
+                    <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+                  </div>
+
+                  <div class="divSous2New">
+
+                    <input type="text" placeholder="Fonction Actuelle" [(ngModel)]="scpoFonction">
+
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="divcadre">
+
+                <div class="div1">
+
+                  <div class="divSous1New">
+
+                    <ion-icon slot="icon-only" name="save" class="iconbas"></ion-icon>
+
+                  </div>
+
+                  <div class="divSous2New">
+
+                    <input type="text" placeholder="Intitution " [(ngModel)]="scpoInstitution">
+
+                  </div>
+
+                </div>
+                <div class="div2">
+
+
+
+                </div>
+              </div>
+
+
+
+
+
+    </div>
+
+    <div class="cadreSousCont" *ngIf="masque==true">
+
+      <br>
+
+      <span class="textComm">Nom Complet </span> <span class="textCommxx"> * * </span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="Votre Nom Complet" [(ngModel)]="scponom">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <span class="textComm">Gmail </span><span class="textCommxx"> * </span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="askyas17@gmail.com" [(ngModel)]="scpoGmail">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <span class="textComm">Telephone </span> <span class="textCommxx"> * </span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="0823382732" [(ngModel)]="scpoWatsapp">
+
+        </div>
+
+      </div>
+
+      <br>
+
+
+
+
+
+
+          <br>
+
+          <div class="cadreSousContPT">
+
+            <div class="divcadre">
+
+              <div class="div1">
+
+
+
+                <div class="divSous1NewxXX">
+
+                  <span class="textConteSexe" >Sexe </span>
+
+                </div>
+
+                <div class="divSous2NewXX">
+
+                  <div class="divRech1">
+
+                    <ion-select [(ngModel)]="scposexe" >
+
+                      <ion-select-option *ngFor ="let titre of tabSexee" class="textselect" [value]="titre">
+
+                        {{titre}}
+
+                      </ion-select-option>
+
+                    </ion-select>
+
+                  </div>
+
+
+
+                </div>
+
+              </div>
+              <div class="div2">
+
+
+                <div class="divSous1NewxXX">
+
+                  <span class="textConteSexe" >Specia.. </span>
+
+                </div>
+
+                <div class="divSous2NewXX">
+
+                  <div class="divRech1">
+
+                    <ion-select [(ngModel)]="scpoSpec" >
+
+                      <ion-select-option *ngFor ="let titre of tabSpecial" class="textselect" [value]="titre">
+
+                        {{titre}}
+
+                      </ion-select-option>
+
+                    </ion-select>
+
+                  </div>
+
+
+
+                </div>
+
+
+
+
+
+
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <br><br>
+
+
+
+
+    </div>
+
+
+    <div *ngIf="masque==true">
+
+      <div class="cadreBtnCenterSauvMOBILE" (click)="createSCPO()" *ngIf="etatCreat==false">
+
+      Sauvegarder
+
+    </div>
+
+
+    </div>
+
+
+     <div class="cadreSousContGauche">
+
+
+
+
+      <p class="titreAfficheBlueSimple"> New's Leter </p>
+
+      <img class="imageAcueillPT" src="assets/images/batiment.jpeg">
+
+     </div>
+
+    <p class="pRnseign" *ngIf="etatCreat==true">CONSEIL : desormais que vous etes soucrit, cliquez desormais sur TELECHARGER puis remplissez le formulaire de resneignement</p>
+
+     <br>
+
+    <div class="cadreBtnCenterFile" (click)="createSCPO()" *ngIf="etatCreat==true">
+
+      Telecharger <ion-icon slot="icon-only" name="ducument" class="iconFile"></ion-icon>
+
+    </div>
+
+
+    <br>
+
+    <div class="cadreBtnCenterSauv" (click)="createSCPO()" *ngIf="etatCreat==false">
+
+      Sauvegarder
+
+    </div>
+
+
+
+    <bR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <p id="niveau2"></p>
+
+
+  <br><br> <br>
+
+      <p class="titreAfficheBlueSimple" *ngIf="masque==true" >Organisation {{tabSexe}} </p>
+      <bR>
+
+
+        <div class="divText" *ngIf="masque==true">
+
+
+
+          <br>
+
+          <div class="btnProm"  (click)="openAuth()" >
+
+            <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+          </div>
+
+          <p class="textGrasptit"> Lundi  </p>
+
+          <p class="textGras"> SOIREE KARAOKE  </p>
+
+          <p class="titreAfficheBluexxRefptp"> Chaque WEEK-END , venez profiter de la Réduction de 6%, Consomons le Congo</p>
+
+
+      </div>
+
+
+
+              <p id="niveau3"></p>
+
+
+
+
+
+              <p id="niveau4"></p>
+
+
+              <br>
+
+              <p class="titreAfficheBlueSimple" *ngIf="masque==true"> Galerie <bR> SCPO-Rdc </p>
+              <bR>
+
+
+                <div class="cadreGalerieCouvre" *ngIf="masque==true">
+
+                  <div class="cadreGalerie" >
+
+
+                    <div class="divTextGalerie">
+
+
+
+                      <br>
+
+                      <div class="btnProm"  (click)="openAuth()" >
+
+                        <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+                      </div>
+
+                      <p class="textGrasptit"> 3%  </p>
+
+                      <p class="textGras"> CHAMPAGNE  </p>
+
+                      <p class="titreAfficheBluexxRefptp"> Chaque WEEK-END , venez profiter de la Réduction de 6%, Consomons le Congo</p>
+
+
+                  </div>
+
+
+                  <div class="divTextGalerie">
+
+                    <br>
+
+                    <div class="btnProm"  (click)="openAuth()" >
+
+                      <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+                    </div>
+
+                    <p class="textGrasptit"> 3%  </p>
+
+                    <p class="textGras"> CHAMPAGNE  </p>
+
+                    <p class="titreAfficheBluexxRefptp"> Chaque WEEK-END , venez profiter de la Réduction de 6%, Consomons le Congo</p>
+
+
+                </div>
+
+                <div class="divTextGalerie">
+
+
+
+                  <br>
+
+                  <div class="btnProm"  (click)="openAuth()" >
+
+                    <ion-icon name="home" class="btnInfoIconUltra"></ion-icon>
+
+                  </div>
+
+                  <p class="textGrasptit"> 3%  </p>
+
+                  <p class="textGras"> CHAMPAGNE  </p>
+
+                  <p class="titreAfficheBluexxRefptp"> Chaque WEEK-END , venez profiter de la Réduction de 6%, Consomons le Congo</p>
+
+
+              </div>
+
+
+
+                  </div>
+
+                </div>
+
+
+
+
+
+    <div class="divTextGbBas">
+
+      <br>
+
+      <p class="texteFptit">PARTENAIRE FIABLE</p>
+
+      <p class="texteFGROS"> New's Leter </p>
+
+
+      <p class="texteFContenue"> Enrengistrez-vous, et soyez informé en temps réel de toutes nos activités et Promotions pour n'est rien manqué </p>
+
+    <div class="cadreSSousvD">
+
+      <br>
+
+      <span class="textComm">Nom Complet </span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="Votre Nom Complet">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <span class="textComm">Tél </span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="+243 823382732">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <span class="textComm">E-mail</span>
+
+      <div class="cadreTextVal">
+
+        <div class="cadreTextValA">
+
+          <ion-icon name="cart-sharp" class="btnInfoIconOP"></ion-icon>
+
+        </div>
+
+        <div class="cadreTextValB">
+
+          <input class="textZoneCadre" placeholder="askyas17@gmail.com">
+
+        </div>
+
+      </div>
+
+      <bR>
+
+
+
+      <div class="cadreBtnComm" (click)="validateCoupon()">
+
+        Soummettre
+
+      </div>
+
+      <br><bR>
+
+    </div>
+
+
+    <div class="cadreSSousvDGauche">
+
+      <p class="texteFGROS"> Decouvrez nos Accompagnements Business 's</p>
+
+
+      <img class="imageAcueillPT" src="assets/images/batiment.jpeg">
+
+
+    </div>
+
+    <br><br>
+
+
+      <div class="cadreJackPot">
+
+        <ion-icon name="gift" class="btnInfoIconJack"></ion-icon> JackPot
+
+         <Br>
+
+          <span class="textXX1">1000 USD</span>
+
+      </div>
+
+      <br>
+
+
+
+      <a class="linCTI2" href="https://chambretechniqueinfo.com">&copy; CTI-CONGO </a>  <bR>
+
+      <ion-icon name="logo-facebook" class="btnInfoIconJack"></ion-icon> Facebook <br>
+      <ion-icon name="logo-youtube" class="btnInfoIconJack"></ion-icon> Youtub <br>
+      <ion-icon name="logo-tux" class="btnInfoIconJack"></ion-icon> MidDev
+
+      <br><br>
+
+
+      <p class="texteFGROS"> Les Entreprises Partenaires de SCPO </p>
+
+      <bR><br>
+
+
+
+       <br> <br>
+
+    </div>
+
+    <br><br>
+
+    <div class="cadrePartnes">
+
+      <div class="cadrePartnes1">
+
+        <img class="imagelogoNewPartnes" src="assets/images/kanmel.png">
+
+      </div>
+
+      <div class="cadrePartnes2">
+
+        <p class="titreParterns">
+          Partenariat d'affaire issus de la coperation mutuelles sur des affaires congolaise, signé en Juin 2020
+        </p>
+
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="cadrePartnes">
+
+      <div class="cadrePartnes1">
+
+        <img class="imagelogoNewPartnes" src="assets/images/logoCTI.png">
+
+      </div>
+
+      <div class="cadrePartnes2">
+
+        <p class="titreParterns">
+          Partenariat d'affaire issus de la coperation mutuelles sur des affaires congolaise, signé en Juin 2020
+        </p>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,7212 @@
+
+@keyframes textGrosPetitAutre{
+
+    0%{
+        transform: scale(1.5);
+        color:white
+
+    }
+    50%{
+        transform: scale(0.8);
+
+        color:whitesmoke
+
+	}
+    90%{
+
+      color:black
+
+    }
+}
+
+
+@keyframes changeBACKGR{
+
+    0%{
+
+      background: linear-gradient(to left,rgb(216, 211, 211),rgb(37, 3, 65));
+
+    }
+    50%{
+
+        background: linear-gradient(to right,rgb(216, 211, 211),rgb(37, 3, 65));
+	  }
+    90%{
+
+        background:none;
+
+     }
+}
+
+@keyframes defilementGauchDroitPhoto{
+
+    0%{
+        transform: translate(100%);
+
+    }
+    100%{
+        transform: translate(-250%);
+    }
+
+
+}
+
+@keyframes opaciting{
+
+    0%{
+
+        opacity: 50%;
+
+    }
+    100%{
+
+        opacity: 100%;
+
+    }
+
+
+
+}
+
+
+
+
+@media (max-width:600px){
+
+    ion-content{
+        --background:rgb(216, 211, 211);
+    }
+    ion-toolbar{
+        --background:rgba(25,25,112);
+       --color:rgb(240, 232, 232);
+        font-weight: bold;
+
+        display: none;
+    }
+    ion-select{
+     color:black;
+     font-weight: bold;
+    }
+
+
+    .cadreGPS{
+        width: 15%;
+        height: auto;
+        margin-left: 40%;
+        margin-top: 10px;
+        color:#db0f01;
+
+        animation:ease animPhotoGPS 2s infinite;
+
+        padding-left: 20px;
+
+
+    }
+
+    span{
+        color: black;
+    }
+    .labelNiv1{
+
+        color: black;
+        font-weight: bold;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+
+    }
+
+    .labelNiv1Prox{
+
+        color: rgba(25,25,112);
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .webCam{
+        width: 98%;
+        height: 50px;
+        margin-top: 2%;
+        margin-left: 1%;
+
+        border-radius: 5% 1%  5% 1%;
+
+        background-color: rgb(240, 232, 232);
+    }
+    .btn1{
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 10%;
+        //margin-top: 5%;
+        font-size:15px;
+        height: 45px;
+        width: 80%;
+        border-bottom:none
+    }
+    .btn2{
+
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 10%;
+        //margin-top: 5%;
+        font-size:15px;
+        height: 60%;
+        width: 80%;
+        border-bottom:none
+    }
+    .titreSCan{
+
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-top: 5%;
+
+        animation: infinite textGrosPetitAutre 2s;
+
+        display: none;
+
+    }
+
+    .titreSCanText{
+
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-top: 5%;
+
+        animation: infinite textGrosPetitAutre 2s;
+
+    }
+
+    .menuNav{
+        width:100%;
+        height: 80px;
+        background-color:rgba(25,25,112);
+
+        position:fixed;
+        bottom:0;
+        left: 0;
+
+        display:none
+
+    }
+
+    .btnMenu{
+        margin-left: 15%;
+    }
+    .divCouvvX{
+        width:100%;
+        height: 100%;
+    }
+    .divCouvre{
+        width:20%;
+        height: 100%;
+        margin-left: 10%;
+
+        display: inline-block;
+
+
+    }
+
+    .divCouvre1{
+        width:100%;
+        height: 75%;
+
+
+    }
+
+    .divCouvr2{
+
+        width:100%;
+        height: 25%;
+
+        background-color: rgb(240, 232, 232);
+
+
+    }
+    .labelMenu{
+        color:rgb(240, 232, 232);
+        text-align: center;
+
+    }
+    .btnMenue{
+        width: 90%;
+        height: 85%;
+        --background:rgba(25,25,112);
+        --color:rgb(240, 232, 232)
+    }
+
+    .cadreSCannage{
+        width: 100%;
+        height: 90%;
+
+        display: none;
+
+    }
+
+    .cadreSCannageUser{
+        width: 100%;
+        height: 90%;
+
+        //display: none;
+
+    }
+
+
+
+
+    .cadreInfo1Ajout{
+        width: 100%;
+        height: 85%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo1AjoutProw{
+        width: 100%;
+        height:80%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo2Ajout{
+        width: 100%;
+        height: 15%;
+
+        //background-color: green;
+
+        overflow: auto;
+
+    }
+
+    .cadreInfoMenue{
+        width: 100%;
+        height: 95%;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .cadreInfo1{
+        width: 100%;
+        height: 75%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo2{
+        width: 100%;
+        height: 20%;
+
+        overflow: auto;
+
+    }
+
+    .cadreInfo2Controle{
+        width: 100%;
+        height: 20%;
+
+
+
+    }
+
+
+    .cadreText{
+        width: 100%;
+        height: 90%;
+
+        display: none;
+    }
+
+    .servdivAdr{
+        width: 96%;
+        height: 55px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 7%;
+        margin-left: 2%;
+
+        background-color: rgb(219, 213, 213);
+    }
+
+    .cadreGlog{
+        width: 92%;
+        height: 40px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 10px;
+        margin-left: 4%;
+
+    //background-color: red;
+    }
+    .cadreGlogRech{
+
+        width: 96%;
+        height: 55px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 5%;
+        margin-left: 2%;
+
+        background-color: rgb(219, 213, 213);
+
+    }
+
+
+
+    input{
+        background-color: rgb(219, 213, 213);
+        margin-left: 15px;
+        margin-top: 0px;
+
+        outline: none;
+
+        font-size: 15px;
+        font-weight: bold;
+        width: 90%;
+
+        border-top:none;
+        border-bottom:none;
+        border-right:none;
+        border-left:none;
+        color:rgba(25,25,112);
+    }
+
+    .couvrAffich{
+
+        width: 100%;
+        height: 90%;
+
+        overflow: auto;
+        overflow-y: auto;
+        background-color: rgb(240, 232, 232);
+
+        display: none;
+
+    }
+
+    .cadreAffich{
+        width: 600px;
+        height: 100%;
+        background-color:rgb(240, 232, 232);
+
+        display: block;
+
+        background-image: url("/assets/images/backgroundXX.png");
+
+        background-size: 99%;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .titreAffiche{
+
+        color:#db0f01;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .titreAfficheNom{
+
+        color:rgb(240, 232, 232);
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .titreAfficheSENAT{
+
+        color:red;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        top:0
+    }
+
+    .titreLesg{
+        background-color: red;
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .titreLesg2{
+        color:red;
+        text-align: center;
+        font-weight: bold;
+    }
+    .cadreCarte{
+
+        width: 100%;
+        height: 70%;
+        //background-color: rgb(221, 215, 215);
+    }
+
+    .photoCoubr1{
+        width: 100%;
+        height: 100%;
+
+
+    }
+    .photoCoubr2{
+        width: 100%;
+        height: 50%;
+
+
+    }
+    .cadreCarte1{
+
+        width: 20%;
+        height: 50%;
+        margin-left: 7%;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreCarte2{
+
+        width: 70%;
+        height: 100%;
+
+        display: inline-block;
+
+        overflow: auto;
+
+
+
+    }
+    .header{
+        background-color:rgba(25,25,112);
+        color:rgb(240, 232, 232);
+    }
+    .contenuTable{
+        color:black;
+    }
+
+    .imageSena{
+        width: 100%;
+        height: 100%;
+        border-radius: 18%;
+    }
+    .titreSen{
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+        color:black;
+        margin-top: 10%;
+    }
+
+    .btn1Terminer{
+
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 28%;
+        margin-top: 5%;
+        font-size:15px
+
+    }
+
+    .cadrelegisl{
+        width: 60%;
+        height: 20px;
+        margin-left: 20%;
+    }
+
+    ion-col{
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .expiText{
+        color:black;
+        font-size: 10px;
+    }
+    .expiTextDate{
+        color:red;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .cadreBasXX{
+
+        width: 50%;
+        height: 40px;
+        margin-left: 10%;
+
+
+
+    }
+    .cadreInterne{
+
+        width: 49%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .grasBtn{
+        font-weight: bold;
+        color:rgb(240, 232, 232);
+        left: 0;
+        top:0;
+        bottom:0;
+        right:0
+    }
+    .cadreBtnVal{
+        width: 70%;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 15%;
+        background-color: red;
+        margin-top: 5%;
+    }
+
+    #btnTerminer{
+        display: none;
+    }
+
+    .sepaa1{
+
+        width: 30%;
+        height: 89%;
+        display: inline-block;
+
+    }
+    .sepaa2{
+
+        width: 68%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+    .sepaa1A{
+
+        width: 24%;
+        height: 89%;
+        display: inline-block;
+
+    }
+    .sepaa2B{
+
+        width: 60%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+    .sepaa2C{
+
+        width: 15%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+
+    ion-accordion{
+        --background:black;
+        --color:rgb(240, 232, 232)
+    }
+    ion-grid {
+        --color:black
+    }
+    .couvrControlProduit{
+
+        width: 100%;
+        height: 80%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 232, 232);
+    }
+
+    .couvrControlProduitClient{
+
+        width: 100%;
+        height: 250px;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(216, 211, 211);
+    }
+    .contenuTable{
+        background-color:rgb(177, 177, 206);
+        color:black;
+    }
+    .hearderTable{
+        color:rgb(240, 232, 232);
+        background-color:rgba(25,25,112);
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .hearderTableConte{
+
+        color:black;
+        background-color:rgb(240, 232, 232);
+        font-weight: bold;
+        font-size: 22px;
+
+    }
+    .cadreVueEnsCouvre{
+
+        width: 100%;
+        height: 90%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(219, 213, 213);
+
+    }
+    .cadreVueEns{
+
+        width: 1200px;
+        height: 100%;
+
+    }
+
+    .cadreVue{
+
+        width: 30%;
+        height: 100%;
+        margin-left: 3%;
+
+        display: inline-block;
+
+        background-color: rgb(240, 232, 232);
+        border-radius: 7px;
+    }
+    //cadreInfo2
+
+    .btnInfo{
+        width: 40px;
+        height: 40px;
+        --background:rgb(216, 211, 211);
+        --color:rgba(25,25,112);
+
+
+    }
+
+
+    .btnInfoIconUltra{
+        width: 60px;
+        height: 50px;
+
+        --background:rgb(19, 18, 0);
+        --color:rgba(25,25,112);
+    }
+
+    .btnInfoIcon{
+        width: 85%;
+        height: 85%;
+
+        color:white
+    }
+
+    .btnInfoIconOP{
+        width: 85%;
+        height: 85%;
+
+        color:white
+    }
+
+    .btnInfoIconOPScrol{
+        width: 85%;
+        height: 85%;
+
+        color:rgb(90, 27, 141)
+    }
+
+    .btnInfoIconJack{
+        width: 30px;
+        height: 30px;
+
+        color: #db0f01;
+    }
+
+    .cadreHaut1{
+
+        width: 5%;
+        height: 50px;
+
+        display: inline-block;
+
+        margin-left: 3%;
+
+    }
+
+    .cadreHaut2{
+
+        width: 60%;
+        height: 50px;
+
+        display: inline-block;
+
+    }
+
+    .cadreHaut2GloVente{
+
+        width: 100%;
+        height: 50px;
+
+    }
+
+    .cadreHaut2GlobMENU{
+
+        width: 100%;
+        height: 50px;
+        background-image: url("/assets/images/logo.png");
+        background-repeat: no-repeat;
+        background-size: 40%;
+
+    }
+
+    .cadreHaut3{
+
+        width: 10%;
+        height: 50px;
+
+        display: inline-block;
+
+    }
+    .cadreSetting{
+
+        width: 98%;
+        height: 130px;
+        margin-left: 1%;
+        border-radius: 9px 9px 3px 3px;
+
+        border: solid 2px rgb(48, 45, 45);
+
+    }
+    .cadreSetting1{
+
+        width: 60%;
+        height: 98%;
+        display: inline-block;
+
+
+
+    }
+
+    .cadreSetting2{
+
+        width: 38%;
+        height: 98%;
+        display: inline-block;
+        margin-left: 1%;
+
+
+    }
+
+    .labelType{
+        font-weight: bold;
+        color:black;
+        font-size: 11px;
+        margin-left: 3px;
+    }
+    .btnOptionSetting{
+
+        width: 94%;
+        height: 30px;
+        margin-left: 3%;
+        --background:red;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+
+        border-radius: 21px;
+
+    }
+    .cadreSett{
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 12px;
+        background-color: rgb(240, 232, 232);
+
+        border-radius: 7px 7px 2px 2px;
+
+    }
+
+    .cadreSettTire{
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 12px;
+
+        border-radius: 7px 7px 2px 2px;
+
+    }
+    .texSetting{
+        background-color: rgb(240, 232, 232);
+        color:black
+    }
+    .cadreNumerisation{
+
+        width: 100%;
+        height: 200px;
+        margin-top: 5px;
+
+    }
+
+    .cadreNumerisation1{
+
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        //background-color: blue;
+
+    }
+
+    .cadreNumerisation2{
+
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+
+        border-radius: 11px;
+        margin-left:7%;
+
+        background-color: rgb(240, 232, 232);
+
+    }
+
+
+    .btnCamera{
+        --background:red;
+        --color:rgb(240, 232, 232)
+
+
+    }
+    .titreGros{
+        color:black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .couvrControlMenue{
+
+        width: 100%;
+        height: 30%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 232, 232);
+    }
+
+    .btnAjout{
+        --background:red;
+        --color:rgb(240, 232, 232)
+    }
+    .cadreMenuCouvr{
+
+        width: 100%;
+        height: 400px;
+        overflow: auto;
+        overflow-x: auto;
+        border-radius:7px;
+        margin-top: 5px;
+
+        background-color: rgb(216, 211, 211);
+
+    }
+
+
+    .cadreMenuCouvrSous{
+
+        width: 3000px;
+        height: 100%;
+        overflow: auto;
+        overflow-x: auto;
+        padding-top: 5px;
+
+    }
+    .cadreArticle{
+
+        width: 350px;
+        height: 94%;
+
+        border-radius:7px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+
+        display: inline-block;
+
+
+    }
+
+    .CadredetailMenu{
+
+        width: 100%;
+        height: 15%;
+
+        background-color:rgba(25,25,112);
+
+
+        border-radius: 6px;
+
+    }
+
+
+    .CadredetailMenuCont1{
+
+        width: 50%;
+        height: 60%;
+        margin-left: 0%;
+        background-color:rgb(216, 211, 211);
+        display: inline-block;
+
+        overflow-x: auto;
+        overflow: auto;
+
+
+
+    }
+
+
+
+
+
+    .CadredetailMenuCont2{
+
+        width: 50%;
+        height: 60%;
+        margin-left: 0%;
+        background-color:rgb(216, 211, 211);
+        display: inline-block;
+
+        overflow-x: auto;
+        overflow: auto;
+
+    }
+
+    .CadreBasMenu{
+
+        width: 100%;
+        height: 20%;
+
+        //background-color:rgb(177, 177, 206);
+
+        //border: solid 1px black;
+
+    }
+    .labelMenu{
+        color:rgb(2, 2, 2);
+        text-align: left;
+        font-weight: bold;
+
+
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuNew{
+        color:rgb(2, 2, 2);
+        text-align: left;
+        font-weight: bold;
+
+        margin-left: 5px;
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuBtn{
+        color:rgb(231, 223, 223);
+        text-align: left;
+        font-weight: bold;
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuTitre{
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-family: Tahoma, Verdana, sans-serif;
+
+    }
+    .textQTE{
+        background-color: rgb(240, 232, 232);
+        color:black;
+        //font-size: 12px;
+
+        height: 80%;
+        width: 80%;
+        margin-left: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .divtextQTE{
+
+        width: 40%;
+        height: 70%;
+        background-color: rgb(240, 232, 232);
+        border-radius: 9px;
+        display: inline-block;
+
+        border:2px solid gray;
+
+    }
+    .divtextQTEBtn{
+
+        width: 30%;
+        height: 70%;
+        margin-left: 30%;
+        background-color:rgb(216, 211, 211);
+        border-radius: 9px;
+        display: inline-block;
+
+    }
+    .btnAjoutMnu{
+        --background:rgba(25,25,112);//#db0f01;
+        --color:rgb(240, 232, 232)
+    }
+    .logo{
+
+        width: 100%;
+        height: 100%;
+
+    }
+    .cadreBtnComm{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .btnTransf{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+
+        display: none;
+
+    }
+
+    .cadreBtnCommBorderfAC{
+
+        width: 60%;
+        height: 35px;
+        margin-left: 20%;
+
+        border:solid 2px rgba(25,25,112);
+
+        //background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+        color: rgba(25,25,112);
+
+    }
+
+    .cadreBtnCommBorder{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        border:solid 2px rgba(25,25,112);
+
+        //background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+        color: rgba(25,25,112);
+
+    }
+
+    .btnComm{
+        --background:#db0f01;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+    }
+
+    //cadreHaut2
+
+    .ttxtQte{
+        color:darkblue;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .cadreCoupon{
+
+        width: 96%;
+        height: 80%;
+        margin-left: 2%;
+        border-radius: 12px;
+        background-color: rgb(240, 232, 232);
+
+        display: none;
+
+    }
+
+    .cadreBtnCenterSauv{
+
+      display:none
+
+    }
+    .titrrCoupn{
+        font-size: 20px;
+        font-weight: bold;
+        color: #db0f01;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .cadreArticleCoupon{
+
+        width: 100%;
+        height: 80%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+    .cadreTable{
+
+        width: 50%;
+        height: 50px;
+        margin-left: 25%;
+        border-radius: 11px;
+        background-color: rgb(240, 232, 232);
+
+    }
+
+    .cadreAuth{
+        width: 100%;
+        height: auto;
+        //border-radius: 55% 5px 25% 5px;
+
+    // background-color:rgba(25,25,112);
+
+
+    }
+    .titreXXL{
+        color:white;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-shadow: 1px 2px 1px black;
+        font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cadreSoirre{
+
+        width: 92%;
+        height: 50%;
+        border-radius: 5px 5px 5px 5px;
+        background-color: aliceblue;
+        margin-left: 4%;
+    }
+
+    .cadreSoirreRR{
+
+        width: 100%;
+        height: 300px;
+        border-radius: 5px 5px 5px 5px;
+
+
+
+        background: none;
+
+
+    }
+
+    .cadreSoirreRRa1{
+
+        width: 60%;
+        height: 300px;
+        border-radius: 5px 5px 5px 5px;
+
+
+
+        background: none;
+
+        display:inline-block;
+
+
+        overflow-y: auto;
+        overflow: auto;
+
+        text-shadow: 1px 1px 1px black;
+
+
+    }
+
+    .cadreSoirreRRa2{
+
+        width: 40%;
+        height: 300px;
+        border-radius: 5px 5px 5px 5px;
+
+        background: none;
+
+        display:inline-block;
+
+        overflow-y: auto;
+        overflow: auto;
+
+        animation: infinite 8s changeBACKGR;
+
+    }
+
+    .titreRight{
+
+      font-family: Arial black, Helvetica, sans-serif;
+
+      font-size: 30px;
+      font-weight: 900;
+      //text-shadow: 1px 1px 1px #afaeb1;
+      color: #140333;
+
+      padding-right: 5px;
+
+      text-align: right;
+
+      animation: infinite 8s textGrosPetitAutre;
+
+    }
+
+
+
+    .cadreAuthMin{
+        width: 100%;
+        height: 500px;
+        border-radius: 5px 5px 5px 5px;
+
+        background-color:rgb(90, 27, 141);
+
+
+    }
+
+    .cadreAuthMinNew{
+        width: 100%;
+        height: 700px;
+        //border-radius: 55% 5px 25% 5px;
+
+        background-color:rgb(221, 20, 188);
+
+
+    }
+    .zoneText{
+
+        width: 80%;
+        height: 90%;
+
+        margin-top: 3px;
+        margin-left: 10%;
+
+        background-color: rgb(219, 213, 213);// rgb(240, 232, 232);
+        color:black;
+
+        font-size: 20x;
+        font-weight: bold;
+
+    }
+    .cadreZoneCadr{
+        width: 70%;
+        height: 55px;
+        border-radius: 22px;
+        margin-top: 5%;
+        margin-left: 15%;
+
+        background-color: rgb(219, 213, 213);
+
+        display: none;
+    }
+    .cadrebtnAuth{
+        width: 50%;
+        height: 50px;
+        border-radius: 22px;
+
+        margin-left: 25%;
+        margin-top: 10%;
+
+        font-weight: bold;
+        text-align: center;
+        color:rgb(240, 232, 232);
+
+
+        padding-left: 15px;
+        padding-top: 10px;
+
+        background-color: #db0f01;
+
+    }
+
+    .cadrebtnAuthLogique{
+        width: 50%;
+        height: 50px;
+        border-radius: 22px;
+
+        margin-left: 25%;
+        margin-top: 10%;
+
+
+        padding-left: 15px;
+
+        background-color: #db0f01;
+
+        display:none
+
+    }
+    .btnAcces{
+
+        --background:#db0f01;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+        margin-left: 15px;
+
+    }
+
+    .linCTI1{
+        color:rgb(240, 232, 232);
+        margin-left: 26%;
+    }
+
+    .linCTI2{
+        color:rgb(240, 232, 232);
+        margin-left: 23%;
+    }
+
+    .linCTI3{
+        color:rgb(161, 17, 17);
+        margin-left: 9%;
+    }
+
+
+    .cadreIconAuth{
+
+        width: 25%;
+        height: 100px;
+        border-radius:42%;
+        margin-left: 32%;
+        margin-top:2%;
+
+        background-color:#db0f01;
+
+        animation: infinite 2s animPhotoTop;
+
+    }
+
+
+
+    .titreAfficheBlueSimple{
+
+        font-size: 22px;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-weight: bold;
+        font-family:'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .titreAfficheBlue{
+        font-size: 30px;
+        color:white;
+        text-align: center;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        //animation: infinite 3s textGrosPetit;
+    }
+
+    .titreAfficheBluePTIIT{
+        font-size: 24px;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        //animation: infinite 3s textGrosPetit;
+    }
+
+    .titreAfficheBluexxCont{
+
+      font-size: 14px;
+      color:black;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+
+
+    .titreAfficheBluexx{
+
+        font-size: 14px;
+        color:rgb(39, 38, 38);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .titreAfficheBluexxRef{
+
+        font-size: 15px;
+        color:rgb(44, 42, 42);
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .titreAfficheBluexxRefptp{
+
+        font-size: 13px;
+        color:rgb(44, 42, 42);
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+       // font-weight: bold;
+
+    }
+
+    .titreAfficheBlueRESTO{
+
+        font-size: 27px;
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial,'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .titreAfficheBlueRESTOpTI{
+
+        font-size: 15px;
+        color:rgb(240, 232, 232);
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+
+
+    .logoPCC{
+        width: 60%;
+        height: 60%;
+        border-radius: 40%;
+
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .cadrePhotoMenue{
+
+        width: 96%;
+        height: 600px;
+
+        margin-left: 2%;
+        margin-top: 20px;
+
+
+
+    }
+
+
+
+    .divCircleMen{
+
+        width: 35px;
+        height: 35px;
+        border-radius: 45%;
+        margin-left: 10%;
+
+        background-color:#db0f01 ;
+
+    }
+    .photoMenueXX{
+
+        width: 100%;
+        height: 95%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 1px 1px gray;
+
+        //background-color:rgb(219, 213, 213);
+
+    }
+    .textCirlceDiv{
+        color:rgb(240, 232, 232);
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    @keyframes textGrosPetit{
+
+        0%{
+            transform: scale(1.2);
+
+        }
+        25%{
+            transform: scale(0.8);
+
+        }
+        50%{
+            transform: scale(1.1);
+
+        }
+        60%{
+            transform: scale(1);
+
+        }
+    }
+
+
+    @keyframes animPhotoGPS{
+
+        0%{
+
+            transform: scale(0.1);
+            border-radius: 50%;
+            background-color: rgba(25,25,112);
+
+
+        }
+        40%{
+
+            transform: scale(0.5);
+            border-radius: 50%;
+            background-color: rgb(138, 125, 125);
+
+
+        }
+
+        60%{
+
+            transform: scale(1);
+
+            border-radius: 50%;
+            background-color: rgb(250, 246, 246);
+
+
+        }
+
+        90%{
+
+            transform: scale(0.3);
+
+            border-radius: 50%;
+            background-color: rgb(109, 95, 95);
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+    @keyframes animPhotoArrier{
+
+        0%{
+
+            //transform: scale(0.9);
+
+            background-image: url('/assets/images/V1.png');
+            background-size: 85%;
+
+            //background-repeat: no-repeat;
+
+
+        }
+
+        40%{
+
+            //transform: scale(1);
+            background-image: url('/assets/images/plat3.jpeg');
+            background-size: 80%;
+
+
+        }
+        90%{
+
+            //transform: scale(1.1);
+
+            background-image: url('/assets/images/plat1.jpeg');
+
+            background-size: 90%;
+
+
+        }
+
+
+    }
+
+
+
+
+    @keyframes animPhotoTop{
+
+        0%{
+
+
+            transform: scale(0.5);
+            border-radius: 20%;
+
+
+
+        }
+        40%{
+
+
+            transform: scale(1.2);
+            border-radius: 50%;
+
+
+
+        }
+
+        18%{
+
+            transform: scale(1);
+
+            border-radius: 20px;
+
+
+        }
+
+
+    }
+
+
+    #cadreSCannageGlobSUPRA{
+        background-color: black;
+    }
+
+
+    .cadreContenuGlob{
+        width: 98%;
+        height: 90%;
+        border-radius: 13px;
+        margin-left: 1%;
+
+
+        display:block
+
+
+    }
+
+
+
+    .tireMenuXX{
+
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        text-align: center;
+        color: rgb(240, 232, 232);
+        text-shadow: 4px 2px 4px black;
+        font-size: 23px;
+
+    }
+
+    .cadreBtnD{
+        width: 40px;
+        height: 40px;
+        border: solid 1px rgba(25,25,112);
+        border-radius: 7px;
+        color: rgba(25,25,112);
+
+        margin-left: 3%;
+    }
+
+
+    .cadreBtnDComm{
+        width: 40px;
+        height: 40px;
+        //border: solid 1px rgba(25,25,112);
+        border-radius: 7px;
+        color: rgba(25,25,112);
+
+        margin-left: 3%;
+    }
+
+    .cadrePhoto{
+
+        width: 100%;
+        height: 89%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadrePhotoCouvr{
+
+        width: 435px;
+        height: 100%;
+
+        overflow: auto
+        //overflow-y: auto;
+
+    }
+
+    .cadrePhoto1{
+
+        width: 200px;
+        height: 94%;
+        margin-left: 5px;
+        margin-top: 3%;
+        background-color:rgb(70, 63, 63);
+
+        display: inline-block;
+
+        border-radius: 8px;
+
+        animation: defilementGauchDroitPhoto 10s linear infinite;
+
+    }
+
+    .cadreSrcolePhoto{
+
+        width: 100%;
+        height: 10%;
+
+        border-top:  solid 3px black;
+
+
+    }
+    .cadrebtnScol{
+
+        width: 40px;
+        height: 90%;
+        margin-top: 5%;
+        margin-left: 15%;
+
+        border-radius: 40px;
+        background-color: #db0f01;
+        color: white;
+
+        display: inline-block;
+
+
+    }
+
+
+     .cadreBtnCenterSauvMOBILE{
+
+        width: 60%;
+        height: 40px;
+        margin-left: 20%;
+        margin-top: 5%;
+        background:linear-gradient(to right, red,rgb(175, 19, 19));
+        //border:2px solid black;
+        border-radius:20px;
+        color:white;
+
+        padding-left: 45px;
+        padding-top: 5px;
+
+
+
+     }
+
+
+    .cadreNav{
+
+        width: 40px;
+        height: 40px;
+        border: solid 1px rgb(210, 210, 236);
+        border-radius: 7px;
+        color: rgb(205, 205, 209);
+
+        margin-left: 7%;
+        margin-top: 10%;
+
+        padding-top:7%;
+        padding-left: 10%;
+
+
+
+    }
+    .divText{
+
+        width: 90%;
+        height: auto;
+        //border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 4%;
+        background-color:  rgb(233, 230, 230);
+        box-shadow: 5px 4px 7px 4px  rgb(119, 118, 118);
+
+        padding-left: 5px;
+        padding-right: 5px;
+
+        padding-bottom: 50px
+
+    }
+
+    .divTextGalerie{
+
+        width: 300px;
+        height: 100%;
+        //border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 6px;
+        background-color:  rgb(233, 230, 230);
+        box-shadow: 5px 4px 7px 4px  rgb(119, 118, 118);
+
+        display: inline-block;
+
+    }
+
+    .divTextLong{
+
+        width: 96%;
+        height: 1300px;
+        border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 2%;
+
+    }
+
+
+
+    .divTextGb{
+
+        width: 99%;
+        height: 1000px;
+        //border: solid 1px rgb(48, 48, 230);
+        //border-radius: 8px;
+        //margin-left: 2%;
+        margin-top: 15px;
+
+        background-color: rgba(25,25,112);
+
+    }
+
+    .divTextGbBas{
+
+        width: 99%;
+        height: 1500px;
+        //border: solid 1px rgb(48, 48, 230);
+        //border-radius: 8px;
+        //margin-left: 2%;
+        margin-top: 15px;
+
+        background-color:rgb(90, 27, 141);
+
+    }
+
+
+
+
+    .divTitre{
+
+        width: 100%;
+        height: 19%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divTitreX{
+
+        width: 100%;
+        height: 9%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenu{
+
+        width: 100%;
+        height: 80%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenuFlex{
+
+        width: 100%;
+        height: auto;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenuX{
+
+        width: 100%;
+        height: 90%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .textGras{
+
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    .textGrasptit{
+
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(255, 30, 0);
+        text-align: center;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .textPetit{
+
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(36, 43, 1);
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .textGrasSousc{
+
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+
+
+
+    .textPetitSousc{
+
+        font-size: 21px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .cadreSSousc{
+
+        width: 90%;
+        height: 76%;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 10px;
+
+    }
+
+    .cadreSSousSOUM{
+
+        width: 90%;
+        height: 50%;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 15px;
+
+    }
+
+    .cadreSSousvD{
+
+        width: 90%;
+        height: 500px;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 15px;
+
+    }
+
+    .cadreSSousvDGauche{
+
+
+      width: 90%;
+      height: 500px;
+
+      //background-color: rgb(216, 211, 211);
+      border-radius: 8px;
+      margin-left: 5%;
+      margin-top: 15px;
+
+
+
+    }
+
+    .traitX{
+
+        font-size: 20px;
+        font-weight: italic;
+        color: rgb(8, 8, 43);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 5px;
+
+
+    }
+
+    .traitXX{
+
+        font-size: 17px;
+        font-weight: italic;
+        color: rgb(8, 8, 43);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 5px;
+
+
+    }
+
+
+    .cadreTextValXX{
+
+        width: 90%;
+        height: 60px;
+
+        //border: solid 1px rgb(141, 147, 180); //rgba(25,25,112)
+        background-color:rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .cadreTextVal{
+
+        width: 90%;
+        height: 60px;
+
+        border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+    .cadreTextValA{
+
+        width: 45px;
+        height: 50px;
+
+        background-color:rgb(90, 27, 141);
+
+        border-radius: 40px;
+        margin-left: 2%;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+    }
+
+
+
+
+
+    .cadreTextValXXXC{
+
+        width: 0%;
+        height: 100%;
+
+
+        display: none;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+
+    }
+
+
+    .cadreTextValXXXA{
+
+        width: 19%;
+        height: 100%;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+    }
+
+
+    .btnProm{
+
+        width: 35%;
+        height: 60px;
+        margin-left: 36%;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+    }
+
+    .cadreTextValXXXB{
+
+        width: 65%;
+        height: 100;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+    }
+
+
+    .cadreTextValClose{
+
+        width: 45px;
+        height: 50px;
+
+
+        background-color: red;
+        border-radius: 40px;
+        //margin-left: 30%;
+
+
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+        display: inline-block;
+
+    }
+
+    .cadreTextValClosePhoto{
+
+        width: 70%;
+        height: 80px;
+
+        border-radius: 40px;
+        margin-left: 5%;
+
+
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+        display: inline-block;
+
+    }
+
+    .cadreTextValB{
+
+        width: 80%;
+        height: 50px;
+
+    // border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        border-radius: 8px;
+
+        display: inline-block;
+
+
+        padding-top:0px;
+        padding-bottom: 2px;
+
+        padding-left:3%;
+        padding-right: 3%;
+
+    }
+
+    .textCommGPS{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:white
+    }
+
+
+    .textComm{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:rgb(3, 3, 27);
+    }
+    .textZoneCadre{
+
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        background: none;
+        color:rgb(3, 3, 27);
+
+    }
+    .texteFptit{
+
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        font-weight: bold;
+
+        color:#bbcf46;//rgb(221, 215, 215);
+        margin-left:3%
+
+    }
+
+    .texteFContenue{
+
+        font-size: 21px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: justify;
+
+        color:rgb(235, 229, 229);
+        margin-left:3%;
+        margin-right:3%
+
+    }
+
+    .texteFGROS{
+
+        font-size: 26px;
+        font-family:'Trebuchet MS', sans-serif;
+        text-align: left;
+        font-weight: bold;
+
+        color:white;
+        margin-left:3%
+
+    }
+
+    ion-checkbox{
+
+        margin-left: 5%;
+        background:  rgb(216, 211, 211);
+        border-color: rgba(25,25,112);
+
+    }
+
+    .cadreJackPot{
+
+        width: 50%;
+        height: 60px;
+        margin-left:25%;
+        color:white;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        background-color: yellowgreen;
+        border-radius: 25px;
+
+        padding-left:5%;
+        padding-right:5%;
+        //padding-top:2%;
+
+        text-align: center;
+
+    }
+    .textXX1{
+        color:#db0f01;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .cadreContenueGen{
+
+        width: auto;
+        height: auto;
+
+    }
+
+    .divLogin{
+
+        width: 80%;
+        height: 80%;
+
+        position: absolute;
+        top:10%;
+        right: 10%;
+
+        //background-color: rgb(90, 27, 141);
+        border-radius: 14px 14px 14px 14px  ;
+
+        background:linear-gradient(to top, rgb(90, 27, 141),rgb(185, 169, 199));
+
+        display: none;
+
+    }
+
+
+    .divLogingps{
+
+        width: 90%;
+        height: 90%;
+
+        //position: absolute;
+        top:5%;
+        //right: 5%;
+
+        margin-left:5%;
+
+        //background-color: rgba(25,25,112);
+
+        border-radius: 14px 14px 14px 14px  ;
+
+        display: none;
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .tConn{
+
+        color:white;
+        font-size: 14px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        //font-weight: bold;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 10px;
+
+    }
+
+    .tConnNew{
+
+        color:white;
+        font-size: 14px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        //font-weight: bold;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 23px;
+
+    }
+
+    .tConnRR{
+
+        color:#db0f01;
+        font-size: 22px;
+        font-family:Tahoma, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .textCommWhite{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:rgb(216, 211, 211);
+    }
+
+    .cadreTextValWhite{
+
+        width: 90%;
+        height: 60px;
+
+        border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .btnInfoIconLogin{
+        width: 85%;
+        height: 85%;
+        //color:rgba(25,25,112);
+        //background: #db0f01;
+    }
+
+
+    .cadreBtnCommLogin{
+
+        width: 90%;
+        height: 45px;
+        margin-left: 5%;
+
+        background-color: #db0f01;
+
+        border-radius: 15px;
+
+
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 30%;
+        padding-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .cadreGlobFacture{
+
+        width: 100%;
+        height: 300px;
+        background-color:  rgb(216, 211, 211);
+
+    }
+
+
+    .cadreGlobFactureGR{
+
+        width: 100%;
+        height: 350px;
+        background-color:  rgb(216, 211, 211);
+
+    }
+
+
+    ion-row{
+
+        --background:  rgb(216, 211, 211);;
+    }
+
+    .contenuTableBG{
+        background-color: rgb(216, 211, 211);
+        color:black;
+    }
+
+    .cadreDash{
+
+        width: 48%;
+        height: auto;
+        margin-left: 1%;
+
+        display: inline-block;
+
+
+
+    }
+
+
+
+
+
+    .cadreDashFAc{
+
+        width: 100%;
+        height: 65px;
+        border-radius: 9px;
+        background-color:  rgb(216, 211, 211);
+
+        padding-left: 5px;
+
+    }
+    .textFac{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 20%;
+
+        font-size: 16px;
+
+        color: black;
+
+    }
+
+    .cadreIconD{
+
+        width: 10%;
+        height: 60%;
+
+        border: solid 1px gray;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        padding-left: 2px;
+
+        padding-top: 10px;
+
+        margin-top: 10px;
+
+    }
+
+    .cadreContD{
+
+        width: 39%;
+        height: 60%;
+
+        //border: solid 1px gray;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        padding-left: 8px;
+        margin-top: 15%;
+
+        color:black;
+        font-size: 12px;
+
+        margin-top: 10px;
+        //font-weight: bold;
+
+    }
+
+    .iconRapBas{
+
+        color: rgba(25,25,112);
+    }
+
+    .cadreFFac1Gr{
+
+        width: 45%;
+        height: 80%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+
+        display: inline-block;
+
+        background-color: rgb(216, 211, 211);
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadreFFac2Gr{
+
+        width: 54%;
+        height: 80%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+
+    .cadreFFac1{
+
+        width: 45%;
+        height: 85%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+
+        display: inline-block;
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreFFac2{
+
+        width: 54%;
+        height: 85%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+    .cadreCorpFac{
+
+        width: 98%;
+        height: 40px;
+        //border:
+
+        border-bottom: 2px solid black;
+        margin-left: 1%;
+
+    }
+
+    .cadreCorpFac1{
+
+        width: 48%;
+        height: 100%;
+        //border: 1px solid blue;
+        margin-left: 1%;
+
+        display: inline-block;
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+
+        font-size: 14px;
+
+    }
+
+    .cadreCorpFac2{
+
+        width: 48%;
+        height: 100%;
+        //border: 1px solid blue;
+        margin-left: 1%;
+
+        display: inline-block;
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+
+        font-size: 14px;
+
+    }
+
+    .tFac{
+
+        color:rgba(25,25,112);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+
+    .cadreDashABONNE{
+
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+
+        display:none;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+
+
+    .cadreHautAccueilSynth{
+
+        width: 98%;
+        height: 250px;
+
+        margin-left:1%;
+        margin-top: 15px;
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    .cadreHautRapportAccuel{
+        width: 98%;
+        height: 70px;
+        display: block;
+        margin-top: 2px;
+
+
+
+
+        //display: inline-block;
+    }
+    .grouperAll{
+        border-radius: 11px;
+        border: 2px darkblue solid;
+        color:darkblue
+    }
+
+    .cadreHautIconSynthese{
+
+        width: 20%;
+        height: 60px;
+        margin-left: 40%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 45%;
+        color:white;
+
+        padding-left: 10px;
+        padding-top: 10px;
+
+
+    }
+
+    .cadreHautIconSyntheseB_Bas{
+
+        width: 96%;
+        height: 20px;
+        color:black;
+        padding-left: 2%;
+
+    }
+
+
+    .titreSynthAccueil{
+
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .btnsettingBas{
+
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: darkblue;
+        --color:white
+    }
+
+    .divNumero{
+
+        width: 40px;
+        height: 30px;
+        background-color:darkblue ;
+        border-radius: 6px;
+
+        color:white;
+        font-weight: bold;
+
+        padding-left: 10px;
+        padding-top: 4px;
+
+    }
+
+    .iconBtnComm{
+
+        //background-color:red;
+        color:red
+    }
+
+    .textINFGPS{
+        color:white;
+        font-weight: bold;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-size: 15px;
+    }
+
+    .cadreGPSpos{
+
+        width: 90%;
+        height: 100px;
+
+        margin-left: 5%;
+        margin-top: 15px;
+
+        border-radius:10px;
+
+        background-color: rgb(216, 211, 211);
+
+    }
+
+    .careVall{
+
+        width: 90%;
+        height: 100px;
+
+        background-color: red;
+
+    }
+
+    .cadreStat1A{
+
+        width: 92%;
+        height: 300px;
+        margin-left: 4%;
+
+        background-color: rgb(37, 32, 32);
+        background-image: url("/assets/PDG-CTI-1.jpg");
+        background-size:85% ;
+        background-repeat: no-repeat;
+
+
+        //display: inline-block;
+        border-radius: 9px;
+
+
+
+    }
+    .cadrepaiement{
+
+
+        width: 92%;
+        height: 80%;
+        margin-left: 4%;
+        //position: absolute;
+        display:none;
+
+        margin-top: 5%;
+
+
+    }
+
+    #cadreIDMoyen2{
+
+        display: none;
+    }
+    .partiNyumbani{
+        display: none;
+    }
+
+    .cadreTab{
+
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 9px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(228, 220, 220);
+        display:none
+
+    }
+
+
+    .divTextPreccXX{
+
+        width: 96%;
+        height: 500px;
+        border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 2%;
+
+
+
+    }
+
+    .cadreHautXX{
+
+        width: 100%;
+        height: 70px;
+
+        position: fixed;
+
+        background-color: white;
+        border: solid 3px rgb(134, 131, 131);
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+    }
+    .cadreGalerieCouvre{
+
+        width: 100%;
+        height: 300px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 233, 233);
+        border-radius: 8px;
+
+    }
+
+    .cadreGalerie{
+
+        width: 2500px;
+        height: 96%;
+
+        margin-top: 2%;
+
+        background-color: rgb(240, 233, 233);
+
+
+    }
+    .imagelogo{
+
+        width: 50%;
+        height: 25%;
+
+        border-radius: 8px;
+
+
+    }
+
+    .imagelogoNew{
+
+        width: 50%;
+        height: 80%;
+
+        border-radius: 8px;
+
+
+    }
+
+    .imagelogoNewPartnes{
+
+        width: 80%;
+        height: 80%;
+
+        //border-radius: 8px;
+        margin-left: 10%;
+
+
+    }
+
+
+    .imageAcueill{
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 8px;
+
+    }
+
+     .imageAcueillPT{
+
+        width: 90%;
+        height: 80%;
+
+        border-radius: 8px;
+
+        margin-left: 5%;
+
+    }
+
+
+
+
+
+    p{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    // commence me de la
+    .cadreScrollSynthGach{
+
+        display: none;
+
+    }
+
+
+    .cadreScrollSynth{
+
+        width: 100%;
+        height: 300px;
+        background-image: url('/assets/images/f2.jpeg');
+        background-size: 80%;
+
+        background-repeat: no-repeat;
+
+        animation: infinite 10s ease-in-out top opaciting;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadreScrollSynthA{
+
+        width: 7%;
+        height: 100%;
+
+        display:inline-block;
+
+        color:blue;
+
+
+
+    }
+
+    .cadreScrollSynthB{
+
+        width: 98%;
+        height: 300px;
+
+        margin-left: 1%;
+
+        display:flex;
+        justify-content: center;
+        align-items: stretch;
+
+        //background-image: url('/assets/images/drkk1.jpeg');
+
+    }
+
+    .cadreInfoArriv{
+
+        width: 70%;
+        height: 100%;
+
+        display:inline-block;
+
+        border-radius: 6px;
+
+        background-size: 95%;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+    .cadreInfoArrivDwtail{
+
+        width: 30%;
+        height: 100%;
+
+        display:inline-block;
+
+
+
+
+    }
+
+     .pRnseign{
+
+      font-size: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: justify;
+
+      margin-left: 20px;
+      margin-right: 20px;
+
+      color:rgb(109, 78, 134);
+
+
+     }
+
+
+    ion-item{
+
+        background: #a284db;
+
+    }
+
+    ion-accordion{
+
+        background: #a284db;
+
+    }
+
+    ion-accordion-group{
+
+        background-color: #a284db;
+        color:black
+
+    }
+
+    .lienCache{
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .cadrePointeur{
+
+        width: 60%;
+        height: 35px;
+
+        margin-left: 20%;
+        border-radius: 25px;
+        background-color: rgb(201, 193, 202);
+
+    }
+
+    .cadrePointeurCircle{
+
+        width: 20px;
+        height: 20px;
+        margin-left: 12%;
+        border-radius: 40px;
+        background-color: rgb(89, 84, 90);
+        display: inline-block;
+
+        margin-top: 5px;
+
+
+
+
+    }
+
+    .divcadre{
+
+        width: 100%;
+        height: 120px;
+
+        margin-top: 5px;
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+    .div1{
+
+        width: 98%;
+        height: 40%;
+        margin-left: 1%;
+        margin-top: 0%;
+        background-color:white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+    .div1Pay{
+
+            width: 98%;
+            height: 40%;
+            margin-left: 1%;
+            margin-top: 0%;
+            //background-color:white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .div2Pay{
+
+            width: 98%;
+            height: 50px;
+            margin-left: 1%;
+            margin-top: 5%;
+            //background-color: white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .div2{
+
+            width: 98%;
+            height: 50px;
+            margin-left: 1%;
+            margin-top: 5%;
+            background-color: white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .divbtn{
+
+            width: 80%;
+            height: 40px;
+            margin-left: 10%;
+            margin-top: 5%;
+            background-color: red;
+            //border:2px solid black;
+            border-radius:20px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+
+        .divSous1{
+
+            width: 20%;
+            height: 100%;
+            background-color:rgb(90, 27, 141);
+            display: inline-block;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2{
+
+            width: 80%;
+            height: 100%;
+            display: inline-block;
+
+        }
+
+
+
+        .divSous1New{
+
+            width: 20%;
+            height: 100%;
+            background-color: rgb(90, 27, 141);
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2New{
+
+            width: 80%;
+            height: 100%;
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+        }
+
+
+
+        .divSous1NewxXX{
+
+            width: 40%;
+            height: 100%;
+            background-color: rgb(90, 27, 141);
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2NewXX{
+
+            width: 60%;
+            height: 100%;
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+        }
+
+
+        .divRech2NewSexe{
+            width: 40%;
+            height: 100%;
+            display: inline-block;
+
+            background: linear-gradient(to left, rgb(138, 132, 132),white);
+
+
+        }
+
+
+
+        input{
+
+            background-color: white;
+        }
+
+
+       .cadrePartnes{
+
+            width: 100%;
+            height: 120px;
+
+
+
+
+            background: linear-gradient(to right, rgb(138, 132, 132),white);
+
+
+
+       }
+
+       .cadrePartnes1{
+
+        width: 35%;
+        height: 120px;
+
+        display: inline-block;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+
+        //border:solid 2px rgb(102, 57, 57);
+
+
+
+
+    }
+
+    .cadrePartnes2{
+
+        width: 64%;
+        height: 120px;
+
+        display: inline-block;
+
+        //border:solid 2px red;
+
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+
+    }
+
+    .titreParterns{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#a682e7;
+        font-size: 16px;
+        text-align: right;
+
+        //  rgb(90, 27, 141);
+
+    }
+
+    .cadreBtnCenter{
+
+        width: 60%;
+        height: 40px;
+        margin-left: 20%;
+        margin-top: 5%;
+        background:none;
+        border:2px solid #3e2966;;
+        border-radius:20px;
+        color:#3e2966;
+
+        padding-left: 30px;
+        padding-top: 5px;
+
+
+
+     }
+
+
+     .cadreBtnCenterFile{
+
+        width: 60%;
+        height: 40px;
+        margin-left: 20%;
+        margin-top: 5%;
+
+        border:2px solid rgb(90, 27, 141);
+        border-radius:20px;
+        color:rgb(90, 27, 141);
+
+        padding-left: 45px;
+        padding-top: 5px;
+
+
+
+     }
+
+     .cadreContenu{
+
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+
+        background:linear-gradient(to right, rgb(245, 240, 240),white);
+
+     }
+    .cadreSousCont{
+
+        width: 90%;
+        height: auto;
+
+        margin-left: 5%;
+
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+        margin-top: 30px;
+
+
+    }
+
+    .cadreSousContGauche{
+
+      width: 90%;
+        height: auto;
+
+        margin-left: 5%;
+
+        //background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+        margin-top: 30px;
+
+
+    }
+
+     .cadreSousContPT{
+
+        width: 90%;
+        height: auto;
+
+        margin-left: 5%;
+
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width:601px) and (min-width:1024px){
+
+	ion-content{
+        --background:rgb(216, 211, 211);
+    }
+    ion-toolbar{
+        --background:rgba(25,25,112);
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+
+        display: none;
+    }
+    ion-select{
+     color:black;
+     font-weight: bold;
+    }
+
+
+    .cadreGPS{
+        width: 10%;
+        height: auto;
+        margin-left: 40%;
+        margin-top: 5px;
+        color:#db0f01;
+
+        animation:ease animPhotoGPS 2s infinite;
+
+        padding-left: 20px;
+
+
+    }
+
+    span{
+        color: black;
+    }
+    .labelNiv1{
+
+        color: black;
+        font-weight: bold;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+
+    }
+
+    .labelNiv1Prox{
+
+        color: rgba(25,25,112);
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .webCam{
+        width: 98%;
+        height: 50px;
+        margin-top: 2%;
+        margin-left: 1%;
+
+        border-radius: 5% 1%  5% 1%;
+
+        background-color: rgb(240, 232, 232);
+    }
+    .btn1{
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 10%;
+        //margin-top: 5%;
+        font-size:15px;
+        height: 45px;
+        width: 80%;
+        border-bottom:none
+    }
+    .btn2{
+
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 10%;
+        //margin-top: 5%;
+        font-size:15px;
+        height: 60%;
+        width: 80%;
+        border-bottom:none
+    }
+    .titreSCan{
+
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-top: 5%;
+
+        animation: infinite textGrosPetitAutre 2s;
+
+        display: none;
+
+    }
+
+    .titreSCanText{
+
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-top: 5%;
+
+        animation: infinite textGrosPetitAutre 2s;
+
+    }
+
+    .menuNav{
+        width:100%;
+        height: 80px;
+        background-color:rgba(25,25,112);
+
+        position:fixed;
+        bottom:0;
+        left: 0;
+
+        display:none
+
+    }
+
+    .btnMenu{
+        margin-left: 15%;
+    }
+    .divCouvvX{
+        width:100%;
+        height: 100%;
+    }
+    .divCouvre{
+        width:20%;
+        height: 100%;
+        margin-left: 10%;
+
+        display: inline-block;
+
+
+    }
+
+    .divCouvre1{
+        width:100%;
+        height: 75%;
+
+
+    }
+
+    .divCouvr2{
+
+        width:100%;
+        height: 25%;
+
+        background-color: rgb(240, 232, 232);
+
+
+    }
+    .labelMenu{
+        color:rgb(240, 232, 232);
+        text-align: center;
+
+    }
+    .btnMenue{
+        width: 90%;
+        height: 85%;
+        --background:rgba(25,25,112);
+        --color:rgb(240, 232, 232)
+    }
+
+    .cadreSCannage{
+        width: 100%;
+        height: 90%;
+
+        display: none;
+
+    }
+
+    .cadreSCannageUser{
+        width: 100%;
+        height: 90%;
+
+        //display: none;
+
+    }
+
+
+
+
+    .cadreInfo1Ajout{
+        width: 100%;
+        height: 85%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo1AjoutProw{
+        width: 100%;
+        height:80%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo2Ajout{
+        width: 100%;
+        height: 15%;
+
+        //background-color: green;
+
+        overflow: auto;
+
+    }
+
+    .cadreInfoMenue{
+        width: 100%;
+        height: 95%;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .cadreInfo1{
+        width: 100%;
+        height: 75%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreInfo2{
+        width: 100%;
+        height: 20%;
+
+        overflow: auto;
+
+    }
+
+    .cadreInfo2Controle{
+        width: 100%;
+        height: 20%;
+
+
+
+    }
+
+
+    .cadreText{
+        width: 100%;
+        height: 90%;
+
+        display: none;
+    }
+
+    .servdivAdr{
+        width: 96%;
+        height: 55px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 7%;
+        margin-left: 2%;
+
+        background-color: rgb(219, 213, 213);
+    }
+
+    .cadreGlog{
+        width: 92%;
+        height: 40px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 10px;
+        margin-left: 4%;
+
+    //background-color: red;
+    }
+    .cadreGlogRech{
+
+        width: 96%;
+        height: 55px;
+        border-radius: 25px;
+        //border:1px rgb(3, 3, 3) solid;
+        margin-top: 5%;
+        margin-left: 2%;
+
+        background-color: rgb(219, 213, 213);
+
+    }
+
+
+
+    input{
+        background-color: rgb(219, 213, 213);
+        margin-left: 15px;
+        margin-top: 0px;
+
+        outline: none;
+
+        font-size: 15px;
+        font-weight: bold;
+        width: 90%;
+
+        border-top:none;
+        border-bottom:none;
+        border-right:none;
+        border-left:none;
+        color:rgba(25,25,112);
+    }
+
+    .couvrAffich{
+
+        width: 100%;
+        height: 90%;
+
+        overflow: auto;
+        overflow-y: auto;
+        background-color: rgb(240, 232, 232);
+
+        display: none;
+
+    }
+
+    .cadreAffich{
+        width: 600px;
+        height: 100%;
+        background-color:rgb(240, 232, 232);
+
+        display: block;
+
+        background-image: url("/assets/images/backgroundXX.png");
+
+        background-size: 99%;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .titreAffiche{
+
+        color:#db0f01;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .titreAfficheNom{
+
+        color:rgb(240, 232, 232);
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .titreAfficheSENAT{
+
+        color:red;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        top:0
+    }
+
+    .titreLesg{
+        background-color: red;
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .titreLesg2{
+        color:red;
+        text-align: center;
+        font-weight: bold;
+    }
+    .cadreCarte{
+
+        width: 100%;
+        height: 70%;
+        //background-color: rgb(221, 215, 215);
+    }
+
+    .photoCoubr1{
+        width: 100%;
+        height: 100%;
+
+
+    }
+    .photoCoubr2{
+        width: 100%;
+        height: 50%;
+
+
+    }
+    .cadreCarte1{
+
+        width: 20%;
+        height: 50%;
+        margin-left: 7%;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreCarte2{
+
+        width: 70%;
+        height: 100%;
+
+        display: inline-block;
+
+        overflow: auto;
+
+
+
+    }
+    .header{
+        background-color:rgba(25,25,112);
+        color:rgb(240, 232, 232);
+    }
+    .contenuTable{
+        color:black;
+    }
+
+    .imageSena{
+        width: 100%;
+        height: 100%;
+        border-radius: 18%;
+    }
+    .titreSen{
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+        color:black;
+        margin-top: 10%;
+    }
+
+    .btn1Terminer{
+
+        --background:red;
+        --color:rgb(240, 232, 232),
+        font-weight:bold;
+        margin-left: 28%;
+        margin-top: 5%;
+        font-size:15px
+
+    }
+
+    .cadrelegisl{
+        width: 60%;
+        height: 20px;
+        margin-left: 20%;
+    }
+
+    ion-col{
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .expiText{
+        color:black;
+        font-size: 10px;
+    }
+    .expiTextDate{
+        color:red;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .cadreBasXX{
+
+        width: 50%;
+        height: 40px;
+        margin-left: 10%;
+
+
+
+    }
+    .cadreInterne{
+
+        width: 49%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .grasBtn{
+        font-weight: bold;
+        color:rgb(240, 232, 232);
+        left: 0;
+        top:0;
+        bottom:0;
+        right:0
+    }
+    .cadreBtnVal{
+        width: 70%;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 15%;
+        background-color: red;
+        margin-top: 5%;
+    }
+
+    #btnTerminer{
+        display: none;
+    }
+
+    .sepaa1{
+
+        width: 30%;
+        height: 89%;
+        display: inline-block;
+
+    }
+    .sepaa2{
+
+        width: 68%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+    .sepaa1A{
+
+        width: 24%;
+        height: 89%;
+        display: inline-block;
+
+    }
+    .sepaa2B{
+
+        width: 60%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+    .sepaa2C{
+
+        width: 15%;
+        height: 89%;
+        display: inline-block;
+
+    }
+
+
+    ion-accordion{
+        --background:black;
+        --color:rgb(240, 232, 232)
+    }
+    ion-grid {
+        --color:black
+    }
+    .couvrControlProduit{
+
+        width: 100%;
+        height: 80%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 232, 232);
+    }
+
+    .couvrControlProduitClient{
+
+        width: 100%;
+        height: 250px;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(216, 211, 211);
+    }
+    .contenuTable{
+        background-color:rgb(177, 177, 206);
+        color:black;
+    }
+    .hearderTable{
+        color:rgb(240, 232, 232);
+        background-color:rgba(25,25,112);
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .hearderTableConte{
+
+        color:black;
+        background-color:rgb(240, 232, 232);
+        font-weight: bold;
+        font-size: 22px;
+
+    }
+    .cadreVueEnsCouvre{
+
+        width: 100%;
+        height: 90%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(219, 213, 213);
+
+    }
+    .cadreVueEns{
+
+        width: 1200px;
+        height: 100%;
+
+    }
+
+    .cadreVue{
+
+        width: 30%;
+        height: 100%;
+        margin-left: 3%;
+
+        display: inline-block;
+
+        background-color: rgb(240, 232, 232);
+        border-radius: 7px;
+    }
+    //cadreInfo2
+
+    .btnInfo{
+        width: 40px;
+        height: 40px;
+        --background:rgb(216, 211, 211);
+        --color:rgba(25,25,112);
+
+
+    }
+
+
+    .btnInfoIconUltra{
+        width: 60px;
+        height: 50px;
+
+        --background:rgb(19, 18, 0);
+        --color:rgba(25,25,112);
+    }
+
+    .btnInfoIcon{
+        width: 85%;
+        height: 85%;
+
+        color:white
+    }
+
+    .btnInfoIconOP{
+        width: 85%;
+        height: 85%;
+
+        color:white
+    }
+
+    .btnInfoIconOPScrol{
+        width: 85%;
+        height: 85%;
+
+        color:rgb(90, 27, 141)
+    }
+
+    .btnInfoIconJack{
+        width: 30px;
+        height: 30px;
+
+        color: #db0f01;
+    }
+
+    .cadreHaut1{
+
+        width: 5%;
+        height: 50px;
+
+        display: inline-block;
+
+        margin-left: 3%;
+
+    }
+
+    .cadreHaut2{
+
+        width: 60%;
+        height: 50px;
+
+        display: inline-block;
+
+    }
+
+    .cadreHaut2GloVente{
+
+        width: 100%;
+        height: 50px;
+
+    }
+
+    .cadreHaut2GlobMENU{
+
+        width: 100%;
+        height: 50px;
+        background-image: url("/assets/images/logo.png");
+        background-repeat: no-repeat;
+        background-size: 40%;
+
+    }
+
+    .cadreHaut3{
+
+        width: 10%;
+        height: 50px;
+
+        display: inline-block;
+
+    }
+    .cadreSetting{
+
+        width: 98%;
+        height: 130px;
+        margin-left: 1%;
+        border-radius: 9px 9px 3px 3px;
+
+        border: solid 2px rgb(48, 45, 45);
+
+    }
+    .cadreSetting1{
+
+        width: 60%;
+        height: 98%;
+        display: inline-block;
+
+
+
+    }
+
+    .cadreSetting2{
+
+        width: 38%;
+        height: 98%;
+        display: inline-block;
+        margin-left: 1%;
+
+
+    }
+
+    .labelType{
+        font-weight: bold;
+        color:black;
+        font-size: 11px;
+        margin-left: 3px;
+    }
+    .btnOptionSetting{
+
+        width: 94%;
+        height: 30px;
+        margin-left: 3%;
+        --background:red;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+
+        border-radius: 21px;
+
+    }
+    .cadreSett{
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 12px;
+        background-color: rgb(240, 232, 232);
+
+        border-radius: 7px 7px 2px 2px;
+
+    }
+
+    .cadreSettTire{
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 12px;
+
+        border-radius: 7px 7px 2px 2px;
+
+    }
+    .texSetting{
+        background-color: rgb(240, 232, 232);
+        color:black
+    }
+    .cadreNumerisation{
+
+        width: 100%;
+        height: 200px;
+        margin-top: 5px;
+
+    }
+
+    .cadreNumerisation1{
+
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        //background-color: blue;
+
+    }
+
+    .cadreNumerisation2{
+
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+
+        border-radius: 11px;
+        margin-left:7%;
+
+        background-color: rgb(240, 232, 232);
+
+    }
+
+
+    .btnCamera{
+        --background:red;
+        --color:rgb(240, 232, 232)
+
+
+    }
+    .titreGros{
+        color:black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .couvrControlMenue{
+
+        width: 100%;
+        height: 30%;
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 232, 232);
+    }
+
+    .btnAjout{
+        --background:red;
+        --color:rgb(240, 232, 232)
+    }
+    .cadreMenuCouvr{
+
+        width: 100%;
+        height: 400px;
+        overflow: auto;
+        overflow-x: auto;
+        border-radius:7px;
+        margin-top: 5px;
+
+        background-color: rgb(216, 211, 211);
+
+    }
+
+
+    .cadreMenuCouvrSous{
+
+        width: 3000px;
+        height: 100%;
+        overflow: auto;
+        overflow-x: auto;
+        padding-top: 5px;
+
+    }
+    .cadreArticle{
+
+        width: 350px;
+        height: 94%;
+
+        border-radius:7px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+
+        display: inline-block;
+
+
+    }
+
+    .CadredetailMenu{
+
+        width: 100%;
+        height: 15%;
+
+        background-color:rgba(25,25,112);
+
+
+        border-radius: 6px;
+
+    }
+
+
+    .CadredetailMenuCont1{
+
+        width: 50%;
+        height: 60%;
+        margin-left: 0%;
+        background-color:rgb(216, 211, 211);
+        display: inline-block;
+
+        overflow-x: auto;
+        overflow: auto;
+
+
+
+    }
+
+
+
+
+
+    .CadredetailMenuCont2{
+
+        width: 50%;
+        height: 60%;
+        margin-left: 0%;
+        background-color:rgb(216, 211, 211);
+        display: inline-block;
+
+        overflow-x: auto;
+        overflow: auto;
+
+    }
+
+    .CadreBasMenu{
+
+        width: 100%;
+        height: 20%;
+
+        //background-color:rgb(177, 177, 206);
+
+        //border: solid 1px black;
+
+    }
+    .labelMenu{
+        color:rgb(2, 2, 2);
+        text-align: left;
+        font-weight: bold;
+
+
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuNew{
+        color:rgb(2, 2, 2);
+        text-align: left;
+        font-weight: bold;
+
+        margin-left: 5px;
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuBtn{
+        color:rgb(231, 223, 223);
+        text-align: left;
+        font-weight: bold;
+
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .labelMenuTitre{
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-family: Tahoma, Verdana, sans-serif;
+
+    }
+    .textQTE{
+        background-color: rgb(240, 232, 232);
+        color:black;
+        //font-size: 12px;
+
+        height: 80%;
+        width: 80%;
+        margin-left: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .divtextQTE{
+
+        width: 40%;
+        height: 70%;
+        background-color: rgb(240, 232, 232);
+        border-radius: 9px;
+        display: inline-block;
+
+        border:2px solid gray;
+
+    }
+    .divtextQTEBtn{
+
+        width: 30%;
+        height: 70%;
+        margin-left: 30%;
+        background-color:rgb(216, 211, 211);
+        border-radius: 9px;
+        display: inline-block;
+
+    }
+    .btnAjoutMnu{
+        --background:rgba(25,25,112);//#db0f01;
+        --color:rgb(240, 232, 232)
+    }
+    .logo{
+
+        width: 100%;
+        height: 100%;
+
+    }
+    .cadreBtnComm{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .btnTransf{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+
+        display: none;
+
+    }
+
+    .cadreBtnCommBorderfAC{
+
+        width: 60%;
+        height: 35px;
+        margin-left: 20%;
+
+        border:solid 2px rgba(25,25,112);
+
+        //background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+        color: rgba(25,25,112);
+
+    }
+
+    .cadreBtnCommBorder{
+
+        width: 60%;
+        height: 45px;
+        margin-left: 20%;
+
+        border:solid 2px rgba(25,25,112);
+
+        //background-color: #db0f01;
+
+        border-radius: 21px;
+
+        padding-left: 45px;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 17%;
+        padding-top: 10px;
+        font-size: 16px;
+        color: rgba(25,25,112);
+
+    }
+
+    .btnComm{
+        --background:#db0f01;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+    }
+
+    //cadreHaut2
+
+    .ttxtQte{
+        color:darkblue;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .cadreCoupon{
+
+        width: 96%;
+        height: 80%;
+        margin-left: 2%;
+        border-radius: 12px;
+        background-color: rgb(240, 232, 232);
+
+        display: none;
+
+    }
+    .titrrCoupn{
+        font-size: 20px;
+        font-weight: bold;
+        color: #db0f01;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .cadreArticleCoupon{
+
+        width: 100%;
+        height: 80%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+    .cadreTable{
+
+        width: 50%;
+        height: 50px;
+        margin-left: 25%;
+        border-radius: 11px;
+        background-color: rgb(240, 232, 232);
+
+    }
+
+    .cadreAuth{
+        width: 100%;
+        height: auto;
+        //border-radius: 55% 5px 25% 5px;
+
+    // background-color:rgba(25,25,112);
+
+
+    }
+    .titreXXL{
+        color:white;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-shadow: 1px 2px 1px black;
+        font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .cadreSoirre{
+
+        width: 92%;
+        height: 50%;
+        border-radius: 5px 5px 5px 5px;
+        background-color: aliceblue;
+        margin-left: 4%;
+    }
+
+
+
+    .cadreAuthMin{
+        width: 45%;
+        height: 90%;
+        border-radius: 5px 5px 5px 5px;
+
+        background-color:rgb(90, 27, 141);
+
+        margin-left: 7%;
+
+
+    }
+
+    .cadreAuthMinNew{
+        width: 100%;
+        height: 700px;
+        //border-radius: 55% 5px 25% 5px;
+
+        background-color:rgb(221, 20, 188);
+
+
+    }
+    .zoneText{
+
+        width: 80%;
+        height: 90%;
+
+        margin-top: 3px;
+        margin-left: 10%;
+
+        background-color: rgb(219, 213, 213);// rgb(240, 232, 232);
+        color:black;
+
+        font-size: 20x;
+        font-weight: bold;
+
+    }
+    .cadreZoneCadr{
+        width: 70%;
+        height: 55px;
+        border-radius: 22px;
+        margin-top: 5%;
+        margin-left: 15%;
+
+        background-color: rgb(219, 213, 213);
+
+        display: none;
+    }
+    .cadrebtnAuth{
+        width: 50%;
+        height: 50px;
+        border-radius: 22px;
+
+        margin-left: 25%;
+        margin-top: 10%;
+
+        font-weight: bold;
+        text-align: center;
+        color:rgb(240, 232, 232);
+
+
+        padding-left: 15px;
+        padding-top: 10px;
+
+        background-color: #db0f01;
+
+    }
+
+    .cadrebtnAuthLogique{
+        width: 50%;
+        height: 50px;
+        border-radius: 22px;
+
+        margin-left: 25%;
+        margin-top: 10%;
+
+
+        padding-left: 15px;
+
+        background-color: #db0f01;
+
+        display:none
+
+    }
+    .btnAcces{
+
+        --background:#db0f01;
+        --color:rgb(240, 232, 232);
+        font-weight: bold;
+        margin-left: 15px;
+
+    }
+
+    .linCTI1{
+        color:rgb(240, 232, 232);
+        margin-left: 26%;
+    }
+
+    .linCTI2{
+        color:rgb(240, 232, 232);
+        margin-left: 23%;
+    }
+
+    .linCTI3{
+        color:rgb(161, 17, 17);
+        margin-left: 9%;
+    }
+
+
+    .cadreIconAuth{
+
+        width: 25%;
+        height: 100px;
+        border-radius:42%;
+        margin-left: 32%;
+        margin-top:2%;
+
+        background-color:#db0f01;
+
+        animation: infinite 2s animPhotoTop;
+
+    }
+
+
+
+    .titreAfficheBlueSimple{
+
+        font-size: 22px;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-weight: bold;
+        font-family:'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .titreAfficheBlue{
+        font-size: 30px;
+        color:white;
+        text-align: center;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        //animation: infinite 3s textGrosPetit;
+    }
+
+    .titreAfficheBluePTIIT{
+        font-size: 24px;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        //animation: infinite 3s textGrosPetit;
+    }
+
+
+
+
+    .titreAfficheBluexx{
+
+        font-size: 21px;
+        color:black;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .titreAfficheBluexxRef{
+
+        font-size: 15px;
+        color:rgb(44, 42, 42);
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .titreAfficheBluexxRefptp{
+
+        font-size: 13px;
+        color:rgb(44, 42, 42);
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+       // font-weight: bold;
+
+    }
+
+    .titreAfficheBlueRESTO{
+
+        font-size: 27px;
+        color:rgb(240, 232, 232);
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial,'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .titreAfficheBlueRESTOpTI{
+
+        font-size: 15px;
+        color:rgb(240, 232, 232);
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+
+
+    .logoPCC{
+        width: 60%;
+        height: 60%;
+        border-radius: 40%;
+
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .cadrePhotoMenue{
+
+        width: 96%;
+        height: 600px;
+
+        margin-left: 2%;
+        margin-top: 20px;
+
+
+
+    }
+
+
+
+    .divCircleMen{
+
+        width: 35px;
+        height: 35px;
+        border-radius: 45%;
+        margin-left: 10%;
+
+        background-color:#db0f01 ;
+
+    }
+    .photoMenueXX{
+
+        width: 100%;
+        height: 95%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 1px 1px gray;
+
+        //background-color:rgb(219, 213, 213);
+
+    }
+    .textCirlceDiv{
+        color:rgb(240, 232, 232);
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    @keyframes textGrosPetit{
+
+        0%{
+            transform: scale(1.2);
+
+        }
+        25%{
+            transform: scale(0.8);
+
+        }
+        50%{
+            transform: scale(1.1);
+
+        }
+        60%{
+            transform: scale(1);
+
+        }
+    }
+
+
+    @keyframes animPhotoGPS{
+
+        0%{
+
+            transform: scale(0.1);
+            border-radius: 50%;
+            background-color: rgba(25,25,112);
+
+
+        }
+        40%{
+
+            transform: scale(0.5);
+            border-radius: 50%;
+            background-color: rgb(138, 125, 125);
+
+
+        }
+
+        60%{
+
+            transform: scale(1);
+
+            border-radius: 50%;
+            background-color: rgb(250, 246, 246);
+
+
+        }
+
+        90%{
+
+            transform: scale(0.3);
+
+            border-radius: 50%;
+            background-color: rgb(109, 95, 95);
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+    @keyframes animPhotoArrier{
+
+        0%{
+
+            //transform: scale(0.9);
+
+            background-image: url('/assets/images/V1.png');
+            background-size: 85%;
+
+            //background-repeat: no-repeat;
+
+
+        }
+
+        40%{
+
+            //transform: scale(1);
+            background-image: url('/assets/images/plat3.jpeg');
+            background-size: 80%;
+
+
+        }
+        90%{
+
+            //transform: scale(1.1);
+
+            background-image: url('/assets/images/plat1.jpeg');
+
+            background-size: 90%;
+
+
+        }
+
+
+    }
+
+
+
+
+    @keyframes animPhotoTop{
+
+        0%{
+
+
+            transform: scale(0.5);
+            border-radius: 20%;
+
+
+
+        }
+        40%{
+
+
+            transform: scale(1.2);
+            border-radius: 50%;
+
+
+
+        }
+
+        18%{
+
+            transform: scale(1);
+
+            border-radius: 20px;
+
+
+        }
+
+
+    }
+
+
+    #cadreSCannageGlobSUPRA{
+        background-color: black;
+    }
+
+
+    .cadreContenuGlob{
+        width: 98%;
+        height: 90%;
+        border-radius: 13px;
+        margin-left: 1%;
+
+
+        display:block
+
+
+    }
+
+
+
+    .tireMenuXX{
+
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        text-align: center;
+        color: rgb(240, 232, 232);
+        text-shadow: 4px 2px 4px black;
+        font-size: 23px;
+
+    }
+
+    .cadreBtnD{
+        width: 40px;
+        height: 40px;
+        border: solid 1px rgba(25,25,112);
+        border-radius: 7px;
+        color: rgba(25,25,112);
+
+        margin-left: 3%;
+    }
+
+
+    .cadreBtnDComm{
+        width: 40px;
+        height: 40px;
+        //border: solid 1px rgba(25,25,112);
+        border-radius: 7px;
+        color: rgba(25,25,112);
+
+        margin-left: 3%;
+    }
+
+    .cadrePhoto{
+
+        width: 100%;
+        height: 89%;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadrePhotoCouvr{
+
+        width: 435px;
+        height: 100%;
+
+        overflow: auto
+        //overflow-y: auto;
+
+    }
+
+    .cadrePhoto1{
+
+        width: 200px;
+        height: 94%;
+        margin-left: 5px;
+        margin-top: 3%;
+        background-color:rgb(70, 63, 63);
+
+        display: inline-block;
+
+        border-radius: 8px;
+
+        animation: defilementGauchDroitPhoto 10s linear infinite;
+
+    }
+
+    .cadreSrcolePhoto{
+
+        width: 100%;
+        height: 10%;
+
+        border-top:  solid 3px black;
+
+
+    }
+    .cadrebtnScol{
+
+        width: 40px;
+        height: 90%;
+        margin-top: 5%;
+        margin-left: 15%;
+
+        border-radius: 40px;
+        background-color: #db0f01;
+        color: white;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreNav{
+
+        width: 40px;
+        height: 40px;
+        border: solid 1px rgb(210, 210, 236);
+        border-radius: 7px;
+        color: rgb(205, 205, 209);
+
+        margin-left: 7%;
+        margin-top: 10%;
+
+        padding-top:7%;
+        padding-left: 10%;
+
+
+
+    }
+    .divText{
+
+        width: 30%;
+        height: auto;
+        //border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 3%;
+        background-color:  rgb(233, 230, 230);
+        box-shadow: 5px 4px 7px 4px  rgb(119, 118, 118);
+
+        padding-left: 5px;
+        padding-right: 5px;
+
+        padding-bottom: 50px;
+
+        display:inline-block
+
+    }
+
+    .divTextGalerie{
+
+        width: 300px;
+        height: 100%;
+        //border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 6px;
+        background-color:  rgb(233, 230, 230);
+        box-shadow: 5px 4px 7px 4px  rgb(119, 118, 118);
+
+        display: inline-block;
+
+    }
+
+    .divTextLong{
+
+        width: 96%;
+        height: 1300px;
+        border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 2%;
+
+    }
+
+
+
+    .divTextGb{
+
+        width: 99%;
+        height: 1000px;
+        //border: solid 1px rgb(48, 48, 230);
+        //border-radius: 8px;
+        //margin-left: 2%;
+        margin-top: 15px;
+
+        background-color: rgba(25,25,112);
+
+    }
+
+    .divTextGbBas{
+
+        width: 99%;
+        height: 1500px;
+        //border: solid 1px rgb(48, 48, 230);
+        //border-radius: 8px;
+        //margin-left: 2%;
+        margin-top: 15px;
+
+        background-color:rgb(90, 27, 141);
+
+    }
+
+
+
+
+    .divTitre{
+
+        width: 100%;
+        height: 19%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divTitreX{
+
+        width: 100%;
+        height: 9%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenu{
+
+        width: 100%;
+        height: 80%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenuFlex{
+
+        width: 100%;
+        height: auto;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .divContenuX{
+
+        width: 100%;
+        height: 90%;
+        //border: solid 1px rgb(48, 48, 230);
+
+
+    }
+
+    .textGras{
+
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(90, 27, 141);
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    .textGrasptit{
+
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(255, 30, 0);
+        text-align: center;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .textPetit{
+
+        font-size: 18px;
+        font-weight: bold;
+        color:rgb(36, 43, 1);
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .textGrasSousc{
+
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+
+
+
+    .textPetitSousc{
+
+        font-size: 21px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .cadreSSousc{
+
+        width: 90%;
+        height: 76%;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 10px;
+
+    }
+
+    .cadreSSousSOUM{
+
+        width: 90%;
+        height: 50%;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 15px;
+
+    }
+
+    .cadreSSousvD{
+
+        width: 45%;
+        height: 450px;
+
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 3%;
+        margin-top: 15px;
+        display:inline-block
+
+    }
+
+    .cadreSSousvDGauche{
+
+        width: 45%;
+        height: 450px;
+
+        //background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 3%;
+        margin-top: 15px;
+        display:inline-block
+
+    }
+
+    .traitX{
+
+        font-size: 20px;
+        font-weight: italic;
+        color: rgb(8, 8, 43);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 5px;
+
+
+    }
+
+    .traitXX{
+
+        font-size: 17px;
+        font-weight: italic;
+        color: rgb(8, 8, 43);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 5px;
+
+
+    }
+
+
+    .cadreTextValXX{
+
+        width: 90%;
+        height: 150px;
+
+        //border: solid 1px rgb(141, 147, 180); //rgba(25,25,112)
+        background-color:rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .cadreTextVal{
+
+        width: 90%;
+        height: 60px;
+
+        border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+    .cadreTextValA{
+
+        width: 45px;
+        height: 50px;
+
+        background-color:rgb(90, 27, 141);
+
+        border-radius: 40px;
+        margin-left: 2%;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+    }
+
+    .cadreTextValXXXC{
+
+        width: 70%;
+        height: 100%;
+        margin-left: 5%;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+        margin-bottom: 100px;
+
+
+
+    }
+
+    .cadreTextValXXXCMin{
+
+        width: 22%;
+        height: 100%;
+
+
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+
+
+        margin-left: 5px;
+
+    }
+
+
+
+
+
+
+
+    .cadreTextValXXXA{
+
+        width: 0%;
+        height: 100%;
+
+
+        display:none;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+    }
+
+
+    .btnProm{
+
+        width: 35%;
+        height: 60px;
+        margin-left: 36%;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+        color:rgb(19, 18, 0);
+
+    }
+
+    .cadreTextValXXXB{
+
+        width: 20%;
+        height: 100;
+
+
+        display: inline-block;
+
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left:3px;
+        padding-right: 3px;
+
+    }
+
+
+    .cadreTextValClose{
+
+        width: 45px;
+        height: 50px;
+
+
+        background-color: red;
+        border-radius: 40px;
+        //margin-left: 30%;
+
+
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+        display: inline-block;
+
+    }
+
+    .cadreTextValClosePhoto{
+
+        width: 70%;
+        height: 80px;
+
+        border-radius: 40px;
+        margin-left: 5%;
+
+
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        padding-left:3px;
+        padding-right: 3px;
+
+        display: inline-block;
+
+    }
+
+    .cadreTextValB{
+
+        width: 80%;
+        height: 50px;
+
+    // border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        border-radius: 8px;
+
+        display: inline-block;
+
+
+        padding-top:0px;
+        padding-bottom: 2px;
+
+        padding-left:3%;
+        padding-right: 3%;
+
+    }
+
+    .textCommGPS{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:white
+    }
+
+
+    .textComm{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:rgb(3, 3, 27);
+    }
+    .textZoneCadre{
+
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        background: none;
+        color:rgb(3, 3, 27);
+
+    }
+    .texteFptit{
+
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        font-weight: bold;
+
+        color:#bbcf46;//rgb(221, 215, 215);
+        margin-left:3%
+
+    }
+
+    .texteFContenue{
+
+        font-size: 21px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: justify;
+
+        color:rgb(235, 229, 229);
+        margin-left:3%;
+        margin-right:3%
+
+    }
+
+    .texteFGROS{
+
+        font-size: 26px;
+        font-family:'Trebuchet MS', sans-serif;
+        text-align: left;
+        font-weight: bold;
+
+        color:white;
+        margin-left:3%
+
+    }
+
+    ion-checkbox{
+
+        margin-left: 5%;
+        background:  rgb(216, 211, 211);
+        border-color: rgba(25,25,112);
+
+    }
+
+    .cadreJackPot{
+
+        width: 50%;
+        height: 60px;
+        margin-left:25%;
+        color:white;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        background-color: yellowgreen;
+        border-radius: 25px;
+
+        padding-left:5%;
+        padding-right:5%;
+        //padding-top:2%;
+
+        text-align: center;
+
+    }
+    .textXX1{
+        color:#db0f01;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .cadreContenueGen{
+
+        width: auto;
+        height: auto;
+
+    }
+
+    .divLogin{
+
+        width: 80%;
+        height: 80%;
+
+        position: absolute;
+        top:10%;
+        right: 10%;
+
+        //background-color: rgb(90, 27, 141);
+        border-radius: 14px 14px 14px 14px  ;
+
+        background:linear-gradient(to top, rgb(90, 27, 141),rgb(185, 169, 199));
+
+        display: none;
+
+    }
+
+
+    .divLogingps{
+
+        width: 90%;
+        height: 90%;
+
+        //position: absolute;
+        top:5%;
+        //right: 5%;
+
+        margin-left:5%;
+
+        //background-color: rgba(25,25,112);
+
+        border-radius: 14px 14px 14px 14px  ;
+
+        display: none;
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .tConn{
+
+        color: rgb(90, 27, 141);
+        font-size: 16px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        //font-weight: bold;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 10px;
+
+    }
+
+    .tConnNew{
+
+        color: rgba(25,25,112);
+        font-size: 16px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        //font-weight: bold;
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 23px;
+
+    }
+
+    .tConnRR{
+
+        color:#db0f01;
+        font-size: 22px;
+        font-family:Tahoma, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .textCommWhite{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        margin-left: 5%;
+        color:rgb(216, 211, 211);
+    }
+
+    .cadreTextValWhite{
+
+        width: 90%;
+        height: 60px;
+
+        border: solid 1px rgb(121, 132, 184); //rgba(25,25,112)
+        background-color: rgb(216, 211, 211);
+        border-radius: 8px;
+        margin-left: 5%;
+        margin-top: 5px;
+
+
+        padding-top:2px;
+        padding-bottom: 2px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .btnInfoIconLogin{
+        width: 85%;
+        height: 85%;
+        //color:rgba(25,25,112);
+        //background: #db0f01;
+    }
+
+
+    .cadreBtnCommLogin{
+
+        width: 90%;
+        height: 45px;
+        margin-left: 5%;
+
+        background-color: #db0f01;
+
+        border-radius: 15px;
+
+
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 30%;
+        padding-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .cadreGlobFacture{
+
+        width: 100%;
+        height: 300px;
+        background-color:  rgb(216, 211, 211);
+
+    }
+
+
+    .cadreGlobFactureGR{
+
+        width: 100%;
+        height: 350px;
+        background-color:  rgb(216, 211, 211);
+
+    }
+
+
+    ion-row{
+
+        --background:  rgb(216, 211, 211);;
+    }
+
+    .contenuTableBG{
+        background-color: rgb(216, 211, 211);
+        color:black;
+    }
+
+    .cadreDash{
+
+        width: 48%;
+        height: auto;
+        margin-left: 1%;
+
+        display: inline-block;
+
+
+
+    }
+
+
+
+
+
+    .cadreDashFAc{
+
+        width: 100%;
+        height: 65px;
+        border-radius: 9px;
+        background-color:  rgb(216, 211, 211);
+
+        padding-left: 5px;
+
+    }
+    .textFac{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-weight: bold;
+
+        padding-left: 20%;
+
+        font-size: 16px;
+
+        color: black;
+
+    }
+
+    .cadreIconD{
+
+        width: 10%;
+        height: 60%;
+
+        border: solid 1px gray;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        padding-left: 2px;
+
+        padding-top: 10px;
+
+        margin-top: 10px;
+
+    }
+
+    .cadreContD{
+
+        width: 39%;
+        height: 60%;
+
+        //border: solid 1px gray;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        padding-left: 8px;
+        margin-top: 15%;
+
+        color:black;
+        font-size: 12px;
+
+        margin-top: 10px;
+        //font-weight: bold;
+
+    }
+
+    .iconRapBas{
+
+        color: rgba(25,25,112);
+    }
+
+    .cadreFFac1Gr{
+
+        width: 45%;
+        height: 80%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+
+        display: inline-block;
+
+        background-color: rgb(216, 211, 211);
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadreFFac2Gr{
+
+        width: 54%;
+        height: 80%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+
+    .cadreFFac1{
+
+        width: 45%;
+        height: 85%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+
+        display: inline-block;
+
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+    .cadreFFac2{
+
+        width: 54%;
+        height: 85%;
+        margin-top: 5%;
+
+        //border: 1px solid black;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+    .cadreCorpFac{
+
+        width: 98%;
+        height: 40px;
+        //border:
+
+        border-bottom: 2px solid black;
+        margin-left: 1%;
+
+    }
+
+    .cadreCorpFac1{
+
+        width: 48%;
+        height: 100%;
+        //border: 1px solid blue;
+        margin-left: 1%;
+
+        display: inline-block;
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+
+        font-size: 14px;
+
+    }
+
+    .cadreCorpFac2{
+
+        width: 48%;
+        height: 100%;
+        //border: 1px solid blue;
+        margin-left: 1%;
+
+        display: inline-block;
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+
+        font-size: 14px;
+
+    }
+
+    .tFac{
+
+        color:rgba(25,25,112);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+
+    .cadreDashABONNE{
+
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+
+        display:none;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+    }
+
+
+    .cadreHautAccueilSynth{
+
+        width: 98%;
+        height: 250px;
+
+        margin-left:1%;
+        margin-top: 15px;
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    .cadreHautRapportAccuel{
+        width: 98%;
+        height: 70px;
+        display: block;
+        margin-top: 2px;
+
+
+
+
+        //display: inline-block;
+    }
+    .grouperAll{
+        border-radius: 11px;
+        border: 2px darkblue solid;
+        color:darkblue
+    }
+
+    .cadreHautIconSynthese{
+
+        width: 20%;
+        height: 60px;
+        margin-left: 40%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 45%;
+        color:white;
+
+        padding-left: 10px;
+        padding-top: 10px;
+
+
+    }
+
+    .cadreHautIconSyntheseB_Bas{
+
+        width: 96%;
+        height: 20px;
+        color:black;
+        padding-left: 2%;
+
+    }
+
+
+    .titreSynthAccueil{
+
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .btnsettingBas{
+
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: darkblue;
+        --color:white
+    }
+
+    .divNumero{
+
+        width: 40px;
+        height: 30px;
+        background-color:darkblue ;
+        border-radius: 6px;
+
+        color:white;
+        font-weight: bold;
+
+        padding-left: 10px;
+        padding-top: 4px;
+
+    }
+
+    .iconBtnComm{
+
+        //background-color:red;
+        color:red
+    }
+
+    .textINFGPS{
+        color:white;
+        font-weight: bold;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        font-size: 15px;
+    }
+
+    .cadreGPSpos{
+
+        width: 90%;
+        height: 100px;
+
+        margin-left: 5%;
+        margin-top: 15px;
+
+        border-radius:10px;
+
+        background-color: rgb(216, 211, 211);
+
+    }
+
+    .careVall{
+
+        width: 90%;
+        height: 100px;
+
+        background-color: red;
+
+    }
+
+    .cadreStat1A{
+
+        width: 92%;
+        height: 300px;
+        margin-left: 4%;
+
+        background-color: rgb(37, 32, 32);
+        background-image: url("/assets/PDG-CTI-1.jpg");
+        background-size:85% ;
+        background-repeat: no-repeat;
+
+
+        //display: inline-block;
+        border-radius: 9px;
+
+
+
+    }
+    .cadrepaiement{
+
+
+        width: 92%;
+        height: 80%;
+        margin-left: 4%;
+        //position: absolute;
+        display:none;
+
+        margin-top: 5%;
+
+
+    }
+
+    #cadreIDMoyen2{
+
+        display: none;
+    }
+    .partiNyumbani{
+        display: none;
+    }
+
+    .cadreTab{
+
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 9px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(228, 220, 220);
+        display:none
+
+    }
+
+
+    .divTextPreccXX{
+
+        width: 96%;
+        height: 500px;
+        border: solid 1px rgb(48, 48, 230);
+        border-radius: 8px;
+        margin-left: 2%;
+
+
+
+    }
+
+    .cadreHautXX{
+
+        width: 100%;
+        height: 70px;
+
+        position: fixed;
+
+        background-color: white;
+        border: solid 3px rgb(134, 131, 131);
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+    }
+    .cadreGalerieCouvre{
+
+        width: 100%;
+        height: 300px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(240, 233, 233);
+        border-radius: 8px;
+
+    }
+
+    .cadreGalerie{
+
+        width: 2500px;
+        height: 96%;
+
+        margin-top: 2%;
+
+        background-color: rgb(240, 233, 233);
+
+
+    }
+    .imagelogo{
+
+        width: 50%;
+        height: 25%;
+
+        border-radius: 8px;
+
+
+    }
+
+    .imagelogoNew{
+
+        width: 50%;
+        height: 80%;
+
+        border-radius: 8px;
+
+
+    }
+
+    .imagelogoNewPartnes{
+
+        width: 80%;
+        height: 80%;
+
+        //border-radius: 8px;
+        margin-left: 10%;
+
+
+    }
+
+
+    .imageAcueill{
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 8px;
+
+    }
+
+    .imageAcueillPT{
+
+        width: 90%;
+        height: 80%;
+
+        border-radius: 8px;
+
+    }
+
+
+
+    p{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    // commence me de la
+
+    .cadreScrollSynthGach{
+
+        width: 35%;
+        height: 350px;
+        background:linear-gradient(to bottom, black,rgb(90, 27, 141));
+        background-size: 80%;
+        margin-left: 5%;
+
+        display: inline-block;
+
+        padding-right: 30px;
+        padding-top: 60px;
+
+        padding-left: 200px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadreScrollSynth{
+
+        width: 60%;
+        height: 350px;
+        background-image: url('/assets/images/f2.jpeg');
+        background-size: 80%;
+
+        background-repeat: no-repeat;
+
+        animation: infinite 10s ease-in-out top opaciting;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .cadreScrollSynthA{
+
+        width: 7%;
+        height: 100%;
+
+        display:inline-block;
+
+        color:blue;
+
+
+
+
+
+    }
+
+    .cadreScrollSynthB{
+
+        width: 85%;
+        height: 100%;
+
+        display:inline-block;
+
+        background-image: url('/assets/images/drkk1.jpeg');
+
+    }
+
+
+    ion-item{
+
+        background: #a284db;
+
+    }
+
+    ion-accordion{
+
+        background: #a284db;
+
+    }
+
+    ion-accordion-group{
+
+        background-color: #a284db;
+        color:black
+
+    }
+
+    .lienCache{
+
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .cadrePointeur{
+
+        width: 20%;
+        height: 35px;
+
+        margin-left: 40%;
+        border-radius: 25px;
+        background-color: rgb(201, 193, 202);
+
+    }
+
+    .cadrePointeurCircle{
+
+        width: 20px;
+        height: 20px;
+        margin-left: 12%;
+        border-radius: 40px;
+        background-color: rgb(89, 84, 90);
+        display: inline-block;
+
+        margin-top: 5px;
+
+
+
+
+    }
+
+    .divcadre{
+
+        width: 100%;
+        height: 120px;
+
+        margin-top: 5px;
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+    .div1{
+
+        width: 98%;
+        height: 40%;
+        margin-left: 1%;
+        margin-top: 0%;
+        background-color:white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+    .div1Pay{
+
+            width: 98%;
+            height: 40%;
+            margin-left: 1%;
+            margin-top: 0%;
+            //background-color:white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .div2Pay{
+
+            width: 98%;
+            height: 50px;
+            margin-left: 1%;
+            margin-top: 5%;
+            //background-color: white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .div2{
+
+            width: 98%;
+            height: 50px;
+            margin-left: 1%;
+            margin-top: 5%;
+            background-color: white;
+            //border:2px solid black;
+            border-radius:1px 11px 1px 1px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+        .divbtn{
+
+            width: 80%;
+            height: 40px;
+            margin-left: 10%;
+            margin-top: 5%;
+            background-color: red;
+            //border:2px solid black;
+            border-radius:20px;
+            display: flex;
+            justify-content: center;
+
+            align-items: stretch;
+
+        }
+
+
+        .divSous1{
+
+            width: 20%;
+            height: 100%;
+            background-color:rgb(90, 27, 141);
+            display: inline-block;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2{
+
+            width: 80%;
+            height: 100%;
+            display: inline-block;
+
+        }
+
+
+
+        .divSous1New{
+
+            width: 20%;
+            height: 100%;
+            background-color: rgb(90, 27, 141);
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2New{
+
+            width: 80%;
+            height: 100%;
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+        }
+
+
+
+        .divSous1NewxXX{
+
+            width: 40%;
+            height: 100%;
+            background-color: rgb(90, 27, 141);
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+            position: relative;
+            top:0
+
+        }
+
+        .divSous2NewXX{
+
+            width: 60%;
+            height: 100%;
+            display: inline-block;
+
+            padding-left: 15px;
+            padding-top: 7px;
+            font-size: 20px;
+
+        }
+
+
+        .divRech2NewSexe{
+            width: 40%;
+            height: 100%;
+            display: inline-block;
+
+            background: linear-gradient(to left, rgb(138, 132, 132),white);
+
+
+        }
+
+
+
+        input{
+
+            background-color: white;
+        }
+
+
+       .cadrePartnes{
+
+            width: 100%;
+            height: 120px;
+
+
+
+
+            background: linear-gradient(to right, rgb(138, 132, 132),white);
+
+
+
+       }
+
+       .cadrePartnes1{
+
+        width: 35%;
+        height: 120px;
+
+        display: inline-block;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+
+        //border:solid 2px rgb(102, 57, 57);
+
+
+
+
+    }
+
+    .cadrePartnes2{
+
+        width: 64%;
+        height: 120px;
+
+        display: inline-block;
+
+        //border:solid 2px red;
+
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+
+    }
+
+    .titreParterns{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#a682e7;
+        font-size: 16px;
+        text-align: right;
+
+        //  rgb(90, 27, 141);
+
+    }
+
+    .cadreBtnCenter{
+
+        width: 60%;
+        height: 40px;
+
+        margin-top: 5%;
+        background:linear-gradient(to right, red,rgb(175, 19, 19));
+        //border:2px solid black;
+        border-radius:20px;
+        color:white;
+
+        padding-left: 30px;
+        padding-top: 5px;
+
+
+
+     }
+
+     .cadreContenu{
+
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+
+        background:linear-gradient(to right, rgb(245, 240, 240),white);
+
+     }
+    .cadreSousCont{
+
+        width: 90%;
+        height: auto;
+
+        margin-left: 5%;
+
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+
+    }
+    .titreBinv{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color:white;
+        text-align: right;
+
+    }
+
+
+
+    #cadreBtnCenterMobile{
+
+        display:none
+    }
+
+     .cadreBtnCenterFile{
+
+        width: 60%;
+        height: 40px;
+        margin-left: 20%;
+        margin-top: 5%;
+
+        border:2px solid rgb(90, 27, 141);
+        border-radius:20px;
+        color:rgb(90, 27, 141);
+
+        padding-left: 45px;
+        padding-top: 5px;
+
+
+
+     }
+
+     .pRnseign{
+
+      font-size: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: justify;
+
+      margin-left: 20px;
+      margin-right: 20px;
+
+      color:rgb(109, 78, 134);
+
+
+     }
+
+      .cadreSousCont{
+
+        width: 42%;
+        height: auto;
+
+        margin-left: 5%;
+
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+        display: inline-block;
+
+
+    }
+
+     .cadreSousContGauche{
+
+        width: 42%;
+        height: auto;
+
+        margin-left: 5%;
+
+        //background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreSousContPT{
+
+        width: 90%;
+        height: auto;
+
+        margin-left: 5%;
+
+        background:linear-gradient(to right, rgb(201, 192, 192),rgb(240, 236, 236));
+
+        border-radius: 6px;
+
+        display: inline-block;
+
+
+    }
+
+
+    .cadreBtnCenter{
+
+        width: 90%;
+        height: 40px;
+        margin-left: 5%;
+        margin-top: 5%;
+        background:linear-gradient(to right, red,rgb(175, 19, 19));
+        //border:2px solid black;
+        border-radius:20px;
+        color:white;
+
+        padding-left: 45px;
+        padding-top: 5px;
+
+
+
+     }
+
+     .cadreBtnCenterSauv{
+
+        width: 20%;
+        height: 40px;
+        margin-left: 40%;
+        margin-top: 5%;
+        background:linear-gradient(to right, red,rgb(175, 19, 19));
+        //border:2px solid black;
+        border-radius:20px;
+        color:white;
+
+        padding-left: 45px;
+        padding-top: 5px;
+
+
+
+     }
+
+     .cadreBtnCenterSauvMOBILE{
+
+        display:none
+
+
+
+     }
+
+
+
+
+
+
+
+}
+
+.textCommxx{
+
+  color:#db0f01;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cadreSCPOGen{
+
+      width:100%;
+      height: auto;
+
+      background-color:rgb(90, 27, 141);
+
+     }
+
+
+
+.tConnxxx{
+
+  color:  rgb(90, 27, 141);
+}
+
+ion-item{
+
+  background: red;
+
+}
+
+.iconFile{
+
+  font-size: 20px;
+
+  color:#a682e7
+
+}
+
+.cadreCouvreSCPO{
+
+  background: linear-gradient(to right, rgb(138, 132, 132),white);
+
+
+}
+
+
+

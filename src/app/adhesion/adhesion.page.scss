@@ -1,0 +1,7302 @@
+
+
+:host {
+  --bg: #eef4ff;
+  --card: #ffffff;
+  --primary: #0d47a1;
+  --secondary: #e3f2fd;
+  --success: #e8f5e9;
+  --warning: #fff3e0;
+  --danger: #fdecea;
+  --accent: #f3e5f5;
+  --text: #1d2a39;
+  --muted: #5f7285;
+  --border: rgba(13, 71, 161, 0.12);
+
+
+}
+
+ion-content {
+  --background: var(--bg);
+}
+
+.page-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #0d47a1,darkblue);
+  color: #fff;
+  border-radius: 24px;
+  padding: 22px 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+}
+
+.icon-wrap {
+  width: 62px;
+  height: 62px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.status-badge {
+  display: inline-block;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 16px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+
+
+
+}
+
+.label {
+  color: var(--muted);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.value {
+  font-size: 1.1rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.primary {
+  background: linear-gradient(180deg, #f3f8ff, #ffffff);
+}
+
+.success {
+  background: linear-gradient(180deg, #f0fff4, #ffffff);
+}
+
+.warning {
+  background: linear-gradient(180deg, #fff8f1, #ffffff);
+}
+
+.accent {
+  background: linear-gradient(180deg, #faf3ff, #ffffff);
+}
+
+.danger {
+  background: linear-gradient(180deg, #fff3f2, #ffffff);
+}
+
+.footer-box {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 18px 16px;
+}
+
+.small-label {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.footer-box strong {
+  color: var(--text);
+  font-size: 1rem;
+}
+
+
+
+
+fieldset{
+    background-color: white;
+    border-radius:4px;
+}
+
+
+.Cadrefieldset{
+    background-color: rgb(193, 193, 219) ;
+    border-radius:4px;
+}
+.titreLast{
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 3%;
+}
+.masqable{
+    font-size: 22px;
+    margin-right: 5px;
+    cursor: pointer;
+
+    --background:rgb(247, 44, 44)
+}
+
+td{
+    background-color: rgb(247, 44, 44);
+}
+.divApp{
+    width:100%;
+    height:auto;
+
+    display:none;
+}
+ion-select{
+    --color:darkblue;
+
+}
+
+legend{
+    color:darkblue;
+    font-weight: bold;
+}
+.sepaTab{
+    background-color: rgb(61, 61, 129);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sepaTabBG{
+    background: linear-gradient(135deg,rgb(61, 61, 129),rgb(175, 175, 207));
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sepaTabtITRE{
+    background-color: darkblue;
+
+}
+.textColore{
+    color:black
+}
+
+.textSpan{
+    color:white;
+    font-weight: bold;
+}
+
+.textSpanTracer{
+    color:black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.sepaTabXX{
+
+    background-color:rgb(193, 193, 219);
+    color:rgb(2, 2, 49)
+}
+
+@keyframes animMsgBox{
+    0%{
+
+
+        transform: scale(0.5);
+
+    }
+    60%{
+
+        transform: scale(1);
+    }
+}
+
+
+@keyframes animationMid{
+    0%{
+
+        background-size: 100%;
+        transform: scale(0.5);
+
+    }
+    60%{
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+}
+@keyframes transition{
+
+    0%{
+        background-image: url("/assets/images/pharm8.jpeg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+
+    }
+    30%{
+        background-image: url('/assets/images/ima6.jpeg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+
+    60%{
+        background-image: url('/assets/images/pharm8.jpeg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+    80%{
+        background-image: url('/assets/images/phar5.jpeg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes transitionBas{
+
+    0%{
+        background-image: url("/assets/images/dr3.jpeg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+
+    }
+    30%{
+        background-image: url('/assets/images/pharma3.png');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+
+    90%{
+        background-image: url('/assets/images/pharma6*.jpeg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+        transform: scale(1);
+    }
+
+
+}
+
+ion-button{
+    --background:darkblue;
+    --color:white;
+}
+ion-icon{
+    --color:rgb(247, 44, 44);
+
+}
+.textselect{
+    color:white;
+}
+.trechProd{
+    margin-left: 10%;
+
+}
+.text{
+    color:black;
+    font-size: 15px;
+}
+
+
+
+@media (min-width:601px) and (max-width:1024px){
+
+}
+
+@media (min-width:1025px){
+
+    ion-content{
+        --background:rgb(193, 193, 219);
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .cadreCenter{
+
+      width: 60%;
+      height: 44px;
+      margin-left: 20%
+
+
+    }
+
+    .divPOP{
+        width: 20%;
+        height: 140px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 8px;
+        background-color: rgb(193, 193, 219);
+        box-shadow: 2px 3px 2px black;
+
+        display: none;
+
+        animation: ease-in 1s animMsgBox;
+    }
+
+    .btnBasLearder{
+
+        width: 50%;
+        height: 40px;
+        margin-left: 25%;
+
+        background-color: white;
+        font-weight: bold;
+        color: white;
+        border-radius: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    .cadreValOP1{
+
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .cadreValOP2{
+
+        width: 79%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+
+    .cadreValMotifBas{
+
+        width: 30%;
+        height: 100%;
+        margin-left: 2%;
+        display: inline-block;
+
+    }
+
+    .cadreGenCouvre{
+
+        width: 100%;
+        height: 150px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(253, 250, 250);
+
+        border-radius: 15px;
+    }
+
+    .cadreProdGen{
+
+        width: 900px;
+        height: 100%;
+
+    }
+
+    .cadreProdGen1{
+
+        width: 48%;
+        height: 90%;
+        display: inline-block;
+
+        //background-color: rgb(247, 44, 44);
+
+
+    }
+
+
+    .cadreSynthStock{
+
+        width: 2650px;
+
+        height: 15%;
+        margin-top: 3%;
+
+
+    }
+
+    .cadreSynthStockPerfo{
+
+        width: auto;
+
+        height: 15%;
+        margin-top: 3%;
+
+
+    }
+
+
+
+    .btnAutoriser{
+
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-size:13px;
+        font-weight:bold;
+
+        margin-left:40%;
+        margin-top: 0px;
+
+    }
+
+    .cadreGestionABnDessous{
+
+        width: 94%;
+        height: 100%;
+
+        background-color:rgb(193, 193, 219);
+        border-radius: 8px;
+
+        //display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 3%;
+
+    }
+
+    .cadreGestionABn{
+
+
+        width: 100%;
+        height: 400px;
+
+        background-color:rgb(193, 193, 219);
+        border-radius: 8px;
+
+        //display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+    }
+    .divDating1{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .divHautPrise{
+        width: 30%;
+        height: 50px;
+        margin-left:67%;
+
+
+    }
+    .textInputt{
+
+        font-size: 17px;
+        font-weight: bold;
+        --color:black
+    }
+
+    .textAver{
+        color:rgb(236, 76, 76);
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    .cadreAvertissement{
+        width: 80%;
+        height: 90px;
+        margin-left:10%;
+        margin-top: 15px;
+
+        border-radius: 4px;
+
+        background-color: rgb(193, 193, 219);
+
+        display: none;
+    }
+    .divAvert1{
+
+        width: 100%;
+        height: 33%;
+
+        //background-color: rgb(247, 44, 44);
+
+    }
+
+    .divAvert2{
+
+        width: 100%;
+        height: 68%;
+
+    }
+
+    .divAvert1a{
+
+        width: 89%;
+        height: 100%;
+
+        display: inline-block;
+
+    }
+
+    .divAvert1b{
+
+        width: 10%;
+        height: 100%;
+
+        display: inline-block;
+
+    }
+
+    .divteteFinancier{
+        width: 100%;
+        height: 60px;
+    }
+    .divteteFinancier1{
+        width: 80%;
+        height: 100%;
+
+        display:inline-block
+    }
+    .divteteFinancier2{
+        width: 18%;
+        height: 100%;
+
+        display:inline-block
+    }
+
+    #histoHidend1{
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    #histoHidend2{
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        border-radius: 6px;
+        background-color: white;
+        overflow-y: auto;
+
+        display:none
+    }
+    #histoHidend3{
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+    #histoHidend4{
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+    #histoHidend5{
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    .textRepHisto{
+        //color:rgb(93, 226, 93);
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 45%;
+
+    }
+
+    .cadreHisto{
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        background-color:rgb(193, 193, 219);
+        border: 2px gray solid;
+
+        margin-top: 12px;
+
+    }
+
+    .divTracPeremption{
+        width: 400px;
+        height: 60px;
+        margin-left:5%;
+
+
+    }
+    .divPeremption1{
+        width: 25%;
+        height: 90%;
+
+        display: inline-block;
+    }
+
+    .divPeremption2{
+        width: 20%;
+        height: 90%;
+
+        background-color: white;
+
+        display: inline-block;
+    }
+
+    .divPeremption3{
+        width: 50%;
+        height: 90%;
+
+        display: inline-block;
+    }
+
+    .btnTracerMsgBox{
+        margin-left: 15%;
+
+        --color:white;
+        --background:rgb(247, 44, 44);
+    }
+
+    .divMsgBox{
+
+        background-color: darkblue;
+        width: 50%;
+        margin-left: 25%;
+        display: none;
+        border-radius:9px;
+
+        animation: ease-in 1s animMsgBox;
+    }
+
+    .divTrace2COmm1{
+        width: 100%;
+        height: 48%;
+
+    }
+    .divDtailGd{
+        width: 30%;
+        height: 50px;
+
+        margin-left: 2%;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+
+    }
+
+    .divDetailVente{
+
+        width: 49%;
+        height: 80%;
+
+
+        display: inline-block;
+
+    }
+
+    .divTaill{
+
+        width: 40%;
+        height: 60px;
+        background-color: rgb(213, 213, 238); ;
+        border-radius:8px;
+
+        margin-left:55%
+
+    }
+
+    .divTaill1{
+
+        width: 10%;
+        height: 70%;
+        margin-top: 10px;
+        margin-left: 5px;
+
+        display: inline-block;
+    }
+
+    .divTaill2{
+
+        width: 15%;
+        height: 70%;
+        margin-top: 5px;
+        background-color:white;
+        border-radius:8px;
+
+        display: inline-block;
+    }
+
+    .divTaill3{
+
+        width: 35%;
+        height: 100%;
+
+        display: inline-block;
+    }
+    .divTaill4{
+        width: 38%;
+        height: 100%;
+
+        display: inline-block;
+
+
+    }
+    .divTaill41{
+
+        width: 30%;
+        height: 70%;
+
+        display: inline-block;
+
+
+
+    }
+
+    .divTaill42{
+
+        width: 68%;
+        height: 70%;
+
+        display: inline-block;
+
+
+
+    }
+
+    .divTrace1aPrise{
+        width: 49%;
+        height: 50%;
+
+        margin-top: 5px;
+
+        display: inline-block;
+    }
+
+    .divTrace1asepaPrise{
+        width: 35%;
+        height: 70%;
+        margin-top: 5px;
+
+        display: inline-block;
+    }
+
+    .cadrestocTracerCouv{
+        width: 100%;
+        height: 800px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .cadreSynthStockCouvre{
+        width: 100%;
+        height: 200px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+
+    .cadrestocTracer{
+        width: 2000px;
+        height: 79%;
+
+        //margin-left:1%;
+
+
+    }
+
+    .cadrestocTracerPerfo{
+        width: auto;
+        height: 79%;
+
+        //margin-left:1%;
+
+
+    }
+
+    .tracersTOCKPerfo{
+
+        width: 100%;
+        height: 97%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBBorder{
+
+        width: 32%;
+        height: 97%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+        border: 2px solid darkblue;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCK{
+
+        width: 32%;
+        height: 97%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBorder{
+
+        width: 32%;
+        height: 97%;
+
+        //background-color: rgb(193, 193, 219);
+        border: solid 2px darkblue;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBas{
+
+        width: 24%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBasPerfo{
+
+        width: 100%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBasLeader{
+
+        width: 24%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: white;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracerINfo{
+
+        width: 47%;
+        height: 90%;
+
+        background-color:rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 2%;
+
+    }
+
+    .tracerINfoBas{
+
+        width: 47%;
+        height: 6%;
+
+        background-color:rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 2%;
+
+    }
+
+    .divTrace1Prise{
+        width: 100%;
+        height: 100%;
+    }
+
+    .divTracePrise{
+
+        width: 100%;
+        height: 90px;
+        //margin-left: 10%;
+
+        background-color: rgb(193, 193, 219);
+
+    }
+
+    .divTrace{
+
+        width: 100%;
+        height: 80px;
+        //margin-left: 10%;
+
+        background-color: rgb(193, 193, 219);
+    }
+
+    .divTracePrisePro{
+
+        width: 100%;
+        height: 80px;
+        //margin-left: 10%;
+
+        background-color: rgb(193, 193, 219);
+    }
+
+    .divTrace1{
+
+        width: 83%;
+        height: 60%;
+
+        background-color:rgb(193, 193, 219);
+
+        display: inline-block;
+
+        top:0px;
+
+    }
+
+
+    .divTrace2{
+
+        width: 17%;
+        height: 100%;
+
+        background-color:rgb(193, 193, 219);
+
+        display: inline-block;
+
+        top:0px;
+
+    }
+
+
+    .divTrace2X{
+
+        width: 17%;
+        height: 90%;
+
+        background-color: rgb(193, 193, 219);
+
+        display: inline-block;
+
+        top:0px;
+
+    }
+
+    .divTrace1SOlo{
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .divTrace1a{
+        width: 30%;
+        height: 100%;
+
+        display: inline-block;
+    }
+
+    .divSuplem{
+        display: inline-block;
+    }
+
+    .divTrace1asepa{
+        width: 5%;
+        height: 100%;
+
+        display: inline-block;
+    }
+
+    .divTrace1asepaMotifPro{
+        width: 30%;
+        height: 70px;
+
+
+        margin-left: 2%;
+
+        display: inline-block;
+    }
+
+    .btnTracer{
+        --background:rgb(247, 44, 44);
+        --color:white;
+
+        font-weight: bold;
+        font-size: 17px;
+
+        margin-left: 5%;
+    }
+
+    .btnCombiner{
+        --background:rgb(247, 44, 44);
+        --color:white;
+
+        font-weight: bold;
+        font-size: 15px;
+
+        margin-left: 5%;
+        //margin-left: 83.5%;
+    }
+    .divConn{
+        width: 50%;
+        height: 550px;
+        margin-left: 25%;
+        margin-top: 1%;
+        border-radius:13px;
+        //background-color: darkblue;
+    }
+
+    .divConnPaiement{
+        width: 96%;
+        height: 550px;
+        margin-left: 2%;
+        margin-top: 1%;
+        border-radius:13px;
+        //background-color: darkblue;
+
+        display: none;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+
+    }
+
+
+    .divConnPaiement1{
+        width: 46%;
+        height: 550px;
+        margin-left: 2%;
+        margin-top: 1%;
+        border-radius:13px;
+        background-color: rgb(61, 61, 129);
+
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .divConnPaiement2{
+        width: 46%;
+        height: 100%;
+        margin-left: 2%;
+        margin-top: 1%;
+        border-radius:13px;
+       // background-color: darkblue;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+    }
+
+
+    .divFacturePay{
+        width: 50%;
+        height: 550px;
+        margin-left: 25%;
+        margin-top: 1%;
+        border-radius:13px;
+        background-color: rgb(193, 193, 253);
+        box-shadow: 0px 1px 0px 1px  rgb(171, 171, 224);
+
+        overflow: auto;
+        overflow-y: auto;
+
+        display: none;
+    }
+
+    .cadreSousv{
+        width: 100%;
+        height: 94%;
+        margin-top: 0px;
+        border-radius:13px;
+        background: linear-gradient(135deg, rgb(223, 218, 218) 0%, rgb(214, 189, 189) 40%, rgb(172, 182, 230) 40%);
+
+    }
+    .cadreHautServ{
+        width: 100%;
+        height: 120px;
+    }
+
+    .cadreHautVentilation{
+        width: 50%;
+        height: auto;
+
+        margin-left: 5%;
+
+        margin-top: 0px;
+
+    }
+
+    .divFilre{
+
+        width: 44%;
+        //height: 60px;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 3%;
+        border-radius:6px;
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+        display: inline-block;
+
+    }
+
+    .divFilrePermission{
+
+        width: 22%;
+        height: 60px;
+        margin-top: 0px;
+        margin-left: 2%;
+        border-radius:6px;
+        background-color: rgb(193, 193, 219);
+        display: inline-block;
+
+    }
+
+    .divFilre1{
+        width: 25%;
+        height: 50%;
+        display: inline-block;;
+        margin-left: 1%;
+
+        //background-color: rgb(193, 193, 219);
+    }
+    .divFilre2{
+        width: 33%;
+        height: 90%;
+        display: inline-block;
+
+        background-color: white;
+
+        border-radius:8px;
+
+    }
+    .divFilre3{
+        width: 40%;
+        height: 90%;
+        display: inline-block;;
+
+
+    }
+
+    .divFilre1Tracer{
+        width: 25%;
+        height: 80%;
+        display: inline-block;;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        background-color: rgb(193, 193, 219);
+    }
+
+    .divFilre1TracerTracage{
+        width: 50%;
+        height: 80%;
+        display: inline-block;;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        //background-color: white
+    }
+    .divFilre2Tracer{
+        width: 33%;
+        height: 80%;
+        background-color: white;
+        display: inline-block;
+
+        border-radius: 4px;
+
+    }
+    .divFilre3Tracer{
+        width: 40%;
+        height: 80%;
+        //margin-top: 20%;
+        display: inline-block;;
+
+
+    }
+
+    .divFilre3TracerTracage{
+        width: 40%;
+        height: 80%;
+        //margin-top: 20%;
+        display: inline-block;;
+
+
+    }
+
+    .divFilre1TracerX{
+        width: 45%;
+        height: 50%;
+        display: inline-block;;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        background-color:rgb(193, 193, 219);
+    }
+
+    .divFilre3TracerX{
+        width: 45%;
+        height: 50%;
+        //margin-top: 20%;
+        display: inline-block;
+
+
+    }
+
+    .divFilre3TracerXX{
+
+        width: 100%;
+        height: 50%;
+        //margin-top: 20%;
+
+        background-color:rgb(193, 193, 219);
+
+
+    }
+
+    .btnSituation{
+        margin-left: 5%;
+        top:0;
+        --background:rgb(247, 44, 44);
+        width: 20%;
+        height: 80%;
+
+    }
+
+    .btnFinancier{
+        margin-left: 5%;
+        top:0;
+        --background:rgb(247, 44, 44);
+        width: 20%;
+        height: 40px;
+
+    }
+
+    .btnAvr{
+        margin-left: 5%;
+        top:0;
+        --background:darkblue;
+        width: 30px;
+        height: 20px;
+
+    }
+    .iconFinancier{
+        color:white;
+    }
+
+
+    //LES OBJET DE LA PAHGE DE CONNEXION
+
+    .condiv2{
+
+        width: 80%;
+        height: 60px;
+        margin-left: 10%;
+        margin-top: 5%;
+        background-color:white;// rgb(190, 182, 182);
+        border:1px solid rgb(193, 193, 219);
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+    input{
+        outline: none;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 2%;
+        width: 80%;
+        background-color:white;
+        border-top:none;
+        border-bottom:none;
+        border-left:none;
+        border-right:none;
+        color:black
+    }
+    .conbtconnexion{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-weight: bold;
+
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 6%;
+        border-radius:25%;
+
+    }
+
+    .conbtconnexionPay{
+        --background:rgb(214, 27, 27);
+        --color:white;
+        font-weight: bold;
+
+        width: 80%;
+        height: 30px;
+        margin-left: 10%;
+        margin-top: 3%;
+        border-radius:25%;
+
+    }
+
+
+    .btnPay{
+        --background:rgb(212, 26, 26);
+        --color:white;
+        font-weight: bold;
+
+        width: 40%;
+        height: 40px;
+        margin-left: 30%;
+        margin-top: 6%;
+        border-radius:25%;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .condivSous1{
+
+        width: 20%;
+        height: 100%;
+        background-color: darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .condivSous2{
+
+        width: 80%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .contitre1{
+        color:black;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .contitre2{
+        color:black;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .conlienCTI{
+        font-size: 15px;
+        color:white;
+        margin-left: 40%;
+    }
+    .conlabel{
+        font-weight: bold;
+
+    }
+    .contitre{
+        font-size: 25px;
+        font-weight: bold;
+        color:black;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .contitrePaiement{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(193, 193, 219) ;
+        margin-top: 1%;
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .contitrePaiementPay{
+        font-size: 25px;
+        font-weight: bold;
+        color:darkblue ;
+        margin-top: 1%;
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    // FIN DE L WDIGET
+
+    .pageJournal{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+        display:none;
+    }
+    .pageVente{
+        width: 100%;
+        height: auto;
+        background-color:rgb(193, 193, 219);
+        display: none;
+    }
+    .pageMode{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+
+    }
+    .pageStock{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+    }
+    .pageSetting{
+        width: 60%;
+        height: auto;
+        margin-left:20%;
+        margin-top: 1%;
+        background-color: white;
+        border:solid white 2px;
+
+        display: block;
+    }
+
+    .pageAjout{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+        border-radius: 8px;
+
+        margin-left:10%;
+        margin-top: 1%;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+    }
+
+    .pageAMiseAJour{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+        border-radius: 8px;
+
+        margin-left:10%;
+        margin-top: 1%;
+        background-color: white;
+        border:solid white 2px;
+
+
+        display: none;
+    }
+    .pageRavitaillement{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+        border-radius: 8px;
+
+        margin-left:10%;
+        margin-top: 1%;
+        background-color: white;
+        border:solid white 2px;
+
+
+        display: none;
+    }
+
+
+    .pageSignaler{
+        width: 80%;
+        height: 880px;
+        background-color: white;
+        border:solid white 2px;
+        border-radius: 8px;
+
+        margin-left:10%;
+        margin-top: 1%;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+    }
+
+
+    .spanText{
+
+        color:black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .msgBox{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(26, 65, 238);
+        border-radius:5px;
+
+        box-shadow: 8px 10px 5px black;
+        display: none;
+
+        animation: ease-out 1s animationMid;
+    }
+    .divMidClient1{
+        width: 60%;
+        height: 25%;
+        background-color: white;
+        border-radius:5px;
+        margin-left: 20%;
+        margin-top: 3%;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        display: block;
+    }
+    .divMidClient2{
+        width: 60%;
+        height: 25%;
+        background-color: white;
+        border-radius:5px;
+        margin-left: 20%;
+        margin-top: 3%;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        display: none;
+    }
+    .divMidClient2A{
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2A1{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2A2{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2B{
+        width: 35%;
+        height: 100%;
+        display: inline-block;
+    }
+    .textRechClientAbonn{
+        width: 90%;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .btnMid{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-weight:bold;
+        margin-left: 22%;
+        margin-top: 0px;
+        width: 10%;
+    }
+
+    .btnMidQuitter{
+        --background:white;
+        --color:black;
+        margin-top: 10px;
+        margin-left: 3%;
+    }
+    .btnMidPriseCharge{
+        --background:white;
+        --color:black;
+        margin-top: 10px;
+        margin-left: 90%;
+    }
+
+
+    .menu0{
+        width: 25%;
+        height: 100%;
+        display: inline-block;
+        border:1px white solid;
+        top:0px;
+        position: relative;
+
+        background-color: darkblue;
+
+
+
+    }
+    .divContent{
+        width: 74%;
+        height: 100%;
+        display: inline-block;
+
+
+        overflow: auto;
+
+        position:fixed;
+        top:0;
+
+    }
+
+    .cadre{
+        width: 98%;
+        height: 500px;
+        overflow: auto;
+
+        margin-left:1%;
+        background-color:rgb(193, 193, 219);
+        border-radius:20px 20px 0px 0px
+    }
+    .divCadreBas{
+        width: 100%;
+        height: 630px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-radius: 8px;
+       // display: flex;
+        margin-left:1%;
+        background:linear-gradient(135deg,rgb(238, 223, 223),rgb(153, 148, 219));
+
+        //display: inline-block;
+
+    }
+
+    .divQte{
+        width: 30%;
+        height: 100px;
+        margin-left:65%;
+        margin-top: 1%;
+        border-radius: 15px;
+        background-color:rgb(193, 193, 219);
+
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+    }
+    .textConte{
+        margin-left: 5%;
+        margin-top: 5px;
+        font-size: 19px;
+        font-weight: bold;
+        color:black;
+
+    }
+
+    .textConteVentil{
+        margin-left: 5%;
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        color:white;
+
+    }
+
+    .div1qte{
+        width: 60%;
+        height: 70%;
+        //margin-left:10%;
+        margin-top: 5%;
+        background-color:white;
+        display: inline-block;
+    }
+    .div2qte{
+
+        width: 30%;
+        height: 70%;
+        //margin-left:10%;
+        margin-top: 5%;
+        background-color:rgb(247, 44, 44);
+        display: inline-block;
+
+    }
+
+    .divSous1qte{
+
+        width: 40%;
+        height: 100%;
+        background-color: darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .divSous2qte{
+
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .textqte{
+        margin-left: 10px;
+        font-size: 20px;
+        color:white
+       //margin-top: 10px;
+    }
+    .labelQTE{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .divBasFin{
+
+        width: 80%;
+        height:auto;// 600px;
+        margin-left: 10%;
+        background:linear-gradient(135deg, rgb(21, 21, 56),darkblue);
+        //display: inline-block;
+
+        position:relative;
+        top: 0;
+
+        border-radius: 6px;
+
+    }
+    //.divfinVente1{
+
+    //}
+   // .divfinVente2{
+
+   // }
+
+
+   .cadreJournalCouvr{
+
+        //width: 100%;
+        //height: 800px;
+        //overflow: auto;
+        //overflow-x: auto;
+        //white-space: nowrap;
+
+        //margin-left:1%;
+        //background-color: white;
+
+
+        width: 100%;
+        height: 800px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+    }
+
+
+
+    .cadreJournal{
+
+        width: 2000px;
+        height: 98%;
+
+        background-color: white;
+        margin-bottom: 5px;
+
+
+    }
+    .cadreJournalBAs1{
+        width: 76%;
+        margin-left: 1%;
+        height: 70%;
+        display: inline-block;
+        background-color: white;
+    }
+
+    .cadreJournalBAs2{
+        width: 20%;
+        height: 50%;
+        margin-left: 1%;
+        display: inline-block;
+        background-color: white;
+        //align-items: center;
+    }
+    .cadreJournalBAs{
+        width: 60%;
+        margin-left: 20%;
+        height: 300px;
+        background-color:rgb(193, 193, 219);
+
+    }
+    .divRechJournfin{
+        width: 45%;
+        height:45px;
+        margin-left: 20%;
+        margin-top: 5px;
+        //border:1px black solid;
+        background-color: darkblue;
+
+    }
+    .divRechJourn1{
+        width: 40%;
+        height:100%;
+        display: inline-block;
+    }
+    .divRechJourn2{
+        width: 60%;
+        height:100%;
+        display: inline-block;
+        //background-color: gray;
+    }
+
+
+    .divRechJourn1fin{
+        width: 40%;
+        height:100%;
+        display: inline-block;
+    }
+    .divRechJourn2fin{
+        width: 60%;
+        height:100%;
+        display: inline-block;
+       // background-color: white;
+    }
+
+    .cadreAjoutProduit{
+        width: 98%;
+        height: 650px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        margin-top: 2%;
+
+    }
+
+    .cadreIgnalerMotif{
+        width: 98%;
+        height: 750px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        margin-top: 2%;
+
+    }
+
+    .cadreAjoutProduitBAs{
+        width: 60%;
+        margin-left: 20%;
+        height: 100px;
+        background-color:rgb(193, 193, 219);
+    }
+
+
+    .divBas1{
+
+        width: 80%;
+        margin-left: 5%;
+        height: auto;
+        //border-radius: 15px 15px 1px 1px ;
+
+    }
+    .divBas2{
+
+        width: 48%;
+        height: 200px;
+        //display: inline-block;
+
+    }
+
+
+    .menu1{
+        width: 100%;
+        height: 5%;
+        display: block;
+
+        background-color: darkblue;
+        //border:1px white solid;
+
+    }
+
+    .menu2{
+        width: 20%;
+        height: 90%;
+        display: none;
+        position:absolute;
+        right:0px;
+        top:10px;
+        //transform: translateY(-50%);
+
+        //border:1px rgb(247, 44, 44) solid;
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .menu3{
+        width: 100%;
+        height: 95%;
+        display: block;
+        background-color: darkblue;
+        //border:1px rgb(247, 44, 44) solid;
+    }
+
+    .divcadre{
+
+        width: 100%;
+        height: 90px;
+
+        margin-top: 10px;
+        background-color: rgb(193, 193, 219);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+    .div1{
+
+        width: 40%;
+        height: 90%;
+        margin-left: 7%;
+        //margin-top: 5%;
+        background-color:white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: inline-block;
+        //display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+
+
+    }
+
+    .div2{
+
+        width: 40%;
+        height: 90%;
+        margin-left: 7%;
+        //margin-top: 5%;
+        background-color: white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: inline-block;
+        //display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+
+    }
+
+    .divbtn{
+
+        width: 90%;
+        height: 60px;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: rgb(247, 44, 44);
+        //border:2px solid black;
+        border-radius:20px 20px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+
+    .divSous1{
+
+        width: 15%;
+        height: 100%;
+        background-color:darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .divSous2{
+
+        width: 80%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+
+    .titre1{
+        color:white;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
+    .titre2coupon{
+        color:darkblue;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .titre2{
+        color:black;
+        font-weight: italic;
+        font-size: 17px;
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .titre2Left{
+        color:darkblue;
+        font-weight: italic;
+        font-size: 17px;
+        text-align: left;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        margin-left: 20px;
+    }
+
+     .titre2LeftrEG{
+        color:red;
+        font-weight: italic;
+        font-size: 30px;
+        text-align: left;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        margin-left: 20px;
+    }
+
+
+    .titre2Anal{
+        color:darkblue;
+        font-weight: italic;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .titre2AnalPtit{
+        color:black;
+        font-weight: italic;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .titreAvertiss{
+        color:darkblue;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        top:0;
+    }
+
+
+    .titre2Perm{
+        color:darkblue;
+        font-weight: italic;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    a{
+        font-size: 14px;
+
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    li{
+        font-size:14px;
+        margin-top: 5px;
+    }
+
+    .lienCache{
+        text-decoration:none;
+    }
+
+    .btnMenu{
+        --background: white;
+
+        width: 100%;
+        height: 40px;
+        font-weight: bold;
+
+        font-size: 25px;
+
+    }
+
+    .btnMenuBas{
+        margin-top: 10%;
+        margin-left: 20%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+    .MenuHAut{
+        width: 100%;
+        height: 110px;
+        //border: solid rgb(247, 44, 44) 2px;
+        background-color: darkblue;
+
+        animation: transition 30s infinite;
+    }
+
+    .MenuHAutCOnne{
+        width: 100%;
+        height: 100px;
+        //border: solid rgb(247, 44, 44) 2px;
+        background-color: darkblue;
+
+        animation: transition 30s infinite;
+    }
+
+
+    ion-input{
+        color:black;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 80%;
+        margin-left: 2%;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+
+    .MenuBAs{
+
+        width: 100%;
+        height: 200px;
+        //border: solid rgb(247, 44, 44) 5px;
+
+        background-color: darkblue;
+
+
+
+        animation: transitionBas 40s infinite;
+    }
+
+    .logo{
+        width: 30%;
+        height: 85%;
+        border-radius:50%;
+        margin-left: 30%;
+        margin-top:5%;
+
+        box-shadow: 5px 5px 2px gray;
+
+    }
+
+
+    .icon{
+    color:blue;
+    }
+    .iconbas{
+        --color:white;
+        --background:blue;
+    }
+    .btsousText{
+        --background:black;
+        color:yellow;
+        font-weight: bold;
+    }
+
+    .divbtn{
+
+        width: 40%;
+        height: 60px;
+        margin-left: 30%;
+        margin-top: 5%;
+        background-color: rgb(247, 44, 44);
+        //border:2px solid black;
+        border-radius:20px 20px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+    .btsoumettreExpert{
+        width: 40%;
+        height: 40px;
+        margin-left: 30%;
+        margin-top: 2%;
+
+        --background:rgb(247, 44, 44);
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+
+    }
+    .btsoumettreVente{
+
+        --background:rgb(247, 44, 44);
+        font-size: 13px;
+        font-weight: bold;
+        color:white;
+    }
+    .btsoumettre{
+        --background:rgb(247, 44, 44);
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .cadreAUTOO1{
+
+      width: 50%;
+      height: 100%;
+      overflow: auto;
+      overflow-x: auto;
+      white-space: nowrap;
+      display: inline-block;
+
+
+
+    }
+
+    ion-item{
+        --background: darkblue;
+        --color:white
+    }
+    .btdepliant{
+        background-color:darkblue;
+        color:rgb(247, 44, 44);
+
+    }
+
+    .menudepliant{
+        --background: black;
+        --color:white
+    }
+
+    .iconbas{
+        --color:white;
+        --background:blue;
+    }
+
+    ion-item{
+        --background: darkblue;
+        --color:white
+    }
+    .btdepliant{
+        background-color:darkblue;
+        color:rgb(247, 44, 44);
+
+    }
+
+    .menudepliant{
+        --background: darkblue;
+        --color:white
+    }
+    .divRecherche{
+
+        width: 30%;
+        height:45px;
+        margin-left: 60%;
+        margin-top: 10px;
+        border-radius: 20px;
+       // border:1px black solid;
+        background-color: white;
+        display: inline-block;
+
+    }
+    .divRechercheAjout{
+        width: 30%;
+        height:45px;
+        margin-left: 60%;
+        margin-top: 10px;
+        border-radius: 20px;
+        border:1px black solid;
+        background-color: white;
+        display: inline-block;
+    }
+    .divRech1{
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+
+
+    }
+    .divRech2{
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+
+
+    }
+    .btnAjouter{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        margin-left: 60%;
+    }
+
+    .divCotRech{
+        width: 5%;
+        height:45px;
+        margin-left: 2px;
+        margin-top: 5px;
+        //border:1px black solid;
+        background-color: darkblue;
+        display: inline-block;
+    }
+    input{
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: white;
+        color:black;
+
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        font-size: 16px;
+        font-weight: bold;
+
+        outline: none;
+
+        margin-top: 5px;
+    }
+    .btnModele{
+        --background:darkblue;
+        width: 80%;
+        height: 80%;
+    }
+    .textautre{
+        color:white;
+        font-weight: bold;
+    }
+    .header{
+        color:white;
+        font-weight: bold;
+
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        font-size: 18px;
+        font-size: bold;
+        //width: 300px;
+    }
+
+
+
+    .contenuTable{
+        color:black;
+        background-color: rgb(131, 145, 182);
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .contenuTablenom{
+        color:white;
+        background-color: darkblue;
+        font-size: 15px;
+
+    }
+
+    ion-grid{
+        width: 1000px;
+    }
+    .divRechJourn{
+        width: 98%;
+        height:45px;
+        margin-left: 1%;
+        margin-top: 5px;
+        //border:1px black solid;
+        background-color: darkblue;
+
+    }
+
+
+    .textJourna{
+        font-weight: bold;
+        margin-left: 5px;
+        color:white;
+        //font-size: 12px;
+    }
+    .textJournaDetail{
+        font-weight: bold;
+        margin-left: 5px;
+        color:rgb(247, 44, 44);
+        //font-size: 14px;
+
+    }
+    .textJournStartOff{
+        height: 30px;
+    }
+    ion-select{
+        color:rgb(247, 44, 44);
+    }
+    .btnJournal{
+        margin-top: 12%;
+        margin-left: 15%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+    .btnQuiterMsgBox{
+        margin-top:2px;
+        margin-left: 80%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+
+    .btnPreforma{
+        margin-top: 12%;
+        margin-left: 40%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+    }
+
+    .btnNetPAyer{
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 35px;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+    }
+    .textNetPayer{
+
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .textgras{
+        font-weight: bold;
+        color:black;
+        margin-left: 1%;
+    }
+
+    .cadreMode1{
+
+        width: 98%;
+        height: 200px;
+        background-color: rgb(193, 193, 219);
+        //border:1px black solid;
+        //overflow: auto;
+        border-radius:11px 11px 0px 0px;
+        margin-left: 1%;
+    }
+
+    .cadreMode2{
+
+        width: 98%;
+        height: 300px;
+        background-color: rgb(193, 193, 219);
+        border-radius:0px 0px 11px 11px;
+        overflow: auto;
+        margin-left: 1%;
+
+    }
+
+    .cadreFiltreED{
+
+      width: 45%;
+      height: 600px;
+      margin-left: 3%;
+
+      background:linear-gradient(135deg, rgb(171, 171, 224),whitesmoke);
+      border-radius: 5px;
+
+      display:inline-block;
+
+      overflow: auto;
+
+
+    }
+
+
+
+    .cadreModelSetting{
+
+        width: 98%;
+        height: 350px;
+        background-color: rgb(193, 193, 219);
+        //border:1px black solid;
+        //overflow: auto;
+        border-radius:11px 11px 0px 0px;
+        margin-left: 1%;
+
+    }
+
+    .cadreHautRev{
+
+      width: 25%;
+      height:100%;
+      background: linear-gradient(135deg, #f50303,rgb(139, 16, 0));
+      color: wheat;
+
+      margin-left: 6%;
+
+      border-radius: 12px 12px 0px 0px ;
+
+      padding-left: 15px;
+      padding-top: 3px;
+
+      display:inline-block
+
+    }
+
+    .cadreSetting{
+        width: 30%;
+        height:80px;
+        margin-left: 2%;
+        margin-top: 4%;
+        //border:1px solid blue;
+        display: inline-block;
+
+        align-content: center;
+
+    }
+    .descriptionSetting{
+        font-size: 14px;
+    }
+    .lienCache{
+        text-decoration:none;
+        font-size: 15px;
+    }
+
+    .btnMenu{
+        --background: white;
+
+        width: 250px;
+        font-weight: bold;
+
+
+    }
+    .btnMenuBas{
+        margin-top: 7%;
+        margin-left: 10%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+    .btnsetting{
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+    }
+    .btnsettingBas{
+
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: darkblue;
+        --color:white
+    }
+    .descriptionSetting{
+        margin-left: 20%;
+        margin-top: 10px;
+        color:black;
+    }
+    .comboSettingProd{
+        margin-left: 15%;
+    }
+    .lienCTI{
+        font-size: 13px;
+        color:black;
+        margin-left: 40%;
+    }
+
+    .diVVtitre{
+        width: 100%;
+        height: 50px;
+
+    }
+    .diVVtitre1{
+        width: 17%;
+        height: 100%;
+        display: inline-block;
+
+    }
+    .diVVtitre2{
+        width: 82%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .btnRetSeeting{
+        margin-top: 0%;
+        margin-left: 5%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+    .divDate{
+        width: 90%;
+        height: 90%;
+        margin-top: 2px;
+        margin-left: 5%;
+        background-color:white;
+        border-radius: 6px;
+    }
+    .divDate1{
+        width: 25%;
+        height: 90%;
+
+        margin-left: 5%;
+        margin-top: 3px;
+        background-color: rgb(193, 193, 219);
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+    }
+
+    .divDate1Vide{
+        width: 25%;
+        height: 80%;
+
+        margin-left: 5%;
+        margin-top: 1px;
+        background-color:white;
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+    }
+
+    .divDate1PriseRien{
+        width: 15%;
+        height: 80%;
+        background-color: rgb(193, 193, 219);
+
+        display: inline-block;
+    }
+
+
+    .divDate1PriseAure{
+        width: 15%;
+        height: 60px;
+        background-color: rgb(193, 193, 219);
+
+        display: inline-block;
+    }
+
+    .divDate1Prise{
+        width: 25%;
+        height: 90%;
+
+        margin-left: 3%;
+        margin-top: 3px;
+        background-color:rgb(193, 193, 219);
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+    }
+
+    .cadreMiseJour{
+        width: 98%;
+        height: 400px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+
+    }
+    .btPC{
+        width: 40%;
+        height: 40px;
+        margin-left: 30%;
+
+
+
+        --background:rgb(247, 44, 44);
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .btPCFantome{
+        width: 40%;
+        height: 20px;
+        margin-left: 30%;
+
+        --background:seagreen;
+        font-size: 12px;
+        font-weight: bold;
+        color:white;
+    }
+
+
+    .btPCBlue{
+        width: 40%;
+        height: 40px;
+        margin-left: 30%;
+
+
+        --background:darkblue;
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+    .cadreRavSetting{
+        width: 98%;
+        height: 300px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+    }
+    .produitMotif{
+        width: 60%;
+        height: 60px;
+        margin-left:20%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+    .produitMotif1{
+        width: 48%;
+        height: 100%;
+
+        display: inline-block;
+    }
+    .montantMotif{
+        width: 60%;
+        height: 60px;
+        margin-left:20%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+
+    .detailMotif{
+        width: 60%;
+        height: 120px;
+        margin-left:20%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+
+    .titreMenu{
+
+        color:white;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+
+    }
+    .labelTaux{
+        color:rgb(247, 44, 44);
+        font-size: 20px;
+        text-align: center;
+        font-weight:bold ;
+    }
+
+    .textSpan{
+        color:white;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .textSpanGGPTT{
+        color:rgb(14, 1, 1);
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .textSpanPro{
+        color:black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .textPlace{
+        color:black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .msgFantome{
+        width: 90%;
+        height: 100px;
+        margin-left:5%;
+        margin-top:5px;
+        border-radius:8px;
+
+        background-color:darkblue;
+        display: none;
+
+        animation:animMsgBox 1s ease-in ;
+
+
+
+
+    }
+    .btnFantomMsgBox{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-size: 9px;
+
+        margin-left: 20%;
+    }
+    .textmsgFant{
+        font-size: 11px;
+        color:wheat;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .cadreSituation{
+
+        width: 42%;
+        height: 60px;
+        margin-left: 5%;
+        background-color: rgb(247, 44, 44);
+
+        display: inline-block;
+
+    }
+
+    .cadreFilreRech1{
+
+        width: 30%;
+        height: 50px;
+        margin-left: 40%;
+        border:solid 2px gray;
+
+        border-radius: 25px;
+
+        padding-left: 10px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreFilreRech2{
+
+        width: 15%;
+        height: 50px;
+        margin-left: 3%;
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        color:white;
+
+        border-radius: 25px;
+
+        padding-left: 30px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreFilreRech2ACTUALISER{
+
+        width: 15%;
+        height: 50px;
+        margin-left: 3%;
+        //background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        color:darkblue;
+
+        border: solid 2px darkblue;
+
+        border-radius: 25px;
+
+        padding-left: 30px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+     .cadreFilreRech2ACTUALISERTITRE{
+
+        width: 15%;
+        height: 50px;
+        margin-left: 70%;
+        //background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        color:darkblue;
+
+        border: solid 2px darkblue;
+
+        border-radius: 25px;
+
+        padding-left: 30px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+
+
+    .cadreFilreRech2Delete{
+
+        width: 35%;
+        height: 45px;
+        margin-left: 10%;
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        color:white;
+
+        border-radius: 25px;
+
+        padding-left: 30px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+
+
+
+
+    .cadreGloCash{
+        width: 32%;
+        height: 50px;
+        display: inline-block;
+
+    }
+
+    .cadre1Rap{
+
+        width: 20%;
+        height: 100%;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        // display: flex;
+        margin-left:1%;
+
+        margin-top: 2px;
+
+        display: inline-block;
+
+    }
+
+    .cadre2Rap{
+
+        width: 76%;
+        height: 100%;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        // display: flex;
+        margin-left:1%;
+        margin-top: 2px;
+
+
+        display: inline-block;
+
+    }
+
+    .grouperAll{
+        border-radius: 11px;
+        border: 2px darkblue solid;
+        color:darkblue
+    }
+
+    .cadreSepaVenteAccueil{
+
+        width: 90%;
+        height: 50px;
+
+        // display: flex;
+        margin-left:5%;
+        margin-top: 25px;
+
+    }
+
+    .cadreSepaVenteAccueilVisual{
+
+        width: 90%;
+        height: 50px;
+
+        // display: flex;
+        margin-left:5%;
+        margin-top: 5px;
+
+    }
+
+    .titreSynthAccueil{
+
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 20px;
+    }
+
+    .cadreHautRapport1B_Bas{
+
+        width: 25%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 5%;
+
+
+
+        color:black;
+
+        padding-left: 10px;
+
+    }
+
+    .cadreHautRapport1B_BasVisual{
+
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 3%;
+
+
+
+        color:black;
+
+        padding-left: 10px;
+
+        overflow: auto;
+
+    }
+
+    .cadreHautRapport1B{
+
+        width: 12%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 15%;
+
+
+        background-color: darkblue;
+        border-radius: 15px;
+
+    }
+
+    .cadreHautRapport1BFile{
+
+        width: 12%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 15%;
+
+
+        background-color: darkblue;
+        border-radius: 15px;
+
+        padding-left: 12px;
+        padding-top: 1px;
+
+        color:whitesmoke
+
+    }
+
+    .cadreHautRapport1BFileVisual{
+
+        width: 9%;
+        height: 70%;
+        display: inline-block;
+        margin-left: 12%;
+
+
+        background-color: darkblue;
+        border-radius: 15px;
+
+        padding-left: 15px;
+        padding-top: 3px;
+
+        color:whitesmoke
+
+    }
+
+
+    .cadreHautIconSyntheseB_Bas{
+
+        width: 96%;
+        height: 20px;
+        color:black;
+        padding-left: 2%;
+
+    }
+
+    .cadreHautIconSynthese{
+
+        width: 80px;
+        height: 70px;
+        margin-left: 40%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 45%;
+        color:white;
+
+        padding-left: 11px;
+        padding-top: 11px;
+
+
+    }
+
+
+    .cadreHautRapport1A{
+
+        width: 30%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 2%;
+
+    }
+
+    .cadreRapportCouvre{
+
+        width: 100%;
+        height: 500px;
+        overflow: auto;
+        overflow-x: auto;
+
+        background-color: white;
+
+
+
+    }
+
+
+    .pageAccueilStynth{
+
+        width: 100%;
+        height: 100%;
+        background-color: rgb(174, 174, 212);
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+    }
+
+    .cadreCouvrFilBack{
+
+        width: 100%;
+        height: 75%;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+        margin-top: 5%;
+
+    }
+    .cadreHautAccueilSynth{
+
+        width: 450px;
+        height: 85%;
+        margin-left: 1%;
+        margin-top: 10px;
+
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-y: auto;
+
+
+
+    }
+
+    .cadreHautRapport{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+        height: 100px;
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+    }
+
+    .cadreHautRapport1{
+        width: 47%;
+        height: 96%;
+        margin-left: 2%;
+        //background-color: rgb(11, 11, 163);
+
+        top:0;
+
+        display: inline-block;
+
+
+
+
+        //display: inline-block;
+    }
+
+    .cadreHautRapportAccuel{
+        width: 96%;
+        height: 92%;
+        margin-left: 2%;
+        margin-top: 2%;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+
+        //background-color: rgb(11, 11, 163);
+
+
+
+
+        //display: inline-block;
+    }
+
+    .cadreExportFile{
+
+        width: 96%;
+        height: 8%;
+        margin-left: 2%;
+
+
+
+
+
+    }
+
+    .cadreExportFileVisual{
+
+        width: 50%;
+        height:70px;
+        margin-left:10%;
+        background: linear-gradient(to left,white,rgb(193, 193, 219));
+        border-radius: 12px;
+
+        border: solid 1px gray;
+
+        padding-top: 4px;
+
+        display:inline-block;
+
+        overflow: auto;
+
+
+    }
+
+    .cadreExportFileVisualDROIT{
+
+        width: 35%;
+        height:70px;
+        margin-left: 2%;
+        background: linear-gradient(to right,white,rgb(193, 193, 219));
+        border-radius: 12px;
+
+        border: solid 1px gray;
+
+        padding-top: 4px;
+
+        display:inline-block;
+
+         overflow: auto;
+
+
+    }
+
+    .cadreHautRapport2{
+
+        width: 42%;
+        height: 100%;
+        margin-left: 2%;
+        background-color: rgb(11, 11, 163);
+
+        margin-top: 0px;
+        top:0;
+
+        display: inline-block;
+
+    }
+
+    .titre2DashBoarrd{
+        color:black;
+        font-weight: italic;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .batonSepa{
+
+        width: 70%;
+        height: 10px;
+        margin-left: 15%;
+        margin-top: 15px;
+        border-radius: 12px;
+        background-color: rgb(247, 44, 44);
+        box-shadow: 2px 1px 2px rgb(53, 52, 52);
+
+    }
+
+
+
+
+}
+
+
+@media (max-width:600px){
+    ion-content{
+        --background:rgb(193, 193, 219);
+
+        //animation: infinite 30s transition;
+    }
+
+    // LES WIDGET DE LA PAGE DE CONNEXION
+
+    .concadreSous{
+        width: 100%;
+        height: 90%;
+        margin-top: 5%;
+        background-color: rgb(196, 42, 42);
+
+    }
+
+    .condiv2{
+
+        width: 96%;
+        height: 60px;
+        margin-left: 2%;
+        margin-top: 15%;
+        background-color:white;// rgb(190, 182, 182);
+        border:1px solid rgb(193, 193, 219);
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+
+    input{
+        outline: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5%;
+        width: 80%;
+        background-color:white;
+        border-top:none;
+        border-bottom:none;
+        border-left:none;
+        border-right:none;
+        color:black
+    }
+    .conbtconnexion{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-weight: bold;
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 20%;
+        border-radius:25%;
+
+    }
+
+    .conbtconnexionPay{
+        --background:rgb(214, 27, 27);
+        --color:white;
+        font-weight: bold;
+
+        width: 96%;
+        height: 40px;
+        margin-left: 2%;
+        margin-top: 20%;
+        border-radius:25%;
+
+    }
+
+    .btnPay{
+        --background:rgb(212, 26, 26);
+        --color:white;
+        font-weight: bold;
+
+        width: 60%;
+        height: 40px;
+        margin-left: 20%;
+        margin-top: 6%;
+        border-radius:25%;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+
+    .condivbtn{
+
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 25%;
+        background-color: rgb(247, 44, 44);
+        //border:2px solid black;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+
+    }
+
+
+    .condivSous1{
+
+        width: 20%;
+        height: 100%;
+        background-color: darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .condivSous2{
+
+        width: 80%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .contitre1{
+        color:black;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .contitre2{
+        color:black;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+    }
+    .contitre{
+        font-size: 30px;
+        font-weight: bold;
+        color:black;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .contitrePaiement{
+
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(193, 193, 219) ;
+        margin-top: 1%;
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .contitrePaiementPay{
+        font-size: 25px;
+        font-weight: bold;
+        color:darkblue ;
+        margin-top: 1%;
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .conlienCTI{
+        font-size: 15px;
+        color:white;
+        margin-left: 20%;
+    }
+    .conlabel{
+        font-weight: bold;
+
+
+    }
+
+    // FIN DE LA WDIGET
+
+    .pageJournal{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+    }
+    .pageVente{
+        width: 100%;
+        height: auto;
+        background-color:rgb(193, 193, 219);
+    }
+    .pageMode{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+
+    }
+    .pageStock{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+    }
+    .pageSetting{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+    }
+
+    th{
+        color:white;
+        background-color: darkblue;
+        font-size: 20px;
+    }
+
+    .pageAjout{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+    }
+
+    .pageAMiseAJour{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+        display: none;
+    }
+    .pageRavitaillement{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+        display: none;
+    }
+    .pageSignaler{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border:solid white 2px;
+
+        display: none;
+    }
+
+    .cadre{
+        width: 98%;
+        height: 400px;
+        overflow: auto;
+
+        margin-left:1%;
+        background-color:rgb(193, 193, 219);
+        border-radius:20px 20px 0px 0px
+    }
+    .divCadreBas{
+        width: 98%;
+        height: 400px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-radius: 8px;
+       // display: flex;
+        margin-left:1%;
+        background:linear-gradient(135deg,rgb(179, 169, 169),rgb(153, 148, 219));
+
+    }
+
+    .divQte{
+        width: 68%;
+        height: 80px;
+        margin-left:30%;
+        margin-top: 5%;
+        border-radius: 15px;
+        background-color: rgb(193, 193, 219);
+
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+    }
+
+    .div1qte{
+        width: 60%;
+        height: 70%;
+        //margin-left:10%;
+        margin-top: 5%;
+        background-color:white;
+        display: inline-block;
+    }
+    .div2qte{
+
+        width: 30%;
+        height: 70%;
+        //margin-left:10%;
+        margin-top: 5%;
+        background-color:rgb(247, 44, 44);
+        display: inline-block;
+
+    }
+
+    .divSous1qte{
+
+        width: 40%;
+        height: 100%;
+        background-color: darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .divSous2qte{
+
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .textqte{
+        margin-left: 10px;
+        font-size: 20px;
+        color:white;
+       //margin-top: 10px;
+    }
+    .labelQTE{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: bold;
+        color:white;
+    }
+    .cadreJournal{
+        width: 98%;
+        height: 350px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+
+    }
+
+    .cadreRavSetting{
+        width: 98%;
+        height: 350px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+
+    }
+
+    .cadreMiseJour{
+        width: 98%;
+        height: 350px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+
+    }
+    .cadreAUTOO1{
+
+      width: 98%;
+      height: 45%;
+
+      margin-left:1%;
+      margin-top:5px;
+
+
+    }
+
+
+    .cadreJournalBAs1{
+        width: 76%;
+        margin-left: 1%;
+        height: 75%;
+        display: inline-block;
+        background-color: white;
+    }
+
+    .cadreJournalBAs2{
+        width: 20%;
+        height: 50%;
+        margin-left: 1%;
+        display: inline-block;
+        background-color: white;
+        //align-items: center;
+    }
+    .cadreJournalBAs{
+        width: 98%;
+        height: 300px;
+        background-color:rgb(193, 193, 219);
+
+    }
+    .cadreIgnalerMotif{
+        width: 98%;
+        height: auto;
+        //overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+    }
+
+    .cadreAjoutProduit{
+        width: 98%;
+        height: auto;
+        //overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+       // display: flex;
+        margin-left:1%;
+        background-color: white;
+    }
+    .cadreAjoutProduitBAs{
+        width: 98%;
+        height: 200px;
+        background-color: rgb(193, 193, 219);
+    }
+
+    .divBasFin{
+
+        width: 100%;
+        height: 300px;
+        background-color: white;
+
+    }
+    .divBas1{
+
+        width: 80%;
+        height: 290px;
+        margin-left: 10%;
+        border-radius: 15px 15px 1px 1px;
+        background-color: darkblue;
+       // display: inline-block;
+
+    }
+    .divBas2{
+
+        width: 48%;
+        height: 200px;
+        display: inline-block;
+
+    }
+
+    .menu0{
+        width: 100%;
+        height: 70px;
+        background-color: darkblue;
+        //border:1px rgb(247, 44, 44) solid;
+
+    }
+    .divContent{
+        width: 100%;
+        height: auto;
+
+    }
+    .textConte{
+        margin-left: 7%;
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color:black;
+
+    }
+
+    .textConteVentil{
+        margin-left: 5%;
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color:white;
+
+    }
+
+    .menu1{
+        width: 78%;
+        height: 100%;
+        display: inline-block;
+        //border:1px white solid;
+
+    }
+
+    .menu2{
+        width: 20%;
+        height: 90%;
+        display: inline-block;
+        position:absolute;
+        right:0px;
+        top:10px;
+        //transform: translateY(-50%);
+
+        //border:1px rgb(247, 44, 44) solid;
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .menu3{
+        width: 10%;
+        height: 100%;
+        display: none;
+        background-color: darkblue;
+        //border:1px rgb(247, 44, 44) solid;
+    }
+
+    .divcadre{
+
+        width: 100%;
+        height: 120px;
+
+        margin-top: 5px;
+        background-color:rgb(193, 193, 219);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+    .div1{
+
+        width: 98%;
+        height: 40%;
+        margin-left: 1%;
+        margin-top: 0%;
+        background-color:white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+    .div2{
+
+        width: 98%;
+        height: 50px;
+        margin-left: 1%;
+        margin-top: 5%;
+        background-color: white;
+        //border:2px solid black;
+        border-radius:1px 11px 1px 1px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+    .divbtn{
+
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+        background-color: rgb(247, 44, 44);
+        //border:2px solid black;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;
+
+        align-items: stretch;
+
+    }
+
+
+    .divSous1{
+
+        width: 20%;
+        height: 100%;
+        background-color: darkblue;
+        display: inline-block;
+
+        position: relative;
+        top:0
+
+    }
+
+    .divSous2{
+
+        width: 80%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .titre1{
+        color:white;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+    }
+    .titre2coupon{
+        color:black;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .titre2{
+        color:black;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .titre2Left{
+
+      color:darkblue;
+      font-weight: italic;
+      font-size: 22px;
+      text-align: left;
+
+      margin-left: 10px;
+
+
+    }
+    .titre2Anal{
+
+        color:darkblue;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+
+    }
+    .titre2AnalPtit{
+        color:black;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+
+
+    }
+    .titreAvertiss{
+
+        color:darkblue;
+        font-weight: italic;
+        font-size: 18px;
+        text-align: center;
+        top:0
+    }
+    .titre2Perm{
+
+        color:darkblue;
+        font-weight: italic;
+        font-size: 22px;
+        text-align: center;
+
+    }
+    .btnAction{
+        background-color: darkblue;
+        --background:rgb(247, 44, 44);
+        color:white;
+        width: 55px;
+        height: 55px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .iconAction{
+        color:white
+    }
+    .btsoumettre{
+
+        --background: rgb(247, 44, 44);
+        color:white;
+        font-weight: bold;
+
+        border-top:none;
+        border-bottom:none;
+        border-left:none;
+        border-right:none;
+        font-size: 13px;
+
+    }
+
+    .btnAjouter{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        margin-left: 80%;
+    }
+
+    .btsoumettreExpert{
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        --background:rgb(247, 44, 44);
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+
+    }
+    .btsoumettreVente{
+
+        width: 80%;
+        //height: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        --background:rgb(247, 44, 44);
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+    }
+    .btPCBlue{
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        --background:darkblue;
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .btPCFantome{
+        width: 80%;
+        height: 20px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        --background:seagreen;
+        font-size: 12px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .btPC{
+
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        --background:rgb(247, 44, 44);
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+    }
+
+    ion-input{
+        color:black;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 80%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+    ion-label{
+        color:black;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    ion-radio{
+        --color:yellow;
+    }
+
+    .btsousText{
+        width: 100%;
+        height: 70%;
+        --background:black;
+        --color:yellow;
+        //font-weight: bold;
+    }
+
+    a{
+        font-size: 20px;
+
+    }
+    p{
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+    li{
+        font-size:25px;
+        margin-top: 5px;
+    }
+
+    ul{
+        margin-left: 4px;
+    }
+
+
+    ion-title{
+        font-size:15px;
+    }
+    .iconMarket{
+        --color:rgb(247, 44, 44);
+        --background:rgb(247, 44, 44);
+    }
+
+
+
+    .MenuHAut{
+        width: 100%;
+        height: 90px;
+        background-color: darkblue;
+        //border: solid rgb(247, 44, 44) 2px;
+
+        animation: transition 30s infinite;
+    }
+
+    .MenuHAutCOnne{
+        width: 100%;
+        height: 90px;
+        background-color: darkblue;
+        //border: solid rgb(247, 44, 44) 2px;
+
+        animation: transition 30s infinite;
+    }
+
+    .MenuBAs{
+
+        width: 100%;
+        height: 200px;
+        //border: solid rgb(247, 44, 44) 5px;
+
+        animation: transitionBas 40s infinite;
+    }
+
+    .logo{
+        width: 40%;
+        height: 80%;
+        border-radius:50%;
+        margin-left: 30%;
+        margin-top:7%;
+
+        box-shadow: 5px 5px 2px gray;
+
+    }
+    .diVVtitre{
+        width: 100%;
+        height: 80px;
+
+
+    }
+    .diVVtitre1{
+        width: 17%;
+        height: 100%;
+        display: inline-block;
+
+    }
+    .diVVtitre2{
+        width: 82%;
+        height: 100%;
+        display: inline-block;
+    }
+
+
+
+    .iconbas{
+        --color:white;
+        --background:blue;
+    }
+
+    ion-item{
+        --background: darkblue;
+        --color:white
+    }
+    .btdepliant{
+        background-color:darkblue;
+        color:rgb(247, 44, 44);
+
+    }
+
+    .menudepliant{
+        --background: darkblue;
+        --color:white
+    }
+    .divRecherche{
+
+        width: 80%;
+        height:45px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 20px;
+        //border:1px black solid;
+        background-color: white;
+        display: inline-block;
+
+    }
+    .divRechercheAjout{
+        width: 80%;
+        height:45px;
+        margin-left: 10%;
+        margin-top: 10px;
+        border-radius: 20px;
+        border:1px black solid;
+        background-color: white;
+    }
+
+    .divRech1{
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+
+
+    }
+    .divRech2{
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+
+
+    }
+
+    .divCotRech{
+        width: 15%;
+        height:45px;
+        margin-left: 2px;
+        margin-top: 5px;
+
+        background-color: darkblue;
+        display: inline-block;
+    }
+    input{
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: white;
+        color:black;
+
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        font-size: 16px;
+        font-weight: bold;
+
+        outline: none;
+
+        margin-top: 5px;
+    }
+    .btnModele{
+        --background:darkblue;
+        width: 80%;
+        height: 80%;
+    }
+    .textautre{
+        color:white;
+        font-weight: bold;
+    }
+    .header{
+        color:white;
+        font-weight: bold;
+
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        font-size: 22px;
+        //width: 300px;
+    }
+    .contenuTable{
+        color:black;
+        background-color:rgb(193, 193, 219);
+        font-size: 20px;
+
+        margin-top: 5px;
+
+    }
+
+    .contenuTablenom{
+        color:white;
+        background-color: darkblue;
+        font-size: 22px;
+
+    }
+
+
+    ion-grid{
+        width: 1000px;
+    }
+    .divRechJourn{
+        width: 98%;
+        height:45px;
+        margin-left: 1%;
+        margin-top: 5px;
+        //border:1px black solid;
+        background-color: darkblue;
+
+    }
+
+
+
+    .divRechJournfin{
+        width: 96%;
+        height:45px;
+        margin-left: 2%;
+        margin-top: 5px;
+        //border:1px black solid;
+        background-color: darkblue;
+
+    }
+    .divRechJourn1{
+        width: 40%;
+        height:100%;
+        display: inline-block;
+    }
+    .divRechJourn2{
+        width: 60%;
+        height:100%;
+        display: inline-block;
+        //background-color: gray;
+    }
+
+
+    .divRechJourn1fin{
+        width: 40%;
+        height:100%;
+        display: inline-block;
+    }
+    .divRechJourn2fin{
+        width: 60%;
+        height:100%;
+        display: inline-block;
+       // background-color: white;
+    }
+
+    .textJourna{
+        font-weight: bold;
+        margin-left: 5px;
+        color:white
+        //font-size: 12px;
+    }
+    .textJournaDetail{
+        font-weight: bold;
+        margin-left: 5px;
+        color:rgb(247, 44, 44);
+        //font-size: 14px;
+
+    }
+    .textJournStartOff{
+        height: 30px;
+    }
+    ion-select{
+        color:rgb(247, 44, 44);
+    }
+    .btnJournal{
+        margin-top: 12%;
+        margin-left: 15%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+
+    }
+
+    .btnQuiterMsgBox{
+        margin-top:2px;
+        margin-left: 80%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+    }
+
+    .btnRetSeeting{
+        margin-top: 12%;
+        margin-left: 15%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+    }
+
+    .btnPreforma{
+        margin-top: 2%;
+        margin-left: 40%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+    }
+    .btnNetPAyer{
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 35px;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+    }
+    .textNetPayer{
+        color:white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .textgras{
+        font-weight: bold;
+        color:black;
+        margin-left: 1%;
+    }
+
+    .cadreFiltreED{
+
+      width: 98%;
+      height: 800px;
+      margin-left: 1%;
+
+      background:linear-gradient(135deg, rgb(171, 171, 224),whitesmoke);
+      border-radius: 5px;
+
+      //display:inline-block;
+
+      overflow: auto;
+
+
+    }
+
+
+
+    .cadreMode1{
+
+        width: 98%;
+        height: 200px;
+        background-color:rgb(193, 193, 219);
+        //border:1px black solid;
+        //overflow: auto;
+        border-radius:11px 11px 0px 0px;
+        margin-left: 1%;
+    }
+
+    .cadreMode2{
+
+        width: 98%;
+        height: 300px;
+        background-color:rgb(193, 193, 219);
+        border-radius:0px 0px 11px 11px;
+        overflow: auto;
+        margin-left: 1%;
+
+    }
+
+
+
+    .cadreModelSetting{
+
+        width: 98%;
+        height: 300px;
+        background-color: rgb(193, 193, 219);
+        //border:1px black solid;
+        //overflow: auto;
+        border-radius:11px 11px 0px 0px;
+        margin-left: 1%;
+
+    }
+    .cadreSetting{
+        width: 30%;
+        height:80px;
+        margin-left: 2%;
+        margin-top: 7%;
+        //border:1px solid blue;
+        display: inline-block;
+
+        align-content: center;
+
+    }
+    .descriptionSetting{
+        font-size: 10px;
+    }
+    .lienCache{
+        text-decoration:none;
+    }
+
+    .btnMenu{
+        --background: white;
+
+        width: 250px;
+        font-weight: bold;
+
+
+    }
+    .btnMenuBas{
+        margin-top: 7%;
+        margin-left: 10%;
+
+        --background: rgb(247, 44, 44);
+        --color:whit;
+
+
+    }
+
+    .btnsetting{
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: rgb(247, 44, 44);
+        --color:white
+
+    }
+    .btnsettingBas{
+
+        margin-top: 10%;
+        margin-left: 25%;
+
+        --background: darkblue;
+        --color:white
+    }
+    .descriptionSetting{
+        margin-left: 20%;
+        margin-top: 10px;
+        color:black;
+    }
+    .comboSettingProd{
+        margin-left: 15%;
+    }
+    .lienCTI{
+        font-size: 13px;
+        color:black;
+        margin-left: 10%;
+    }
+
+
+    .msgBox{
+        width: 100%;
+        height: 250px;
+        background-color: rgb(26, 65, 238);
+        border-radius:5px;
+
+        box-shadow: 8px 10px 5px black;
+        display: none;
+
+        animation: ease-out 1s animationMid;
+    }
+    .divMidClient1{
+        width: 96%;
+        height: 20%;
+        background-color: white;
+        border-radius:5px;
+        margin-left: 2%;
+        margin-top: 3%;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        display: block;
+    }
+    .divMidClient2{
+        width: 96%;
+        height: 20%;
+        background-color: white;
+        border-radius:5px;
+        margin-left: 2%;
+        margin-top: 3%;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        display: none;
+    }
+    .divMidClient2A{
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2A1{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2A2{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+    .divMidClient2B{
+        width: 35%;
+        height: 100%;
+        display: inline-block;
+    }
+    .textRechClientAbonn{
+        width: 90%;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .btnMid{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-weight:bold;
+        margin-left: 3%;
+        margin-top: 0px;
+        width: 45%;
+    }
+
+
+
+    .btnMidQuitter{
+        --background:white;
+        --color:black;
+        margin-top: 10px;
+        margin-left: 3%;
+    }
+    .btnMidPriseCharge{
+        --background:white;
+        --color:black;
+        margin-top: 10px;
+        margin-left: 70%;
+    }
+    .spanText{
+
+        color:black;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .divDate{
+        width: 90%;
+        height: 90%;
+        margin-top: 2px;
+        margin-left: 5%;
+        background-color: rgb(248, 248, 253);
+        border-radius: 6px;
+    }
+    .divDate1Vide{
+
+        width: 25%;
+        height: 80%;
+
+        margin-left: 5%;
+        margin-top: 1px;
+        background-color:white;
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+
+    }
+    .divDate1{
+        width: 25%;
+        height: 90%;
+
+        margin-left: 5%;
+        margin-top: 3px;
+        background-color:rgb(193, 193, 219);
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+    }
+    .divDate1PriseRien{
+        width: 15%;
+        height: 80%;
+        background-color: rgb(193, 193, 219);
+
+        display: inline-block;
+    }
+
+    .divDate1PriseAure{
+        width: 15%;
+        height: 20px;
+        background-color: rgb(193, 193, 219);
+
+        display: inline-block;
+    }
+
+    .divDate1Prise{
+        width: 25%;
+        height: 90%;
+
+        margin-left: 4%;
+        margin-top: 3px;
+        background-color:rgb(193, 193, 219);
+        display: none;
+        border-radius: 6px;
+
+        display: inline-block;
+    }
+
+    .produitMotif{
+        width: 80%;
+        height: 60px;
+        margin-left:10%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+    .produitMotif1{
+        width: 48%;
+        height: 100%;
+
+        display: inline-block;
+    }
+    .montantMotif{
+        width: 80%;
+        height: 60px;
+        margin-left:10%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+
+    .detailMotif{
+        width: 80%;
+        height: 120px;
+        margin-left:10%;
+        margin-top:15px;
+        border-radius:8px;
+
+        border:1px gray solid;
+    }
+
+    .divConn{
+        width: 96%;
+        height: 700px;
+        margin-left: 2%;
+        margin-top: 8%;
+        border-radius:13px;
+        background-color: darkblue;
+    }
+
+    .divConnPaiement{
+
+        width: 96%;
+        height: 700px;
+        margin-left: 2%;
+        margin-top: 8%;
+        border-radius:13px;
+        background-color: darkblue;
+        display: none;
+
+    }
+
+    .divFacturePay{
+        width: 96%;
+        height: 700px;
+        margin-left: 2%;
+        margin-top: 8%;
+        border-radius:13px;
+        background-color: rgb(193, 193, 253);
+        box-shadow: 0px 1px 0px 1px  rgb(171, 171, 224);
+
+
+
+        display: none;
+    }
+
+    .cadreHautRapport1BFileVisual{
+
+        width: 10%;
+        height: 70%;
+        display: inline-block;
+        margin-left: 10%;
+
+
+        background-color: darkblue;
+        border-radius: 15px;
+
+        padding-left: 15px;
+        padding-top: 3px;
+
+        color:whitesmoke
+
+    }
+
+    .cadreSousv{
+        width: 100%;
+        height: 93%;
+        margin-top: 3%;
+        border-radius:13px;
+        background: linear-gradient(135deg, rgb(223, 218, 218) 0%, rgb(214, 189, 189) 40%, rgb(172, 182, 230) 40%);
+
+
+    }
+
+    .cadreHautServ{
+        width: 100%;
+        height: 260px;
+    }
+
+    .cadreHautVentilation{
+        width: 100%;
+        height: 260px;
+    }
+
+    .divFilrePermission{
+        width: 90%;
+        height: 50px;
+        margin-top: 4%;
+        margin-left: 5%;
+        border-radius:6px;
+        background-color: rgb(193, 193, 219);
+        display: block;
+    }
+
+    .divFilre{
+
+        width: 90%;
+        height: 50px;
+        margin-top: 4%;
+        margin-left: 5%;
+        border-radius:6px;
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+        display: block;
+
+    }
+
+    .divFilre1{
+        width: 25%;
+        height: 80%;
+        display: inline-block;;
+        margin-left: 1%;
+
+        //background-color:rgb(193, 193, 219);
+    }
+    .divFilre2{
+        width: 33%;
+        height: 80%;
+        margin-top: 5px;
+        display: inline-block;
+        background-color: white;
+        border-radius:5px;
+
+    }
+    .divFilre3{
+        width: 40%;
+        height: 80%;
+        display: inline-block;;
+
+        background-color:rgb(193, 193, 219);
+    }
+
+    .btnCombiner{
+        --background:rgb(247, 44, 44);
+        --color:white;
+
+        font-weight: bold;
+        font-size: 15px;
+        //margin-left: 50%;
+        margin-left: 5%;
+        margin-left: 10%;
+    }
+
+
+    .divTrace{
+
+        width: 100%;
+        height: 300px;
+        //margin-left: 10%;
+
+        background-color:  rgb(193, 193, 219);
+
+    }
+
+    .divTracePrisePro{
+
+        width: 100%;
+        height: 150px;
+
+        background-color: rgb(193, 193, 219);
+
+    }
+
+    .divTracePrise{
+
+        width: 100%;
+        height: 120px;
+        //margin-left: 10%;
+
+        background-color:  rgb(193, 193, 219);
+
+    }
+
+
+    .divTrace1{
+
+        width: 100%;
+        height: 80%;
+
+        background-color: rgb(193, 193, 219);
+
+        //display: inline-block;
+
+        top:0px;
+
+    }
+
+
+    .divTrace2{
+
+        width: 100%;
+        height: 100%;
+
+        background-color:rgb(193, 193, 219);
+
+        //display: inline-block;
+
+        top:0px;
+
+    }
+
+    .divTrace2X{
+
+        width: 100%;
+        height: 60px;
+
+        background-color: rgb(193, 193, 219);
+
+        //display: inline-block;
+
+        top:0px;
+
+    }
+
+
+
+
+    .divTrace1SOlo{
+        width: 100%;
+        height: 100%;
+
+        background-color:rgb(193, 193, 219);
+
+    }
+
+    .divTrace1a{
+        width:100%;
+        height: 25%;
+
+
+        //display: inline-block;
+    }
+
+    .divTrace1asepa{
+        width: 100%;
+        height: 10%;
+
+        display: inline-block;
+    }
+
+    .divTrace1asepaMotifPro{
+        width: 30%;
+        height: 70px;
+
+        margin-top: 5%;
+        margin-left: 2%;
+
+        display: inline-block;
+    }
+
+    .divSuplem{
+        display: block;
+    }
+
+    .btnTracer{
+        --background:rgb(247, 44, 44);
+        --color:white;
+
+        font-weight: bold;
+        font-size: 15px;
+
+        margin-left: 7%;
+    }
+
+    .divFilre1Tracer{
+        width: 20%;
+        height: 80%;
+        display: inline-block;;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        background-color:rgb(193, 193, 219);
+    }
+    .divFilre1TracerTracage{
+
+        width: 50%;
+        height: auto;
+        display: inline-block;;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        //background-color:rgb(211, 211, 214);
+
+    }
+
+    .divFilre2Tracer{
+        width: 40%;
+        height: 80%;
+        margin-top: 5px;
+        background-color: white;
+        display: inline-block;
+        border-radius:8px
+
+    }
+    .divFilre3Tracer{
+        width: 25%;
+        height: 80%;
+        //margin-top: 20%;
+        display: inline-block;
+
+
+    }
+    .divFilre3TracerTracage{
+
+        width: 40%;
+        height: 80%;
+        //margin-top: 20%;
+        display: inline-block;
+
+    }
+
+    .cadreJournalCouvr{
+
+        width: 100%;
+        height: 800px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+        margin-left:1%;
+        background-color: white;
+
+    }
+
+    .cadreJournal{
+        width: 1200px;
+        height: 99%;
+
+        background-color: white;
+
+    }
+    .cadreGestionABn{
+
+
+        width: 100%;
+        height: 500px;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        //display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+
+    }
+
+    .cadreGestionABnDessous{
+
+        width: 2000px;
+        height: 100%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        //display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 5px;
+
+    }
+
+    .tracerINfo{
+
+        width: 47%;
+        height: 90%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 2%;
+
+    }
+
+    .tracerINfoBas{
+
+        width: 47%;
+        height: 6%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 2%;
+
+
+    }
+
+    .cadrestocTracerCouv{
+        width: 100%;
+        height: 800px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .cadreSynthStockCouvre{
+        width: 100%;
+        height: 300px;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .cadrestocTracer{
+        width: 2000px;
+        height: 79%;
+
+        margin-left:1%;
+
+
+    }
+
+     .cadreHautRev{
+
+      width: 30%;
+      height:50px;
+      //background: linear-gradient(135deg, #f50303,rgb(139, 16, 0));
+
+      background: linear-gradient(135deg, #f50303 0%, rgb(139, 16, 0) 40%, rgb(139, 16, 0) 40%);
+
+
+      color: wheat;
+
+      border-radius: 12px  ;
+
+      padding-left: 10px;
+      padding-top: 3px;
+
+      display: inline-block;
+
+      margin-left: 3%;
+
+    }
+
+    .cadrestocTracerPerfo{
+        width: auto;
+        height: 79%;
+
+        //margin-left:1%;
+
+
+    }
+    .tracersTOCKPerfo{
+
+        width: 32%;
+        height: 90%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+    .tracersTOCK{
+
+        width: 32%;
+        height: 90%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBBorder{
+
+        width: 32%;
+        height: 90%;
+
+        background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+        border: solid 2px darkblue;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+
+    }
+
+    .tracersTOCKBorder{
+
+        width: 32%;
+        height: 90%;
+
+        //background-color:rgb(193, 193, 219);
+
+        border-radius:8px;
+        border:solid 2pw darkblue;
+
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+
+
+    }
+
+    .tracersTOCKBas{
+
+        width: 32%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBasPerfo{
+
+        width: 100%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .tracersTOCKBasLeader{
+
+        width: 32%;
+        height: 80%;
+        //margin-top: 10%;
+
+        background-color: white;
+        border-radius: 8px;
+
+        display: inline-block;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+        margin-left: 1%;
+
+    }
+
+    .divFilre1TracerX{
+        width: 15%;
+        height: 50%;
+        display: inline-block;
+        margin-left: 1%;
+        //margin-top: 20%;
+
+        background-color:rgb(193, 193, 219);
+    }
+
+    .divFilre3TracerX{
+        width: 50%;
+        height: 50%;
+        //margin-top: 20%;
+        display: inline-block;
+
+
+    }
+
+    .btnSituation{
+
+        --background:rgb(247, 44, 44);
+
+    }
+
+    .btnFinancier{
+
+        --background:rgb(247, 44, 44);
+
+    }
+
+    .btnAvr{
+        margin-left: 5%;
+        top:0;
+        --background:darkblue;
+        width: 30px;
+        height: 30px;
+
+    }
+    .iconFinancier{
+        --color:white;
+    }
+
+    .divFilre3TracerXX{
+
+        width: 30%;
+        height: 50%;
+        //margin-top: 20%;
+        display: inline-block;
+
+        background-color: rgb(193, 193, 219);
+
+
+
+    }
+
+    .titreMenu{
+
+        color:white;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .labelTaux{
+        color:rgb(247, 44, 44);
+        font-size: 20px;
+        text-align: center;
+        font-weight:bold ;
+    }
+
+    .divTrace1Prise{
+        width: 100%;
+        height: 100%;
+    }
+    .divTrace1aPrise{
+        width: 100%;
+        height: 50px;
+    }
+
+    .divTrace1asepaPrise{
+        width: 100%;
+        height: 60px;
+    }
+
+    .divTaill{
+
+        width: 90%;
+        height: 60px;
+        background-color: rgb(213, 213, 238); ;
+        border-radius:8px;
+
+        margin-left:5%
+
+    }
+
+    .divTaill1{
+
+        width: 10%;
+        height: 70%;
+        margin-top: 10px;
+        margin-left: 5px;
+
+        display: inline-block;
+    }
+
+    .divTaill2{
+
+        width: 15%;
+        height: 70%;
+        margin-top: 5px;
+        background-color:white;
+        border-radius:8px;
+
+        display: inline-block;
+    }
+
+    .divTaill3{
+
+        width: 35%;
+        height: 100%;
+
+        display: inline-block;
+    }
+    .divTaill4{
+        width: 38%;
+        height: 100%;
+
+        display: inline-block;
+
+
+    }
+    .divTaill41{
+
+        width: 30%;
+        height: 70%;
+
+        display: inline-block;
+
+
+
+    }
+
+    .divTaill42{
+
+        width: 68%;
+        height: 70%;
+
+        display: inline-block;
+
+
+
+    }
+
+
+    .divDetailVente{
+
+        width: 48%;
+        height: 30%;
+
+
+
+        display: inline-block;
+
+    }
+
+    .textSpanPro{
+        color:black;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .divDtailGd{
+        width: 100%;
+        height: 50px;
+
+        overflow: auto;
+        overflow-x: auto;
+
+    }
+
+    .divDetailVente{
+
+        width: 49%;
+        height: 80%;
+
+
+        display: inline-block;
+
+    }
+
+    .divTrace2COmm1{
+        width: 48%;
+        height: 90%;
+
+        display: inline-block;
+
+    }
+    .divMsgBox{
+
+        background-color: darkblue;
+
+        display: none;
+
+        width: 80%;
+        margin-left: 10%;
+
+        border-radius:9px;
+
+        animation: ease-in 1s animMsgBox;
+    }
+
+    .btnTracerMsgBox{
+        margin-left: 5%;
+
+        --color:white;
+        --background:rgb(247, 44, 44);
+    }
+
+    .divTracPeremption{
+        width: 400px;
+        height: 60px;
+        margin-left:5%;
+    }
+
+    .divPeremption1{
+        width: 28%;
+        height: 90%;
+
+        display: inline-block;
+    }
+
+    .divPeremption2{
+        width: 20%;
+        height: 90%;
+        background-color: white;
+
+        display: inline-block;
+    }
+
+    .divPeremption3{
+        width: 50%;
+        height: 90%;
+
+        display: inline-block;
+    }
+
+    .cadreHisto{
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        background-color:rgb(193, 193, 219);
+        border: 2px gray solid;
+
+        margin-top: 15px;
+
+    }
+    .textRepHisto{
+        //color:rgb(93, 226, 93);
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 30%;
+
+    }
+
+    #histoHidend1{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    .cadreFilreRech1{
+
+        width: 35%;
+        height: 50px;
+        margin-left: 25%;
+        border:solid 2px gray;
+
+        border-radius: 25px;
+
+        padding-left: 10px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+    .cadreFilreRech2{
+
+        width: 25%;
+        height: 50px;
+        margin-left: 3%;
+        background: linear-gradient(135deg, #0d47a1,darkblue);
+
+        color:white;
+
+        border-radius: 25px;
+
+        padding-left: 30px;
+        padding-top: 3px;
+
+        display: inline-block;
+
+
+    }
+
+
+
+    #histoHidend2{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    #histoHidend3{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    #histoHidend4{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    #histoHidend5{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        border-radius: 6px;
+        background-color: white;
+
+        overflow-y: auto;
+
+        display:none
+    }
+
+    .textPlace{
+        color:black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .msgFantome{
+        width: 98%;
+        height: 100px;
+        margin-left:1%;
+        margin-top:5px;
+        border-radius:8px;
+
+        background-color:darkblue;
+        display: none;
+
+        animation:animMsgBox 1s ease-in ;
+    }
+    .btnFantomMsgBox{
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-size: 9px;
+
+        margin-left: 20%;
+    }
+    .textmsgFant{
+        font-size: 11px;
+        color:wheat;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .divteteFinancier{
+        width: 100%;
+        height: 60px;
+    }
+    .divteteFinancier1{
+        width: 80%;
+        height: 100%;
+
+        display:inline-block
+    }
+    .divteteFinancier2{
+        width: 18%;
+        height: 100%;
+
+        display:inline-block
+    }
+
+    .cadreAvertissement{
+        width: 98%;
+        height: 130px;
+        margin-left:1%;
+        margin-top: 5px;
+
+        border-radius: 4px;
+
+        background-color: rgb(193, 193, 219);
+
+        display: none;
+    }
+
+    .textAver{
+        color:rgb(236, 76, 76);
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .divHautPrise{
+        width: 98%;
+        height: 45px;
+        margin-left:1%;
+    }
+
+    .divDating1{
+        width: 48%;
+        height: 100%;
+        display: inline-block;
+    }
+    .btnAutoriser{
+
+        --background:rgb(247, 44, 44);
+        --color:white;
+        font-size:13px;
+        font-weight:bold;
+
+        margin-left:40%;
+        margin-top: 0px;
+
+    }
+
+    .cadreSynthStock{
+
+        width: 2000px;
+
+        height: 20%;
+
+
+
+    }
+    .cadreSynthStockPerfo{
+
+        width: auto;
+
+        height: 20%;
+
+    }
+
+    .textInputt{
+
+        font-size: 20px;
+        font-weight: bold;
+        --color:black
+    }
+
+
+
+    .cadreGenCouvre{
+
+        width: 100%;
+        height: 300px;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(253, 250, 250);
+        border-radius: 15px;
+
+    }
+
+    .cadreProdGen{
+
+        width: 1200px;
+        height: 100%;
+
+    }
+
+    .cadreProdGen1{
+
+        width: 48%;
+        height: 90%;
+        display: inline-block;
+
+        //background-color: rgb(247, 44, 44);
+
+
+    }
+
+    .cadreValOP1{
+
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+
+    }
+
+    .cadreValOP2{
+
+        width: 79%;
+        height: 100%;
+        display: inline-block;
+
+
+
+    }
+
+    .cadreValMotifBas{
+
+        width: 30%;
+        height: 100%;
+        margin-left: 2%;
+        display: inline-block;
+
+    }
+
+    .btnBasLearder{
+
+        width: 70%;
+        height: 40px;
+        margin-left: 15%;
+
+        background-color: white;
+        font-weight: bold;
+        color: white;
+
+        border-radius: 25%;
+
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .divPOP{
+        width: 98%;
+        height: 120px;
+        margin-left: 1%;
+        margin-bottom: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 8px;
+        background-color: rgb(193, 193, 219);
+        box-shadow: 2px 3px 2px gray;
+
+        display: none;
+
+        animation: ease-in 1s animMsgBox;
+    }
+
+
+
+
+
+
+
+
+
+    .pageAccueilStynth{
+
+        width: 100%;
+        height: auto;
+        background:linear-gradient(to left,rgb(174, 174, 212),rgb(223, 223, 228))
+    }
+
+    .cadreRapportCouvre{
+
+        width: 100%;
+        height: 450px;
+        overflow: auto;
+        overflow-x: auto;
+
+        background-color: white;
+
+    }
+
+    .cadreHautRapport1A{
+
+        width: 30%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 2%;
+
+    }
+
+    .titreSynthAccueil{
+
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 18px;
+    }
+
+    .cadreHautIconSyntheseB_Bas{
+
+        width: 96%;
+        height: 20px;
+        color:black;
+        padding-left: 2%;
+
+    }
+
+    .cadreHautIconSynthese{
+
+        width: 20%;
+        height: 60px;
+        margin-left: 40%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 45%;
+        color:white;
+
+        padding-left: 10px;
+        padding-top: 10px;
+
+
+    }
+
+    .cadreHautRapport1BFile{
+
+        width: 12%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 15%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 15px;
+        color:white;
+
+        padding-left: 10px;
+
+        padding-top: 1px;
+
+
+    }
+
+    .cadreHautRapport1B{
+
+        width: 12%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 15%;
+        //margin-top: 2px;
+
+        background-color: darkblue;
+        border-radius: 15px;
+        color:white;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+
+    }
+    .cadreHautRapport1B_Bas{
+
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 7%;
+        //margin-top: 2px;
+
+
+        color:black;
+
+        padding-left: 10px;
+
+
+
+    }
+
+    .cadreHautRapport1B_BasVisual{
+
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+        margin-left: 2%;
+        //margin-top: 2px;
+
+        color:black;
+
+        padding-left: 10px;
+
+
+
+    }
+    .cadreCouvrFilBack{
+
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+        margin-top: 10%;
+
+    }
+
+    .cadreSepaVenteAccueil{
+
+        width: 90%;
+        height: 50px;
+
+        // display: flex;
+        margin-left:5%;
+        margin-top: 2px;
+
+    }
+
+
+    .cadreGloCash{
+        width: 100%;
+        height: auto;
+
+    }
+
+
+    .cadre1Rap{
+
+        width: 20%;
+        height: 40px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        // display: flex;
+        margin-left:1%;
+
+        margin-top: 2px;
+
+        display: inline-block;
+
+    }
+
+    .cadre2Rap{
+
+        width: 76%;
+        height: 40px;
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        // display: flex;
+        margin-left:1%;
+        margin-top: 2px;
+
+
+        display: inline-block;
+
+    }
+
+    .titre2DashBoarrd{
+        color:black;
+        font-weight: italic;
+        font-size: 23px;
+        text-align: center;
+    }
+
+
+    .cadreHautAccueilSynth{
+
+        width: 98%;
+        height: 350px;
+
+        margin-left:1%;
+        margin-top: 15px;
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+
+        overflow: auto;
+        overflow-y: auto;
+    }
+
+    .cadreHautRapport{
+
+        width: 98%;
+        height: 180px;
+
+        margin-left:1%;
+        background-color: rgb(211, 211, 214);
+        border-radius: 8px;
+
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    .cadreHautRapport1{
+
+        width: 98%;
+        height: 70px;
+        display: block;
+        margin-top: 2px;
+
+
+    }
+
+
+
+    .cadreHautRapportAccuel{
+        width: 98%;
+        height: 94%;
+        display: block;
+        margin-top: 2%;
+        margin-left: 1%;
+
+        overflow: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+
+
+
+
+        //display: inline-block;
+    }
+
+    .cadreExportFile{
+
+        width: 96%;
+        height: 12%;
+        margin-left: 2%;
+
+
+
+
+    }
+
+    .cadreExportFileVisual{
+
+      width: 96%;
+      height: 12%;
+      margin-left: 2%;
+      background: linear-gradient(to top,rgb(207, 202, 202),rgb(236, 224, 224));
+
+      border-radius: 12px;
+
+
+    }
+
+    .batonSepa{
+
+        width: 70%;
+        height: 10px;
+        margin-left: 15%;
+        margin-top: 15px;
+        border-radius: 12px;
+        background-color: rgb(247, 44, 44);
+        box-shadow: 2px 1px 2px rgb(53, 52, 52);
+
+
+    }
+
+    .sepaTabXX{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
+
+    .divGround{
+        width: 500px;
+        height: auto;
+
+        overflow: auto;
+        overflow-y: auto;
+
+        background-color: rgb(193, 193, 219);
+        border-radius: 8px;
+    }
+
+
+    .page-shell {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    .hero-card {
+      align-items: flex-start;
+      padding: 18px 16px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.icon{
+    //color:rgb(247, 44, 44);
+    --color:darkblue;
+}
+
+.iconNewV{
+    //color:rgb(247, 44, 44);
+    --color:rgb(247, 44, 44);
+}
+.btnMenue{
+    --background:rgb(247, 44, 44);
+
+}
+
+span{
+    color:white;
+}
+
+.lienFicherFantome{
+    color:rgb(247, 44, 44);
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.btnLerder{
+    --background:rgb(247, 44, 44);
+    --color:white;
+    font-weight: bold;
+}
+
+.labelMsg{
+    color:rgb(223, 48, 48);
+    text-align: center;
+}
+.btnVlld{
+    margin-left: 15%;
+}
+.iconRegl{
+    --background:darkblue;
+    --color:white
+}
+
+
+
+
+.cadreIconD{
+
+    width: 14%;
+    height: 80%;
+
+    border: solid 1px gray;
+    border-radius: 8px;
+
+    display: inline-block;
+
+    padding-left: 8px;
+    padding-top: 2px;
+
+}
+
+.cadreContD{
+
+    width: 30%;
+    height: 100%;
+    color:black;
+    font-weight: bold;
+
+    padding-left: 5px;
+
+    display: inline-block;
+
+}
+.iconRapBas{
+
+    color:darkblue
+
+}
+
+.grouperAllVide{
+    border-radius: 11px;
+    border: 2px rgb(201, 201, 226) solid;
+    color:darkblue
+
+}
+
+.cadreHH1{
+
+    width: 100%;
+    height: 80%;
+
+}
+
+.cadreHH2{
+
+    width: 100%;
+    height: 18%;
+
+}
+
+.cadreHH1Visual{
+
+    width: 100%;
+    height: 60%;
+
+}
+
+.cadreHH2Visual{
+
+    width: 100%;
+    height: 40%;
+
+}
+
+.btnAffichX{
+
+    width: 80%;
+    height: 90%;
+    margin-left:10% ;
+    margin-top:5% ;
+
+    background-color: rgb(247, 44, 44);
+    color:white;
+    border-radius: 18px;
+    padding-left: 10px;
+
+}
+.grouperAll{
+    border-radius: 11px;
+    border: 2px darkblue solid;
+    color:darkblue;
+    background-color:  rgb(211, 211, 214);
+
+    overflow: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.divSupp{
+
+    width: 80%;
+    height: 80px;
+    margin-left:10% ;
+
+    background-color: rgb(193, 193, 219);
+    border-radius: 8px;
+
+
+
+}
+
+.titrePaiement{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:11% ;
+
+}
+.divSuppCircle{
+
+    width: 60px;
+    height: 60px;
+    margin-left:2%;
+    margin-top: 6px;
+
+    border-radius: 50%;
+    background-color: black;
+
+    display: inline-block;
+
+}
+
+.iconPaiement{
+
+    border-radius: 50%;
+
+}
+
+.menOPT{
+
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+
+}
+.cadreBTNVv{
+
+  color:wheat;
+  background-color:  rgb(247, 44, 44);
+  font-size: 30px;
+
+  margin-right: 10px;
+
+  border-radius: 4px;
+
+  width: auto;
+
+  padding-left: 3px;
+   padding-right: 3px;
+
+
+}
+.textPlaceXX{
+
+  background:none;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#pageMis2{
+
+  display:none
+
+}
+#pageMis3{
+
+  display:none
+
+}
+
+#pageMis1Rec{
+
+  display:none
+
+}
+
+#pageMis31Rec{
+
+  display:none
+
+}
+
+
+
+
+
+
+
+#cadreTT2{
+
+    width: 18%;
+    height: 100%;
+    margin-left:2%;
+    margin-top: 6px;
+
+    background:linear-gradient(135deg,white,rgb(46, 46, 136));
+
+    display: inline-block;
+    overflow: auto;
+
+
+
+}
+
+
+
+#cadreTT1{
+
+    width: 80%;
+    height: 100%;
+
+    overflow: auto;
+
+    display: inline-block;
+
+
+
+}
+.zoneTextexx{
+
+  background: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.titre2DATE{
+
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:10px;
+
+  font-weight: bold;
+
+
+}
+
+.cadreClearBTN{
+
+    width: 50%;
+    height: 50px;
+
+    margin-left: 25%;
+
+
+    background-color: darkblue;
+    border-radius: 15px;
+
+    padding-left: 30px;
+    padding-top: 5px;
+
+    font-size: 25px;
+
+    color:whitesmoke
+
+}
+
+.cadremsgDelete{
+
+  width: 50%;
+  height: 90px;
+
+  margin-left: 25%;
+
+
+  background:linear-gradient(135deg,gray,whitesmoke);
+  border-radius: 17px;
+
+  padding-left: 30px;
+
+  padding-top: 12px;
+
+  display:none
+
+
+
+
+
+}
+
+#cadreVer1{
+
+  width: 100%;
+  height: 100%;
+
+  overflow: auto;
+}
+
+#cadreVer2{
+
+  width: 0%;
+  height: 100%;
+
+  display: none;
+  overflow: auto;
+
+
+}
+
+#cadreUpdateProduit{
+
+  display:none
+
+}
+#cadreMsgEXP{
+
+  display: none;
+
+
+}
+
+.veriCase{
+
+  margin-left: 50px;
+}
+
+.divBloc{
+
+  width: 45px;
+  height: 80%;
+  margin-left: 2%;
+
+  margin-top: 5%;
+
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 8px;
+
+  display:inline-block;
+
+  overflow: auto;
+
+
+}
+
+.divBlocAA{
+
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+
+  margin-top: 2%;
+
+  background:linear-gradient(135deg, white,rgb(99, 99, 187));
+  border-radius: 5px;
+
+  color: darkblue;
+
+  padding-left: 10px;
+
+
+}
+
+
+
+
+.divBlocAAxx{
+
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+
+  margin-top: 2%;
+
+  //background:linear-gradient(135deg, aqua,red);
+  border-radius: 8px;
+
+  padding-left: 10px;
+
+
+}
+
+
+
+.divBloc0{
+
+  width: 50%;
+  height: 80%;
+  margin-left: 2%;
+
+  margin-top: 5%;
+
+  //background:linear-gradient(135deg, aqua,whitesmoke);
+  border-radius: 8px;
+
+  display:inline-block;
+
+  overflow: auto;
+
+
+}
+
+
+
+.cadreRavAUTO{
+
+  width: 90%;
+  height: 140px;
+  margin-left: 5%;
+
+  margin-top: 20px;
+
+  padding-top: 10px;
+
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 12px;
+
+  display:block;
+
+
+
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 1px gray;
+
+  display:none
+
+
+}
+
+.cadreRavAUTOGlob2{
+
+  width: 60%;
+  height: 100px;
+  margin-left: 3%;
+
+  margin-top: 10px;
+
+  //margin-top: 20px;
+
+  padding-top: 20px;
+
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 12px;
+
+  display:inline-block;
+
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 1px gray;
+
+  overflow: auto;
+
+
+
+
+}
+
+
+.cadreRavAUTOGlob1{
+
+  width: 30%;
+  height: 100px;
+  margin-left: 3%;
+
+  margin-top: 10px;
+
+  //margin-top: 20px;
+
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 12px;
+
+  display:inline-block;
+
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 1px gray;
+
+  overflow: auto;
+
+
+
+
+}
+
+.cadreRavAUTO1{
+
+  width: 30%;
+  height: 40px;
+  margin-left: 3%;
+
+  margin-top: 10px;
+  background:linear-gradient(135deg, white,rgb(99, 99, 187));
+  border-radius: 12px;
+
+  display:inline-block;
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 3px darkblue;
+
+  padding-left: 20px;
+  padding-top: 4px;
+
+  color:darkblue
+
+
+}
+
+
+.cadreRavAUTO2Prix{
+
+  width:45%;
+  height: 80%;
+  margin-left: 2%;
+
+  margin-top: 3%;
+
+  display: inline-block;
+
+
+}
+
+.cadreRavAUTO2Prix1{
+
+  width:100%;
+  height: 30%;
+  margin-left: 2%;
+
+}
+
+.cadreRavAUTO2Prix2{
+
+  width:100%;
+  height: 45%;
+  margin-left: 2%;
+
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 12px;
+
+  display:inline-block;
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 2px gray;
+
+  border-top:none;
+  border-right:none;
+  border-left:none;
+
+  padding-left: 20px;
+  padding-top: 4px;
+
+  color:darkblue
+
+
+
+}
+
+
+.cadreRavAUTO2{
+
+  width: 45%;
+  height: 40px;
+  margin-left: 3%;
+
+  margin-top: 10px;
+  background:linear-gradient(135deg, white,whitesmoke);
+  border-radius: 12px;
+
+  display:inline-block;
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 2px gray;
+
+  border-top:none;
+  border-right:none;
+  border-left:none;
+
+  padding-left: 20px;
+  padding-top: 4px;
+
+  color:darkblue
+
+
+}
+
+
+.cadreRavAUTO2A{
+
+  width: 70%;
+  height: 40px;
+
+  display:inline-block;
+
+
+}
+
+
+.cadreRavAUTO2B{
+
+  width: 28%;
+  height: 40px;
+
+
+  display:inline-block;
+
+
+}
+
+.cadreRavAUTO1Close{
+
+  width: 14%;
+  height: 40px;
+  margin-left: 2%;
+
+  margin-top: 10px;
+  background:linear-gradient(135deg, red,rgb(206, 6, 6));
+  border-radius: 12px;
+
+  display:inline-block;
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  //border:solid 3px darkblue;
+
+  padding-left: 12px;
+  padding-top: 5px;
+
+  color:wheat
+
+
+}
+
+
+.cadreRavAUTO1CloseOutline{
+
+  width: 14%;
+  height: 40px;
+  margin-left: 2%;
+
+  margin-top: 10px;
+  //background:linear-gradient(135deg, red,rgb(206, 6, 6));
+  border-radius: 12px;
+
+  display:inline-block;
+
+  box-shadow: 0 18px 40px rgba(13, 71, 161, 0.18);
+
+  border:solid 3px darkblue;
+
+  padding-left: 12px;
+  padding-top: 5px;
+
+  color:darkblue
+
+
+}
+
+
+
+
+.pageAccueilStynth{
+
+  display:none
+
+}
+#titreUpdate{
+
+  display:none
+
+}
+
+.divCadreBasA{
+
+  width: 70%;
+  height:100%;
+
+  display: inline-block;
+
+  overflow: auto;
+}
+
+.divCadreBasB{
+
+  width: 30%;
+  height:100%;
+
+  display: inline-block;
+
+  overflow: auto;
+
+  background:linear-gradient(135deg,rgb(238, 223, 223),white);
+
+}
+
+
+// background: linear-gradient(135deg, rgb(223, 218, 218) 0%, rgb(214, 189, 189) 40%, rgb(105, 130, 212) 40%);
+
+
+
+
